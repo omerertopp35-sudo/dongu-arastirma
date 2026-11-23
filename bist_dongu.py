@@ -217,6 +217,7 @@ def _golge(ax, olaylar):
 
 def grafik_uc_mercek(tl, usd, reel, olaylar, pivot, yol) -> dict:
     plt = _plt()
+    from matplotlib.ticker import FuncFormatter
     fig, axlar = plt.subplots(3, 1, figsize=(11, 9.5), sharex=True, gridspec_kw={"hspace": 0.12})
     bas = usd.index[0]
     kat = {"tl": float(tl.iloc[-1] / tl.asof(bas)), "usd": float(usd.iloc[-1] / usd.asof(bas)),
@@ -227,7 +228,9 @@ def grafik_uc_mercek(tl, usd, reel, olaylar, pivot, yol) -> dict:
         ax.plot(s.index, s, color=renk, lw=1.4)
         ax.set_yscale("log")
         _golge(ax, olaylar)
-        ax.text(0.01, 0.92, f"{ad} · {bas:%Y}'ten bu yana {kat[k]:,.1f} kat".replace(",", "."),
+        kat_metin = f"{kat[k]:,.0f}".replace(",", ".") if kat[k] >= 100 else f"{kat[k]:.1f}".replace(".", ",")
+        ax.yaxis.set_major_formatter(FuncFormatter(lambda v, _p: f"{v:,.2f}".rstrip("0").rstrip(".").replace(",", "X").replace(".", ",").replace("X", ".") if v < 1 else f"{v:,.0f}".replace(",", ".")))
+        ax.text(0.01, 0.92, f"{ad} · {bas:%Y}'ten bu yana {kat_metin} kat",
                 transform=ax.transAxes, fontsize=10, fontweight="bold", color=renk)
     for a, b in zip(pivot[:-1], pivot[1:]):
         d = b["fiyat"] / a["fiyat"] - 1
@@ -260,9 +263,8 @@ def grafik_kur_soklari(yollar: pd.DataFrame, yol) -> None:
                  f"dibi {int(d.idxmin())}. ayda gördü", loc="left", fontweight="bold", fontsize=11.5)
     ax.set_xlabel("Şokun başladığı aydan itibaren ay")
     ax.set_ylabel("BIST100 ($), başlangıca göre %")
-    ax.legend(frameon=False, fontsize=8, ncol=4, loc="upper left")
-    fig.tight_layout()
-    fig.savefig(yol, dpi=160)
+    ax.legend(frameon=False, fontsize=8, ncol=6, loc="upper center", bbox_to_anchor=(0.5, -0.12))
+    fig.savefig(yol, dpi=160, bbox_inches="tight")
     plt.close(fig)
 
 
