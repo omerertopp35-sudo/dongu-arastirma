@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-23T13:32:05+00:00",
+  "uretim_zamani_utc": "2026-11-23T15:28:34+00:00",
   "demo": false,
   "hatali": {},
   "veri_duzeltmeleri": {
@@ -20,7 +20,7 @@
     "zirveyi_geri_alma_yil": 14.4
   },
   "hizalama": {
-    "bugun_dusus": -0.6327772188987817,
+    "bugun_dusus": -0.6211331440702541,
     "zirveden_is_gunu": 215,
     "zaman": {
       "2011_tarih": "2012-02-24",

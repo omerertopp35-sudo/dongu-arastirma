@@ -1,4 +1,4 @@
-# Backtest #2 — zirveden sonraki döngü (2026-11-23T13:32:05+00:00)
+# Backtest #2 — zirveden sonraki döngü (2026-11-23T15:28:34+00:00)
 
 ## Gümüş fazları (zigzag ±%25, haftalık)
 

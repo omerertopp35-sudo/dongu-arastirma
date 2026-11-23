@@ -1,11 +1,11 @@
-# Backtest #3 — 1980 · 2011 · 2026 (2026-11-23T13:32:10+00:00)
+# Backtest #3 — 1980 · 2011 · 2026 (2026-11-23T15:28:39+00:00)
 Kaynak: https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx · son ay 2026-11 · aylık ortalama
 
 | döngü | zirve | 5 yıl içindeki dip | düşüş | dibe (ay) | dipten 12 ay | tam döngü dibi | zirveyi geri alma |
 |---|---|---|---|---|---|---|---|
 | 1980 | 1980-01 $38.90 | 1982-06 $5.60 | -86% | 29 | +109% | 1993-03 -91% | 2011-04 (31.2 yıl) |
 | 2011 | 2011-04 $42.70 | 2015-12 $14.10 | -67% | 56 | +16% | 2015-12 -67% | 2025-09 (14.4 yıl) |
-| 2026 | 2026-01 $92.10 | 2026-11 $48.57 (teyitsiz) | -47% | 10 | — | 2026-11 -47% | — (— yıl) |
+| 2026 | 2026-01 $92.10 | 2026-11 $48.66 (teyitsiz) | -47% | 10 | — | 2026-11 -47% | — (— yıl) |
 
 ## Hizalama
 Bugün zirveden 10 ay, -47% (aylık ort.)
