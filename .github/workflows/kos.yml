@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
         run: |
           set -o pipefail
-          { python cot_grafik.py --demo && python dongu_backtest.py --demo && python dongu_fazlari.py --demo && python dongu_1980.py --demo; } 2>&1 | tee sonuclar/log_kuru_test.txt
+          { python cot_grafik.py --demo && python dongu_backtest.py --demo && python dongu_fazlari.py --demo && python dongu_1980.py --demo && python bist_reel_faiz.py --demo; } 2>&1 | tee sonuclar/log_kuru_test.txt
 
       - name: COT grafikleri
         if: always()
@@ -95,6 +95,15 @@ jobs:
         run: |
           set -o pipefail
           python bist_dongu.py 2>&1 | tee sonuclar/log_bist.txt
+
+      - name: BIST reel faiz rejimi (adim 4)
+        if: always()
+        continue-on-error: true
+        env:
+          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+        run: |
+          set -o pipefail
+          python bist_reel_faiz.py 2>&1 | tee sonuclar/log_bist_reel_faiz.txt
 
       - name: Sonuclari yaz
         if: always()
