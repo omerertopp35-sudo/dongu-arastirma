@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-23T15:28:20+00:00",
+  "uretim_zamani_utc": "2026-11-23T16:18:17+00:00",
   "demo": false,
   "piyasalar": {
     "altin": {
@@ -14,6 +14,21 @@
       "kisa_degisim": 3410.0,
       "fiyat": 3864.199951171875,
       "net_3y_yuzdelik": 18.471337579617835,
+      "ilk_rapor": "2006-06-13",
+      "hafta": 1067
+    },
+    "gumus": {
+      "ad": "Gümüş",
+      "grup": "Fonlar (Managed Money)",
+      "son_rapor": "2026-11-17",
+      "uzun": 14772.0,
+      "kisa": 14755.0,
+      "net": 17.0,
+      "net_degisim": -2212.0,
+      "uzun_degisim": -769.0,
+      "kisa_degisim": 1443.0,
+      "fiyat": 47.28799819946289,
+      "net_3y_yuzdelik": 3.1847133757961785,
       "ilk_rapor": "2006-06-13",
       "hafta": 1067
     },
@@ -63,7 +78,5 @@
       "hafta": 1067
     }
   },
-  "hatali": {
-    "gumus": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  }
+  "hatali": {}
 }

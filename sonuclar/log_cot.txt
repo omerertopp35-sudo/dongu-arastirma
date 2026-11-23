@@ -1,1 +1,1 @@
-tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar/cot | hatali: {'gumus': "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar/cot | hatali: yok

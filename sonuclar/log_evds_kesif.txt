@@ -1,0 +1,191 @@
+[deneme] https://evds3.tcmb.gov.tr/igmevdsms-dis/ header -> 200 | {"totalCount":30,"items":[{"Tarih":"02-01-2024","TP_DK_USD_A":"29.43820000","UNIXTIME":{"$numberLong":"1704142800"}},{"Tarih":"03-01-2024","TP_DK_USD_A":"29.66750000","UNIXTIME":{"$numberLong":"170422
+[gruplar] 200, 680 grup
+[gruplar] anahtar kelimeyle eslesen: 118
+  bie_kybkatfon | Zorunlu Karşılığa Tabi Katılım Fonları | Participation Funds Subject To Reserve Requirements | HAFTALIK(CUMA) | 10-05-2002..06-11-2026
+  bie_bisttlref | Türk Lirası Gecelik Referans Faiz Oranı (BIST-TLREF) | Turkish Lira Overnight Reference Rate (BIST-TLREF) | İŞ GÜNÜ | 28-12-2018..20-11-2026
+  bie_tevdsuv | Uzun Vadeli Kredi Kullanımları-Borçluya Göre | Long Term Credit Disbursements by Borrower | AYLIK | 01-12-1984..01-09-2026
+  bie_oskvbg | Sektörlere Göre Kısa Vadeli Krediler (Arşiv) | Short Term Loans-By Sector (Archive) | AYLIK | 01-01-2010..01-12-2025
+  bie_tsenetler | Tahsile Alınan Ticari Senetler | Commercial Bills Received For Collection | AYLIK | 01-06-2007..01-09-2026
+  bie_kmmbkre | Krediler - Mevduat Bankaları | Loans - Deposit Money Banks | AYLIK | 01-01-1986..01-09-2026
+  bie_ulusdovlkd | Uluslararası Rezervler ve Döviz Likiditesi Tablosu | International Reserves and Foreign Currency Liquidity Table | AYLIK | 01-08-2000..01-10-2026
+  bie_rktufey | Reel Efektif Döviz Kuru - TÜFE Bazlı | CPI Based Real Effective Exchange Rate | AYLIK | 01-01-1994..01-10-2026
+  bie_oskvag | Kısa Vadeli Krediler - Alacaklıya Göre (Arşiv) | Short Term Loans-By Creditor (Archive) | AYLIK | 01-01-2010..01-12-2025
+  bie_abreserv | Toplam Uluslararası Rezervler | Total International Reserves | AYLIK | 01-01-1981..01-09-2026
+  bie_pydovef | Döviz ve Efektif Piyasası İşlemleri | Foreign and Effective Exchange Rate Market Transactions | İŞ GÜNÜ | 25-09-1990..19-06-2026
+  bie_fs101a | Finansman Şirketleri Kredi Faiz Oranları (Stok) | Financing Companies Interest  Rates on Loans (Stock Data) | AYLIK | 01-12-2013..01-09-2026
+  bie_imfcpind | IMF - Tüketici Fiyat Endeksi (2010=100) | IMF - Consumer Price Index (2010=100) | AYLIK | 01-01-2010..01-10-2026
+  bie_rkdrk | Reeskont Kredilerinin Döviz Rezervlerine Katkısı | Rediscount Credits' Contribution To FX Reserves (CBRT) | AYLIK | 01-01-2009..01-10-2026
+  bie_dkkurbil | Konvertibl Olmayan Döviz Kurları | Non-Convertible Exchange Rates | GÜNLÜK | 02-04-2009..24-11-2026
+  bie_kbkmkre | Krediler - Katılım Bankaları | Loans - Participation Banks | AYLIK | 01-12-2005..01-09-2026
+  bie_abstc2 | Merkez Bankası Bilançosu - Stand By (Cari) | Central Bank Balance Sheet- Stand By (At Current Cross Rates) | HAFTALIK(CUMA) | 04-01-2002..13-11-2026
+  bie_kt200h | Kredi Kâr Oranları (Akım) | Profit Rates on Loans (Flow  Data) | HAFTALIK(CUMA) | 05-01-2018..13-11-2026
+  bie_hariccariacik | Cari İşlemler Hesabı, Parasal Olmayan Altın ve Enerji Dış Ticareti | Current Account, Non-Monetary Gold and Energy Foreign Trade | AYLIK | 01-01-1996..01-09-2026
+  bie_kkhartut | Banka Kartı ve Kredi Kartı Harcama Tutarı (Akım) | Debit Card and Credit Card Total Expenditure Amount (Flow) | HAFTALIK(CUMA) | 07-03-2014..13-11-2026
+  bie_kmkykre | Krediler - Kalkınma ve Yatırım Bankaları | Loans - Investment and Development Banks | AYLIK | 01-01-1986..01-09-2026
+  bie_tukfiy4 | Tüketici Fiyat Endeksi (2003=100) (Arşiv) (Arşiv) | Consumer Price Index (2003=100) (Archive) (Archive) (Archive) | AYLIK | 01-01-2003..01-01-2026
+  bie_abres2 | Merkez Bankası Rezervleri | Central Bank Reserves | HAFTALIK(CUMA) | 25-12-1987..13-11-2026
+  bie_rkufey | Reel Efektif Döviz Kuru - Yİ - ÜFE Bazlı | Domestic - PPI Based Real Effective Exchange Rate | AYLIK | 01-01-1994..01-10-2026
+  bie_biskredigsyih | Finans Dışı Özel Sektörün Toplam Kredi Kullanımı (Kredi/GSYH Oranı) | Total Credit Utilization of the Non-Financial Private Sector (Credit/GDP Ratio) | ÜÇ AYLIK | 01-10-1947..01-01-2026
+  bie_sekbilatga | Sektör Riski - Tasfiye Olunacak Kredi | Credits To The Sector - Bad Debts | YILLIK | 01-01-2023..01-01-2025
+  bie_sekbilab13a | Finansal Yapı Oranları - Kısa Vad. Banka Kredileri /Kısa Vad. Yabancı Kaynakl.Oranı | Ratios of Financial Position - Short - Term Bank Loans / Short - Term Liabilities | YILLIK | 01-01-2023..01-01-2025
+  bie_bkea | Banka Kredileri Eğilim Anketi | Bank Loans Tendency Survey | ÜÇ AYLIK | 01-10-2005..01-07-2026
+  bie_hpbitablo6 | Bankacılık Sektörü Seçilmiş Kredi Büyüklükleri (Yurt İçi Şubeler) | Banking Sector Selected Loans (Domestic Branches) | HAFTALIK(CUMA) | 28-06-2024..13-11-2026
+  bie_hpbitablo7 | Finansman Şirketleri Seçilmiş Kredi Büyüklükleri | Financing Companies' Selected Loans | HAFTALIK(CUMA) | 28-06-2024..13-11-2026
+  bie_onrepofbap | Borsa İstanbul Gecelik Repo Faiz Oranları | Borsa Istanbul Overnight Repo Rates | İŞ GÜNÜ | 27-12-2018..20-11-2026
+  bie_sekbiltga | Sektör Riski - Tasfiye Olunacak Kredi. | Credits To The Sector - Bad Debts. | YILLIK | 01-01-2009..01-01-2023
+  bie_sekbilaa01a | Likidite Oranları - Cari Oran | Liquidity Ratios - Current Ratio | YILLIK | 01-01-2023..01-01-2025
+  bie_krehacbs | Krediler - Bankacılık Sektörü | Loans - Banking Sector | AYLIK | 01-10-2007..01-09-2026
+  bie_sekbila01a | Likidite Oranları - Cari Oran. | Liquidity Ratios - Current Ratio. | YILLIK | 01-01-2009..01-01-2023
+  bie_uraltin | Altın Cevheri Üretimi, Maden Firmaları (BİST) | Gold Ore Production of Mining Companies (BIST) | AYLIK | 01-01-2008..01-09-2026
+  bie_kt210aks | Kredi Kâr Oranları (Stok) | Profit Rates on Loans (Stock Data) | AYLIK | 01-01-2018..01-09-2026
+  bie_kkislade | Banka Kartı ve Kredi Kartı İşlem Adedi (Akım) | Weekly, Debit Card and Credit Card Number of Transactions (Flow) | HAFTALIK(CUMA) | 07-03-2014..13-11-2026
+  bie_kt100h | Kredi Faiz Oranları (Akım) | Interest Rates on Loans (Flow Data) | HAFTALIK(CUMA) | 04-01-2002..13-11-2026
+  bie_imfca | IMF - Cari İşlemler Dengesi Net (ABD doları) | IMF - Current Account Balance Net (USD) | ÜÇ AYLIK | 01-01-2010..01-07-2026
+  bie_dkefkytl | Efektif Kurlar | Effective Exchange Rates | GÜNLÜK | 02-01-1990..24-11-2026
+  bie_redkurigm | Reel Efektif Döviz Kuru-Birim İş Gücü Maliyeti Bazlı | Unit Labor Cost Based Real Effective Exchange Rate | YILLIK | 01-01-2003..01-01-2025
+  bie_tgfe | Ticari Gayrimenkul Fiyat Endeksi | Commercial Property Price Index | ÜÇ AYLIK | 01-04-2015..01-07-2026
+  bie_kt210a | Kredi Faiz Oranları (Stok) | Interest Rates on Loans (Stock Data) | AYLIK | 01-07-2012..01-09-2026
+  bie_zorundth | Zorunlu Karşılığa Tabi DTH' ların Döviz Cinsine Göre Dağılımı | Foreign Exchange Deposits Subject To Reserve Requirements by Currency | HAFTALIK(CUMA) | 30-12-2005..06-11-2026
+  bie_osuvbg | Uzun Vadeli Krediler - Sektörlere Göre (Arşiv)  | Long Term Loans-By Sector (Archive) | AYLIK | 01-01-2002..01-12-2025
+  bie_apifon | TCMB Net Fonlaması ve TCMB Ağırlıklı Ortalama Fonlama Maliyeti | CBRT Net Funding and Weighted Average Funding Cost | İŞ GÜNÜ | 03-01-2011..23-11-2026
+  bie_tldthvade | Zorunlu Karşılığa Tabi Türk Lirası Mevduat ve DTH'larının Vadelerine Göre Dağılımı | Breakdown of Turkish Lira and Foreign Exchange Deposits Subject To Reserve Requirements by Maturity | HAFTALIK(CUMA) | 30-12-2005..06-11-2026
+  bie_osuvag | Uzun Vadeli Krediler - Alacaklıya Göre (Arşiv) | Long Term Loans-By Creditor (Archive) | AYLIK | 01-01-2002..01-12-2025
+  bie_feoktg | Özel Kapsamlı TÜFE Göstergeleri (2003=100) (Arşiv) | Indicators For The CPIs Having Specified Coverage (2003=100) (Archive) (Archive) | AYLIK | 01-01-2003..01-12-2025
+  bie_mkbrgn | Borsa İstanbul Endeksi ve Günlük İşlem Hacmi | Borsa Istanbul Index and Daily Trading Volume | İŞ GÜNÜ | 01-02-1986..20-11-2026
+  bie_dkdovytl | Döviz Kurları | Exchange Rates | GÜNLÜK | 02-01-1950..24-11-2026
+  bie_goldimprt | Altın İthalatı (BİST) | Gold Imports (BIST) | AYLIK | 01-07-1995..01-10-2026
+  bie_kt210aisl | Bankalarca İşletme Kredilerine Fiilen Uygulanan Azami Faiz Oranları | Banks Effective Maximum Interest Rate on Business Loans | AYLIK | 01-07-2012..01-09-2026
+  bie_sekbilab14a | Finansal Yapı Oranları - Banka Kredileri / Yabancı Kaynaklar Toplamı Oranı | Ratios of Financial Position - Bank Loans / Total Loans | YILLIK | 01-01-2023..01-01-2025
+  bie_sekbilb14a | Finansal Yapı Oranları - Banka Kredileri / Yabancı Kaynaklar Toplamı Oranı. | Ratios of Financial Position - Bank Loans / Total Loans. | YILLIK | 01-01-2009..01-01-2023
+  bie_todedfaiz | Kredi Geri Ödemeleri - Faiz | Loan Repayment - Interest | AYLIK | 01-12-1998..01-09-2026
+  bie_bistopkredi | Finans Dışı Sektörün Toplam Kredi Kullanımı | Total Credit Utilization in the Non-Financial Sector | ÜÇ AYLIK | 01-10-1947..01-01-2026
+  bie_sekbilb13a | Finansal Yapı Oranları - Kısa Vad. Banka Kredileri /Kısa Vad. Yabancı Kaynakl.Oranı. | Ratios of Financial Position - Short - Term Bank Loans / Short - Term Liabilities. | YILLIK | 01-01-2009..01-01-2023
+  bie_todeapara | Kredi Geri Ödemeleri - Anapara | Loan Repayment - Principal | AYLIK | 01-12-1998..01-09-2026
+  bie_yssk | Uzun Vadeli Krediler-Finansal Olmayan Kuruluşların Vade Dağılımı (Arşiv) | Long Term Loans-Maturity Composition of Non-Financial Institutions (Archive) | AYLIK | 01-01-2002..01-12-2025
+  bie_itouge2023 | İstanbul Tüketici Fiyat Endeksi | Istanbul Consumer Price Index | AYLIK | 01-01-2024..01-10-2026
+  bie_refkure | Kurlar-Reel Efektif Döviz Kuru Endeksleri (1995=100) (Arşiv) | Effective Exchange Rate Index (Real) (1995=100) (Archive) | AYLIK | 01-01-1980..01-05-2010
+  bie_abstca | MB Bilançosu-Stand By-03.05.2001 Tarihli Niyet Mektubu ile Belirlenmiş (Cari) (Arşiv) | CB Balance Sheet As Per The Letter Of Intent Dd 03.05.2001 (At Current Cross Rates) (Archive) | HAFTALIK(CUMA) | 30-03-2001..08-03-2002
+  bie_urgsmhc | GSMH ve GSYİH-Cari Fiyatlarla (Arşiv) | GNP and GDP at Current Prices (Archive) | ÜÇ AYLIK | 01-10-1923..01-07-2007
+  bie_dovefmud | Merkez Bankasınca Yapılan Doğrudan Döviz Müdahaleleri (Dalgalı Döviz Kuru Rejiminde) (Arşiv) | Bank Under The Floating Exchange Rate Regime Direct Foreign Exchange Interventions Of The Central (Archive) | İŞ GÜNÜ | 11-07-2002..23-01-2014
+  bie_tuksehir2 | Fiyat Endeksi (Tüketici) (İstatistiki Bölgelere Göre) (2003=100) (Arşiv) | Consumer Price Index and Indices By Regions (2003=100) (Archive) | AYLIK | 01-01-2003..01-01-2023
+  bie_rkbigmy | Kurlar-Reel Efektif Döviz Kuru-Gelişmiş Ülkeler Birim İş Gücü Maliyeti Bazlı (2003=100) (Arşiv) | Exchange Rates_Unit Labor Cost_Developed Countries Based Real Effective Exchange Rate (2003=100) (Archive) | ÜÇ AYLIK | 01-01-2003..01-04-2017
+  bie_dkefektif | Kurlar-Efektif Kurlar (Arşiv) | Exchange Rates_Banknotes (Archive) | GÜNLÜK | 02-01-1990..24-11-2026
+  bie_gsyihhy | GSYİH-Harcamalar Yöntemiyle (Cari ve Sabit (1998) Fiyatlarla) (Yeni Seri) (Arşiv) | GDP_Expenditure Based (At Current and Fixed (1998) Prices) (New Series) (Archive) | ÜÇ AYLIK | 01-01-1998..01-04-2016
+  bie_bftukkre | Krediler - Bankalar ve Finansman Şirketleri (Arşiv) | Loans - Banks and Finance Companies (Archive) | HAFTALIK(CUMA) | 30-12-2005..31-01-2025
+  bie_toktg | Fiyat Endeksi-Özel Kapsamlı TÜFE Göstergeleri (2003=100) (Arşiv) | Price Index_Indicators For The CPI's Having Specified Coverages (2003=100) (Archive) | AYLIK | 01-01-2003..01-12-2016
+  bie_dkdovizgn | Kurlar-Döviz Kurları (Arşiv) | Exchange Rates (Archive) | GÜNLÜK | 02-01-1950..24-11-2026
+  bie_fgtukfiy3 | Fiyat Endeksi (Tüketici) (1994=100) (Arşiv) | Consumer Price Index (1994=100) (Archive) | AYLIK | 01-01-1994..01-12-2004
+  bie_fgtukfiy2 | Fiyat Endeksi (Tüketici) (1987=100) (Arşiv) | Consumer Price Index (1987=100) (Archive) | AYLIK | 01-01-1987..01-12-2004
+  bie_kmyikrhc | Bankacılık Sektörü,Yurt İçi Kredi Hacmi (Arşiv) | Domestic Loans, Banking Sector (Archive) | AYLIK | 01-01-1986..01-10-2021
+  bie_kybtkov | Kalkınma ve Yatırım Bankaları Tüketici Kredileri (Orijinal Vadeye Göre) (TL+YP) (Arşiv) | Investment and Development Banks Consumer Loans (By Original Maturity) (TRY+FX) (Archive) | HAFTALIK(CUMA) | 15-01-2010..18-01-2013
+  bie_vdkre | Mevduat Bankaları Tüketici Kredileri (Orijinal Vadeye Göre) (TL+YP) (Arşiv) | Deposit Money Banks Consumer Loans (By Originial Maturity) (TRY+Fx) (In TRY) (Archive) | HAFTALIK(CUMA) | 03-03-2006..18-01-2013
+  bie_tuksehir | Fiyat Endeksi (Tüketici) (Bölge ve İllere Göre) (1994=100) (Arşiv) | Consumer Price Index By Region and Province (1994=100) (Archive) | AYLIK | 01-01-1995..01-12-2004
+  bie_kmkart | Mevduat Bankaları Tüketici Kredileri, Taksitli Ticari Krediler ve Kredi Kartları (Arşiv) | Deposit Money Banks Consumer Loans, Commercial Installment Loans and Credit Cards (Archive) | HAFTALIK(CUMA) | 02-06-2000..18-01-2013
+  bie_gsyihtf | GSYİH-Iktisadi Faaliyet Kollarına Gore Temel Fiyatlarla (Cari ve Sabit (1998) Fiyatlarla) (Yeni Seri) (Arşiv) | GDP_By Kind Of Economic Activity in Basic Prices (At Current and Fixed (1998) Prices) (New Series) (Archive) | ÜÇ AYLIK | 01-01-1998..01-04-2016
+  bie_tukfiy1 | Fiyat Endeksi (Tüketici) (1978-1979=100) (Arşiv) | Consumer Price Index (1978_1979=100) (Archive) | AYLIK | 01-01-1982..01-12-2004
+  bie_urgsyih | GSYİH-Bölgeler ve İller İtibariyle-Cari ve 1987 Fiyatlarıyla (Arşiv) | Gross Domestic Product by Regions and Province_In Current & 1987 Prices (Archive) | YILLIK | 01-01-1987..01-01-2001
+  bie_kredi | Krediler - Bankacılık Sektörü (Arşiv) | Loans - Banking Sector (Archive) | HAFTALIK(CUMA) | 30-12-2005..31-01-2025
+  bie_mkbral | Altın Borsası İşlemleri-İstanbul (Arşiv) | Istanbul Gold Exchange (Archive) | İŞ GÜNÜ | 27-07-1995..29-06-2018
+  bie_finkre | Finansman Şirketleri Kredi Hacmi (Arşiv)  | Finance Companies Credit Volume (Archive)  | HAFTALIK(CUMA) | 26-12-2003..18-01-2013
+  bie_kmkhac | Bankacılık Sektörü Kredi Hacmi,Katılım Bankaları Hariç (Arşiv) | Banking Sector Credit Volume_Excluding Participation Banks (Archive) | HAFTALIK(CUMA) | 05-07-1996..18-01-2013
+  bie_rkbigm | Kurlar- (Eski) Reel Efektif Döviz Kuru-Birim İş Gücü Maliyeti Bazlı (2003=100) (Arşiv) | Exchange Rates_ (Previous) Unit Labor Cost Based Real Effective Exchange Rate (2003=100) (Archive) | ÜÇ AYLIK | 01-01-2003..01-01-2012
+  bie_yohyituk | Yerleşik ve Yerleşik Olmayan Hanehalklarının Yurt İçi Tüketimi (Cari ve Sabit (1998) Fiyatlarla) (Yeni Seri) (Arşiv) | Final Consumption Expenditure Of Resident and Non_Resident Households In Current and Fixed (1998) Prices (New Series) (Archive) | ÜÇ AYLIK | 01-01-1998..01-04-2016
+  bie_ulgrkur | Kurlar-Ülke Gruplarına Göre Reel Efektif Döviz Kuru-TÜFE Bazlı (2003=100) (Arşiv) | Exchange Rates_ Cpi Based Real Effective Exchange Rate By Country Groups (2003=100) (Archive) | AYLIK | 01-01-2003..01-02-2015
+  bie_pfvpbi08 | Bankacılık Sektörü,Yurt Dışı Kredi Hacmi (Arşiv) | Loans Abroad, Banking Sector (Archive) | AYLIK | 01-01-2012..01-10-2021
+  bie_kbtukkre | Katılım Bankaları Tüketici Kredileri (Orijinal Vadeye Göre) (TL+YP) (Arşiv) | Participation Banks' Consumer Loans (By Original Maturity) (TRY+FX) (Archive) | HAFTALIK(CUMA) | 03-03-2006..18-01-2013
+  bie_pfvpbi13 | Merkez Bankası, Kredi Mektuplu Döviz Tevdiat Hesapları (Arşiv) | Foreign Exchange Deposits By Citizens Abroad (Archive) | AYLIK | 01-01-2012..01-10-2021
+  bie_kybtkttk | Kalkınma ve Yatırım Bankaları Tüketici Kredileri ve Taksitli Ticari Krediler (Arşiv) | Investment and Development Banks Consumer Loans and Commercial Installment Loans (Archive) | HAFTALIK(CUMA) | 15-01-2010..18-01-2013
+  bie_pfvpbi02 | Merkez Bankası, Krediler (Arşiv) | Loans, Central Bank (Archive) | AYLIK | 01-01-2012..01-10-2021
+  bie_tukkre | Tüketici Kredileri (Orijinal Vadeye Göre) - Bankacılık Sektörü (Arşiv) | Consumer Loans (By Original Maturity) - Banking Sector (Archive) | HAFTALIK(CUMA) | 14-12-2012..31-01-2025
+  bie_oktug2025 | Özel Kapsamlı TÜFE Göstergeleri (2025=100) | Indicators For The CPIs Having Specified Coverage (2025=100) | AYLIK | 01-01-2005..01-10-2026
+  bie_tukfiy2025 | Tüketici Fiyat Endeksi (2025=100) | Consumer Price Index (2025=100) | AYLIK | 01-01-2005..01-10-2026
+  bie_tukfiy2003 | Tüketici Fiyat Endeksi (Genel) (2003=100) | Consumer Price Index (General) (2003=100) | AYLIK | 01-01-2003..01-10-2026
+  bie_brutdborcozel | Özel Sektörün Yurt Dışından Sağladığı Kredi ve Borç Senetleri Yükümlülükleri - Borçlu Dağılımı | Outstanding Loans and Debt Securities Received from Abroad by Private Sector - By borrower | ÜÇ AYLIK | 01-01-2002..01-07-2026
+  bie_bispolfaiz | Merkez Bankaları Politika Faiz Oranı | Central Banks' Policy Interest Rate | AYLIK | 01-01-1945..01-09-2026
+  bie_gsyhgelrcar | Gayrisafi Yurt İçi Hasıla - Gelir Yöntemiyle, Cari Fiyatlarla | Gross Domestic Product - Income Approach, Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_gelirmea | Gayrisafi Yurt İçi Hasıla - Gelir Yöntemiyle, Mevsim Etkisinden Arındırılmış, Cari Fiyatlarla | Gross Domestic Product - Income Approach, Seasonally Adjusted, Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_gayrfsermol | Gayrisafi Sabit Sermaye Oluşumu, Cari Fiyatlarla | Gross Fixed Capital Formation, Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_gsyhuretcar | Gayrisafi Yurt İçi Hasıla - Üretim Yöntemiyle, İktisadi Faaliyet Kollarına (A10) Göre, Cari Fiyatlarla | Gross Domestic Product - Production Approach, By Economic Activity (A10), Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_gsyhhrccar | Gayrisafi Yurt İçi Hasıla - Harcama Yöntemiyle, Cari Fiyatlarla | Gross Domestic Product - Expenditure Approach, Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_gsyhcrarnd | Gayrisafi Yurt İçi Hasıla - Harcama Yöntemiyle, Mevsim Etkisinden Arındırılmış, Cari Fiyatlarla | Gross Domestic Product - Expenditure Approach, Seasonally Adjusted, Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_nihaitukh | Gayrisafi Yurt İçi Hasıla - Harcama Yöntemine Göre, Hanehalkı Nihai Tüketim Harcamaları, Dayanıklılık Türüne Göre, Cari Fiyatlarla | Gross Domestic Product - Expenditure Approach, Household Final Consumption Expenditures, By Durability, Current Prices | ÜÇ AYLIK | 01-01-2009..01-04-2026
+  bie_uretmeacari | Gayrisafi Yurt İçi Hasıla - Üretim Yöntemiyle, Mevsim Etkisinden Arındırılmış, Cari Fiyatlarla | Gross Domestic Product - Production Approach, Seasonally Adjusted, Current Prices | ÜÇ AYLIK | 01-01-1995..01-04-2026
+  bie_uretmkb | Kişi Başına Gayrisafi Yurt İçi Hasıla, Üretim Yöntemiyle , Cari Fiyatlarla | Gross Domestic Product per Capita, Production Method, Current Prices | YILLIK | 01-01-1995..01-01-2025
+  bie_gsyhnihayilcr | Gayrisafi Yurt İçi Hasıla - Harcama Yöntemine Göre, Hanehalkı Nihai Tüketim Harcamaları, Cari Fiyatlarla | Gross Domestic Product - Household Final Consumption, by Expenditure Category, Current Prices | YILLIK | 01-01-2009..01-01-2025
+  bie_uretcryil | Gayrisafi Yurt İçi Hasıla - Üretim Yöntemiyle, İktisadi Faaliyet Kollarına Göre (A21) Düzeyinde, Cari Fiyatlarla | Gross Domestic Product - Production Approach, By Economic Activity (A21), Current Prices | YILLIK | 01-01-1995..01-01-2025
+  bie_gumusbistbul | Gümüş Piyasası (BİST) | Silver Market (BIST) | İŞ GÜNÜ | 02-07-2018..23-11-2026
+  bie_platinbistbul | Platin Piyasası (BİST) | Platin Market (BIST) | İŞ GÜNÜ | 02-07-2018..23-11-2026
+  bie_altinbistbul | Altın Piyasası (BİST) | Gold Market (BIST) | İŞ GÜNÜ | 02-07-2018..23-11-2026
+  bie_paladiumbistbul | Paladyum Piyasası (BİST) | Palladium Market (BIST) | İŞ GÜNÜ | 02-07-2018..23-11-2026
+  bie_tukfiyarnd | Tüketici Fiyat Endeksi - Mevsim Etkisinden Arındırılmış (2025=100) | Consumer Price Index - Seasonal Adjusted (2025=100) | AYLIK | 01-01-2005..01-10-2026
+  bie_tukfiyagrlk | Tüketici Fiyat Endeksi - Ana Grup Ağırlıkları (2025=100) | Consumer Price Index - Weights by Main Expenditure Groups (2025=100) | YILLIK | 01-01-2016..01-01-2026
+[seriler] bie_bisttlref: 4 seri
+    TP.BISTTLREF.ORAN | BIST TLREF -Türk Lirası Gecelik Referans Faiz Oranı (ISIN:TRIXIST00015) | İŞ GÜNÜ | 28-12-2018..20-11-2026
+    TP.BISTTLREF.KAPANIS | BIST TLREF Endeksi - Kapanış Değeri (Endeks Kodu: BISTTLREF - TL) | İŞ GÜNÜ | 14-06-2019..20-11-2026
+    TP.BISTTLREF.DUSUK | BIST TLREF Endeksi - En Düşük Değer (Endeks Kodu: BISTTLREF - TL) | İŞ GÜNÜ | 14-06-2019..20-11-2026
+    TP.BISTTLREF.YUKSEK | BIST TLREF Endeksi - En Yüksek Değer (Endeks Kodu: BISTTLREF - TL) | İŞ GÜNÜ | 14-06-2019..20-11-2026
+[seriler] bie_imfcpind: 106 seri
+    TP.IMFCPIND.DEU | Almanya (DEU) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.USA | Amerika Birleşik Devletleri (USA) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.ARG | Arjantin (ARG) Tüketici Fiyat Endeksi (2010=100) | AYLIK | None..None
+    TP.IMFCPIND.ALB | Arnavutluk (ALB) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-10-2026
+    TP.IMFCPIND.AUT | Avusturya (AUT) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.AZE | Azerbaycan (AZE) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.BHS | Bahamalar (BHS) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-07-2026
+    TP.IMFCPIND.BLR | Belarus (BLR) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.BEL | Belçika (BEL) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-10-2026
+    TP.IMFCPIND.GBR | Birleşik Krallık (GBR) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.BOL | Bolivya (BOL) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-06-2026
+    TP.IMFCPIND.BIH | Bosna-Hersek (BIH) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.BWA | Botsvana (BWA) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-08-2026
+    TP.IMFCPIND.BRA | Brezilya (BRA) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.BRN | Brunei (BRN) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.BGR | Bulgaristan (BGR) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.DZA | Cezayir (DZA) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-08-2026
+    TP.IMFCPIND.CZE | Çekya (CZE) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.CHN | Çin Halk Cumhuriyeti (CHN) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-10-2026
+    TP.IMFCPIND.DNK | Danimarka (DNK) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.DOM | Dominik Cumhuriyeti (DOM) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.ECU | Ekvador (ECU) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-07-2026
+    TP.IMFCPIND.SLV | El Salvador (SLV) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+    TP.IMFCPIND.IDN | Endonezya (IDN) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-10-2026
+    TP.IMFCPIND.ARM | Ermenistan (ARM) Tüketici Fiyat Endeksi (2010=100) | AYLIK | 01-01-2010..01-09-2026
+[seriler] bie_tukfiy4: 57 seri
+    TP.FG.J0 | GENEL (Tüketici) (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-01-2026
+    TP.FG.J01 | 1.GIDA VE ALKOLSÜZ İÇECEKLER (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J011 | 1.1.GIDA (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J012 | 1.2.ALKOLSÜZ İÇECEKLER (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J02 | 2.ALKOLLÜ İÇECEKLER VE TÜTÜN (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J021 | 2.1.ALKOLLÜ İÇECEKLER (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J022 | 2.2.TÜTÜN (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J03 | 3.GİYİM VE AYAKKABI (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J031 | 3.1.GİYİM (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J032 | 3.2.AYAKKABI (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J04 | 4.KONUT, SU, ELEKTRİK, GAZ VE DİĞER YAKITLAR (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J041 | 4.1.GERÇEK KİRA (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J043 | 4.3.KONUTUN BAKIM VE ONARIMI (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J044 | 4.4.SU (SEBEKE SUYU) VE KONUTLA İLGİLİ ÇESİTLİ HİZMETLER (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J045 | 4.5.ELEKTRIK, GAZ VE DİĞER YAKITLAR (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J05 | 5.MOBİLYA, EV ALETLERİ VE EV BAKIM HİZMETLERİ (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J051 | 5.1.MOBİLYA, MEFRUŞAT, HALI VE DİĞER YER DÖŞEMELERİ (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J052 | 5.2.EV İÇİ TEKSTİL (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J053 | 5.3.EV ALETLERİ (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J054 | 5.4.ZUCCACİYE, YEMEK TAKIMI VE HANEHALKI ALETLERİ (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J055 | 5.5.EV VE BAHÇE ARAÇ GERECLERİ (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J056 | 5.6.EV BAKIM İÇİN MAL VE HİZMETLER (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J06 | 6.SAĞLIK (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J061 | 6.1.TIBBİ ÜRÜNLER, ALETLER VE MALZEMELER (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+    TP.FG.J062 | 6.2.AYAKTA TEDAVİ HİZMETLERİ (Arşiv) (Arşiv) | AYLIK | 01-01-2003..01-12-2025
+[seriler] bie_onrepofbap: 2 seri
+    TP.AOFOBAP | Ağırlıklı Ortalama Faiz Oranı | İŞ GÜNÜ | 27-12-2018..20-11-2026
+    TP.IHBAP | İşlem Hacmi | İŞ GÜNÜ | 27-12-2018..20-11-2026
+[seriler] bie_uraltin: 1 seri
+    TP.URALTIN.ALTINKG | Maden Firmalarının Altın Üretim Bildirimleri (BIST) (Kg) | AYLIK | 01-01-2008..01-09-2026
+[aday] TP.DK.USD.A: {'gozlem': 683, 'ilk': '29-02-2024', 'son': '24-11-2026', 'ornek_son_deger': '50.51160000'}
+[aday] TP.DK.USD.S: {'gozlem': 683, 'ilk': '29-02-2024', 'son': '24-11-2026', 'ornek_son_deger': '50.60260000'}
+[aday] TP.MK.F.BILESIK: {'gozlem': 956, 'ilk': '23-01-2023', 'son': '20-11-2026', 'ornek_son_deger': '11131.32000000'}
+[aday] TP.FG.J0: {'gozlem': 277, 'ilk': '2003-1', 'son': '2026-1', 'ornek_son_deger': '3683.83000000'}
+[aday] TP.FE.OKTG01: {'gozlem': 276, 'ilk': '2003-1', 'son': '2025-12', 'ornek_son_deger': '3513.87000000'}
+[aday] TP.APIFON4: {'gozlem': 961, 'ilk': '24-01-2023', 'son': '23-11-2026', 'ornek_son_deger': '36.00000000'}
+[aday] TP.PY.P02.1H: {'gozlem': 961, 'ilk': '24-01-2023', 'son': '23-11-2026', 'ornek_son_deger': '36.00000000'}
+[aday] TP.AB.TOPLAM: {'gozlem': 1000, 'ilk': '21-09-2007', 'son': '13-11-2026', 'ornek_son_deger': '158950.09940380'}

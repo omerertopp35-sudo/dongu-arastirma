@@ -1,0 +1,1765 @@
+{
+  "uretim_zamani_utc": "2026-11-23T16:18:37+00:00",
+  "calisan_yontem": {
+    "taban": "https://evds3.tcmb.gov.tr/igmevdsms-dis/",
+    "anahtar_iletimi": "header"
+  },
+  "eslesen_gruplar": [
+    {
+      "kod": "bie_kybkatfon",
+      "ad": "Zorunlu Karşılığa Tabi Katılım Fonları | Participation Funds Subject To Reserve Requirements",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "10-05-2002",
+      "bitis": "06-11-2026"
+    },
+    {
+      "kod": "bie_bisttlref",
+      "ad": "Türk Lirası Gecelik Referans Faiz Oranı (BIST-TLREF) | Turkish Lira Overnight Reference Rate (BIST-TLREF)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "28-12-2018",
+      "bitis": "20-11-2026"
+    },
+    {
+      "kod": "bie_tevdsuv",
+      "ad": "Uzun Vadeli Kredi Kullanımları-Borçluya Göre | Long Term Credit Disbursements by Borrower",
+      "frekans": "AYLIK",
+      "baslangic": "01-12-1984",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_oskvbg",
+      "ad": "Sektörlere Göre Kısa Vadeli Krediler (Arşiv) | Short Term Loans-By Sector (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2010",
+      "bitis": "01-12-2025"
+    },
+    {
+      "kod": "bie_tsenetler",
+      "ad": "Tahsile Alınan Ticari Senetler | Commercial Bills Received For Collection",
+      "frekans": "AYLIK",
+      "baslangic": "01-06-2007",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_kmmbkre",
+      "ad": "Krediler - Mevduat Bankaları | Loans - Deposit Money Banks",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1986",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_ulusdovlkd",
+      "ad": "Uluslararası Rezervler ve Döviz Likiditesi Tablosu | International Reserves and Foreign Currency Liquidity Table",
+      "frekans": "AYLIK",
+      "baslangic": "01-08-2000",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_rktufey",
+      "ad": "Reel Efektif Döviz Kuru - TÜFE Bazlı | CPI Based Real Effective Exchange Rate",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1994",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_oskvag",
+      "ad": "Kısa Vadeli Krediler - Alacaklıya Göre (Arşiv) | Short Term Loans-By Creditor (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2010",
+      "bitis": "01-12-2025"
+    },
+    {
+      "kod": "bie_abreserv",
+      "ad": "Toplam Uluslararası Rezervler | Total International Reserves",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1981",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_pydovef",
+      "ad": "Döviz ve Efektif Piyasası İşlemleri | Foreign and Effective Exchange Rate Market Transactions",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "25-09-1990",
+      "bitis": "19-06-2026"
+    },
+    {
+      "kod": "bie_fs101a",
+      "ad": "Finansman Şirketleri Kredi Faiz Oranları (Stok) | Financing Companies Interest  Rates on Loans (Stock Data)",
+      "frekans": "AYLIK",
+      "baslangic": "01-12-2013",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_imfcpind",
+      "ad": "IMF - Tüketici Fiyat Endeksi (2010=100) | IMF - Consumer Price Index (2010=100)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2010",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_rkdrk",
+      "ad": "Reeskont Kredilerinin Döviz Rezervlerine Katkısı | Rediscount Credits' Contribution To FX Reserves (CBRT)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_dkkurbil",
+      "ad": "Konvertibl Olmayan Döviz Kurları | Non-Convertible Exchange Rates",
+      "frekans": "GÜNLÜK",
+      "baslangic": "02-04-2009",
+      "bitis": "24-11-2026"
+    },
+    {
+      "kod": "bie_kbkmkre",
+      "ad": "Krediler - Katılım Bankaları | Loans - Participation Banks",
+      "frekans": "AYLIK",
+      "baslangic": "01-12-2005",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_abstc2",
+      "ad": "Merkez Bankası Bilançosu - Stand By (Cari) | Central Bank Balance Sheet- Stand By (At Current Cross Rates)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "04-01-2002",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_kt200h",
+      "ad": "Kredi Kâr Oranları (Akım) | Profit Rates on Loans (Flow  Data)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "05-01-2018",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_hariccariacik",
+      "ad": "Cari İşlemler Hesabı, Parasal Olmayan Altın ve Enerji Dış Ticareti | Current Account, Non-Monetary Gold and Energy Foreign Trade",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1996",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_kkhartut",
+      "ad": "Banka Kartı ve Kredi Kartı Harcama Tutarı (Akım) | Debit Card and Credit Card Total Expenditure Amount (Flow)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "07-03-2014",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_kmkykre",
+      "ad": "Krediler - Kalkınma ve Yatırım Bankaları | Loans - Investment and Development Banks",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1986",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_tukfiy4",
+      "ad": "Tüketici Fiyat Endeksi (2003=100) (Arşiv) (Arşiv) | Consumer Price Index (2003=100) (Archive) (Archive) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-01-2026"
+    },
+    {
+      "kod": "bie_abres2",
+      "ad": "Merkez Bankası Rezervleri | Central Bank Reserves",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "25-12-1987",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_rkufey",
+      "ad": "Reel Efektif Döviz Kuru - Yİ - ÜFE Bazlı | Domestic - PPI Based Real Effective Exchange Rate",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1994",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_biskredigsyih",
+      "ad": "Finans Dışı Özel Sektörün Toplam Kredi Kullanımı (Kredi/GSYH Oranı) | Total Credit Utilization of the Non-Financial Private Sector (Credit/GDP Ratio)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-10-1947",
+      "bitis": "01-01-2026"
+    },
+    {
+      "kod": "bie_sekbilatga",
+      "ad": "Sektör Riski - Tasfiye Olunacak Kredi | Credits To The Sector - Bad Debts",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2023",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_sekbilab13a",
+      "ad": "Finansal Yapı Oranları - Kısa Vad. Banka Kredileri /Kısa Vad. Yabancı Kaynakl.Oranı | Ratios of Financial Position - Short - Term Bank Loans / Short - Term Liabilities",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2023",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_bkea",
+      "ad": "Banka Kredileri Eğilim Anketi | Bank Loans Tendency Survey",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-10-2005",
+      "bitis": "01-07-2026"
+    },
+    {
+      "kod": "bie_hpbitablo6",
+      "ad": "Bankacılık Sektörü Seçilmiş Kredi Büyüklükleri (Yurt İçi Şubeler) | Banking Sector Selected Loans (Domestic Branches)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "28-06-2024",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_hpbitablo7",
+      "ad": "Finansman Şirketleri Seçilmiş Kredi Büyüklükleri | Financing Companies' Selected Loans",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "28-06-2024",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_onrepofbap",
+      "ad": "Borsa İstanbul Gecelik Repo Faiz Oranları | Borsa Istanbul Overnight Repo Rates",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "27-12-2018",
+      "bitis": "20-11-2026"
+    },
+    {
+      "kod": "bie_sekbiltga",
+      "ad": "Sektör Riski - Tasfiye Olunacak Kredi. | Credits To The Sector - Bad Debts.",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-01-2023"
+    },
+    {
+      "kod": "bie_sekbilaa01a",
+      "ad": "Likidite Oranları - Cari Oran | Liquidity Ratios - Current Ratio",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2023",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_krehacbs",
+      "ad": "Krediler - Bankacılık Sektörü | Loans - Banking Sector",
+      "frekans": "AYLIK",
+      "baslangic": "01-10-2007",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_sekbila01a",
+      "ad": "Likidite Oranları - Cari Oran. | Liquidity Ratios - Current Ratio.",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-01-2023"
+    },
+    {
+      "kod": "bie_uraltin",
+      "ad": "Altın Cevheri Üretimi, Maden Firmaları (BİST) | Gold Ore Production of Mining Companies (BIST)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2008",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_kt210aks",
+      "ad": "Kredi Kâr Oranları (Stok) | Profit Rates on Loans (Stock Data)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2018",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_kkislade",
+      "ad": "Banka Kartı ve Kredi Kartı İşlem Adedi (Akım) | Weekly, Debit Card and Credit Card Number of Transactions (Flow)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "07-03-2014",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_kt100h",
+      "ad": "Kredi Faiz Oranları (Akım) | Interest Rates on Loans (Flow Data)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "04-01-2002",
+      "bitis": "13-11-2026"
+    },
+    {
+      "kod": "bie_imfca",
+      "ad": "IMF - Cari İşlemler Dengesi Net (ABD doları) | IMF - Current Account Balance Net (USD)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-2010",
+      "bitis": "01-07-2026"
+    },
+    {
+      "kod": "bie_dkefkytl",
+      "ad": "Efektif Kurlar | Effective Exchange Rates",
+      "frekans": "GÜNLÜK",
+      "baslangic": "02-01-1990",
+      "bitis": "24-11-2026"
+    },
+    {
+      "kod": "bie_redkurigm",
+      "ad": "Reel Efektif Döviz Kuru-Birim İş Gücü Maliyeti Bazlı | Unit Labor Cost Based Real Effective Exchange Rate",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_tgfe",
+      "ad": "Ticari Gayrimenkul Fiyat Endeksi | Commercial Property Price Index",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-04-2015",
+      "bitis": "01-07-2026"
+    },
+    {
+      "kod": "bie_kt210a",
+      "ad": "Kredi Faiz Oranları (Stok) | Interest Rates on Loans (Stock Data)",
+      "frekans": "AYLIK",
+      "baslangic": "01-07-2012",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_zorundth",
+      "ad": "Zorunlu Karşılığa Tabi DTH' ların Döviz Cinsine Göre Dağılımı | Foreign Exchange Deposits Subject To Reserve Requirements by Currency",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "30-12-2005",
+      "bitis": "06-11-2026"
+    },
+    {
+      "kod": "bie_osuvbg",
+      "ad": "Uzun Vadeli Krediler - Sektörlere Göre (Arşiv)  | Long Term Loans-By Sector (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2002",
+      "bitis": "01-12-2025"
+    },
+    {
+      "kod": "bie_apifon",
+      "ad": "TCMB Net Fonlaması ve TCMB Ağırlıklı Ortalama Fonlama Maliyeti | CBRT Net Funding and Weighted Average Funding Cost",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "03-01-2011",
+      "bitis": "23-11-2026"
+    },
+    {
+      "kod": "bie_tldthvade",
+      "ad": "Zorunlu Karşılığa Tabi Türk Lirası Mevduat ve DTH'larının Vadelerine Göre Dağılımı | Breakdown of Turkish Lira and Foreign Exchange Deposits Subject To Reserve Requirements by Maturity",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "30-12-2005",
+      "bitis": "06-11-2026"
+    },
+    {
+      "kod": "bie_osuvag",
+      "ad": "Uzun Vadeli Krediler - Alacaklıya Göre (Arşiv) | Long Term Loans-By Creditor (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2002",
+      "bitis": "01-12-2025"
+    },
+    {
+      "kod": "bie_feoktg",
+      "ad": "Özel Kapsamlı TÜFE Göstergeleri (2003=100) (Arşiv) | Indicators For The CPIs Having Specified Coverage (2003=100) (Archive) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-12-2025"
+    },
+    {
+      "kod": "bie_mkbrgn",
+      "ad": "Borsa İstanbul Endeksi ve Günlük İşlem Hacmi | Borsa Istanbul Index and Daily Trading Volume",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "01-02-1986",
+      "bitis": "20-11-2026"
+    },
+    {
+      "kod": "bie_dkdovytl",
+      "ad": "Döviz Kurları | Exchange Rates",
+      "frekans": "GÜNLÜK",
+      "baslangic": "02-01-1950",
+      "bitis": "24-11-2026"
+    },
+    {
+      "kod": "bie_goldimprt",
+      "ad": "Altın İthalatı (BİST) | Gold Imports (BIST)",
+      "frekans": "AYLIK",
+      "baslangic": "01-07-1995",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_kt210aisl",
+      "ad": "Bankalarca İşletme Kredilerine Fiilen Uygulanan Azami Faiz Oranları | Banks Effective Maximum Interest Rate on Business Loans",
+      "frekans": "AYLIK",
+      "baslangic": "01-07-2012",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_sekbilab14a",
+      "ad": "Finansal Yapı Oranları - Banka Kredileri / Yabancı Kaynaklar Toplamı Oranı | Ratios of Financial Position - Bank Loans / Total Loans",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2023",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_sekbilb14a",
+      "ad": "Finansal Yapı Oranları - Banka Kredileri / Yabancı Kaynaklar Toplamı Oranı. | Ratios of Financial Position - Bank Loans / Total Loans.",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-01-2023"
+    },
+    {
+      "kod": "bie_todedfaiz",
+      "ad": "Kredi Geri Ödemeleri - Faiz | Loan Repayment - Interest",
+      "frekans": "AYLIK",
+      "baslangic": "01-12-1998",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_bistopkredi",
+      "ad": "Finans Dışı Sektörün Toplam Kredi Kullanımı | Total Credit Utilization in the Non-Financial Sector",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-10-1947",
+      "bitis": "01-01-2026"
+    },
+    {
+      "kod": "bie_sekbilb13a",
+      "ad": "Finansal Yapı Oranları - Kısa Vad. Banka Kredileri /Kısa Vad. Yabancı Kaynakl.Oranı. | Ratios of Financial Position - Short - Term Bank Loans / Short - Term Liabilities.",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-01-2023"
+    },
+    {
+      "kod": "bie_todeapara",
+      "ad": "Kredi Geri Ödemeleri - Anapara | Loan Repayment - Principal",
+      "frekans": "AYLIK",
+      "baslangic": "01-12-1998",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_yssk",
+      "ad": "Uzun Vadeli Krediler-Finansal Olmayan Kuruluşların Vade Dağılımı (Arşiv) | Long Term Loans-Maturity Composition of Non-Financial Institutions (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2002",
+      "bitis": "01-12-2025"
+    },
+    {
+      "kod": "bie_itouge2023",
+      "ad": "İstanbul Tüketici Fiyat Endeksi | Istanbul Consumer Price Index",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2024",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_refkure",
+      "ad": "Kurlar-Reel Efektif Döviz Kuru Endeksleri (1995=100) (Arşiv) | Effective Exchange Rate Index (Real) (1995=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1980",
+      "bitis": "01-05-2010"
+    },
+    {
+      "kod": "bie_abstca",
+      "ad": "MB Bilançosu-Stand By-03.05.2001 Tarihli Niyet Mektubu ile Belirlenmiş (Cari) (Arşiv) | CB Balance Sheet As Per The Letter Of Intent Dd 03.05.2001 (At Current Cross Rates) (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "30-03-2001",
+      "bitis": "08-03-2002"
+    },
+    {
+      "kod": "bie_urgsmhc",
+      "ad": "GSMH ve GSYİH-Cari Fiyatlarla (Arşiv) | GNP and GDP at Current Prices (Archive)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-10-1923",
+      "bitis": "01-07-2007"
+    },
+    {
+      "kod": "bie_dovefmud",
+      "ad": "Merkez Bankasınca Yapılan Doğrudan Döviz Müdahaleleri (Dalgalı Döviz Kuru Rejiminde) (Arşiv) | Bank Under The Floating Exchange Rate Regime Direct Foreign Exchange Interventions Of The Central (Archive)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "11-07-2002",
+      "bitis": "23-01-2014"
+    },
+    {
+      "kod": "bie_tuksehir2",
+      "ad": "Fiyat Endeksi (Tüketici) (İstatistiki Bölgelere Göre) (2003=100) (Arşiv) | Consumer Price Index and Indices By Regions (2003=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-01-2023"
+    },
+    {
+      "kod": "bie_rkbigmy",
+      "ad": "Kurlar-Reel Efektif Döviz Kuru-Gelişmiş Ülkeler Birim İş Gücü Maliyeti Bazlı (2003=100) (Arşiv) | Exchange Rates_Unit Labor Cost_Developed Countries Based Real Effective Exchange Rate (2003=100) (Archive)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-04-2017"
+    },
+    {
+      "kod": "bie_dkefektif",
+      "ad": "Kurlar-Efektif Kurlar (Arşiv) | Exchange Rates_Banknotes (Archive)",
+      "frekans": "GÜNLÜK",
+      "baslangic": "02-01-1990",
+      "bitis": "24-11-2026"
+    },
+    {
+      "kod": "bie_gsyihhy",
+      "ad": "GSYİH-Harcamalar Yöntemiyle (Cari ve Sabit (1998) Fiyatlarla) (Yeni Seri) (Arşiv) | GDP_Expenditure Based (At Current and Fixed (1998) Prices) (New Series) (Archive)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1998",
+      "bitis": "01-04-2016"
+    },
+    {
+      "kod": "bie_bftukkre",
+      "ad": "Krediler - Bankalar ve Finansman Şirketleri (Arşiv) | Loans - Banks and Finance Companies (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "30-12-2005",
+      "bitis": "31-01-2025"
+    },
+    {
+      "kod": "bie_toktg",
+      "ad": "Fiyat Endeksi-Özel Kapsamlı TÜFE Göstergeleri (2003=100) (Arşiv) | Price Index_Indicators For The CPI's Having Specified Coverages (2003=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-12-2016"
+    },
+    {
+      "kod": "bie_dkdovizgn",
+      "ad": "Kurlar-Döviz Kurları (Arşiv) | Exchange Rates (Archive)",
+      "frekans": "GÜNLÜK",
+      "baslangic": "02-01-1950",
+      "bitis": "24-11-2026"
+    },
+    {
+      "kod": "bie_fgtukfiy3",
+      "ad": "Fiyat Endeksi (Tüketici) (1994=100) (Arşiv) | Consumer Price Index (1994=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1994",
+      "bitis": "01-12-2004"
+    },
+    {
+      "kod": "bie_fgtukfiy2",
+      "ad": "Fiyat Endeksi (Tüketici) (1987=100) (Arşiv) | Consumer Price Index (1987=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1987",
+      "bitis": "01-12-2004"
+    },
+    {
+      "kod": "bie_kmyikrhc",
+      "ad": "Bankacılık Sektörü,Yurt İçi Kredi Hacmi (Arşiv) | Domestic Loans, Banking Sector (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1986",
+      "bitis": "01-10-2021"
+    },
+    {
+      "kod": "bie_kybtkov",
+      "ad": "Kalkınma ve Yatırım Bankaları Tüketici Kredileri (Orijinal Vadeye Göre) (TL+YP) (Arşiv) | Investment and Development Banks Consumer Loans (By Original Maturity) (TRY+FX) (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "15-01-2010",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_vdkre",
+      "ad": "Mevduat Bankaları Tüketici Kredileri (Orijinal Vadeye Göre) (TL+YP) (Arşiv) | Deposit Money Banks Consumer Loans (By Originial Maturity) (TRY+Fx) (In TRY) (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "03-03-2006",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_tuksehir",
+      "ad": "Fiyat Endeksi (Tüketici) (Bölge ve İllere Göre) (1994=100) (Arşiv) | Consumer Price Index By Region and Province (1994=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-12-2004"
+    },
+    {
+      "kod": "bie_kmkart",
+      "ad": "Mevduat Bankaları Tüketici Kredileri, Taksitli Ticari Krediler ve Kredi Kartları (Arşiv) | Deposit Money Banks Consumer Loans, Commercial Installment Loans and Credit Cards (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "02-06-2000",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_gsyihtf",
+      "ad": "GSYİH-Iktisadi Faaliyet Kollarına Gore Temel Fiyatlarla (Cari ve Sabit (1998) Fiyatlarla) (Yeni Seri) (Arşiv) | GDP_By Kind Of Economic Activity in Basic Prices (At Current and Fixed (1998) Prices) (New Series) (Archive)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1998",
+      "bitis": "01-04-2016"
+    },
+    {
+      "kod": "bie_tukfiy1",
+      "ad": "Fiyat Endeksi (Tüketici) (1978-1979=100) (Arşiv) | Consumer Price Index (1978_1979=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1982",
+      "bitis": "01-12-2004"
+    },
+    {
+      "kod": "bie_urgsyih",
+      "ad": "GSYİH-Bölgeler ve İller İtibariyle-Cari ve 1987 Fiyatlarıyla (Arşiv) | Gross Domestic Product by Regions and Province_In Current & 1987 Prices (Archive)",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-1987",
+      "bitis": "01-01-2001"
+    },
+    {
+      "kod": "bie_kredi",
+      "ad": "Krediler - Bankacılık Sektörü (Arşiv) | Loans - Banking Sector (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "30-12-2005",
+      "bitis": "31-01-2025"
+    },
+    {
+      "kod": "bie_mkbral",
+      "ad": "Altın Borsası İşlemleri-İstanbul (Arşiv) | Istanbul Gold Exchange (Archive)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "27-07-1995",
+      "bitis": "29-06-2018"
+    },
+    {
+      "kod": "bie_finkre",
+      "ad": "Finansman Şirketleri Kredi Hacmi (Arşiv)  | Finance Companies Credit Volume (Archive) ",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "26-12-2003",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_kmkhac",
+      "ad": "Bankacılık Sektörü Kredi Hacmi,Katılım Bankaları Hariç (Arşiv) | Banking Sector Credit Volume_Excluding Participation Banks (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "05-07-1996",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_rkbigm",
+      "ad": "Kurlar- (Eski) Reel Efektif Döviz Kuru-Birim İş Gücü Maliyeti Bazlı (2003=100) (Arşiv) | Exchange Rates_ (Previous) Unit Labor Cost Based Real Effective Exchange Rate (2003=100) (Archive)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-01-2012"
+    },
+    {
+      "kod": "bie_yohyituk",
+      "ad": "Yerleşik ve Yerleşik Olmayan Hanehalklarının Yurt İçi Tüketimi (Cari ve Sabit (1998) Fiyatlarla) (Yeni Seri) (Arşiv) | Final Consumption Expenditure Of Resident and Non_Resident Households In Current and Fixed (1998) Prices (New Series) (Archive)",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1998",
+      "bitis": "01-04-2016"
+    },
+    {
+      "kod": "bie_ulgrkur",
+      "ad": "Kurlar-Ülke Gruplarına Göre Reel Efektif Döviz Kuru-TÜFE Bazlı (2003=100) (Arşiv) | Exchange Rates_ Cpi Based Real Effective Exchange Rate By Country Groups (2003=100) (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-02-2015"
+    },
+    {
+      "kod": "bie_pfvpbi08",
+      "ad": "Bankacılık Sektörü,Yurt Dışı Kredi Hacmi (Arşiv) | Loans Abroad, Banking Sector (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2012",
+      "bitis": "01-10-2021"
+    },
+    {
+      "kod": "bie_kbtukkre",
+      "ad": "Katılım Bankaları Tüketici Kredileri (Orijinal Vadeye Göre) (TL+YP) (Arşiv) | Participation Banks' Consumer Loans (By Original Maturity) (TRY+FX) (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "03-03-2006",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_pfvpbi13",
+      "ad": "Merkez Bankası, Kredi Mektuplu Döviz Tevdiat Hesapları (Arşiv) | Foreign Exchange Deposits By Citizens Abroad (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2012",
+      "bitis": "01-10-2021"
+    },
+    {
+      "kod": "bie_kybtkttk",
+      "ad": "Kalkınma ve Yatırım Bankaları Tüketici Kredileri ve Taksitli Ticari Krediler (Arşiv) | Investment and Development Banks Consumer Loans and Commercial Installment Loans (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "15-01-2010",
+      "bitis": "18-01-2013"
+    },
+    {
+      "kod": "bie_pfvpbi02",
+      "ad": "Merkez Bankası, Krediler (Arşiv) | Loans, Central Bank (Archive)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2012",
+      "bitis": "01-10-2021"
+    },
+    {
+      "kod": "bie_tukkre",
+      "ad": "Tüketici Kredileri (Orijinal Vadeye Göre) - Bankacılık Sektörü (Arşiv) | Consumer Loans (By Original Maturity) - Banking Sector (Archive)",
+      "frekans": "HAFTALIK(CUMA)",
+      "baslangic": "14-12-2012",
+      "bitis": "31-01-2025"
+    },
+    {
+      "kod": "bie_oktug2025",
+      "ad": "Özel Kapsamlı TÜFE Göstergeleri (2025=100) | Indicators For The CPIs Having Specified Coverage (2025=100)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2005",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_tukfiy2025",
+      "ad": "Tüketici Fiyat Endeksi (2025=100) | Consumer Price Index (2025=100)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2005",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_tukfiy2003",
+      "ad": "Tüketici Fiyat Endeksi (Genel) (2003=100) | Consumer Price Index (General) (2003=100)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2003",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_brutdborcozel",
+      "ad": "Özel Sektörün Yurt Dışından Sağladığı Kredi ve Borç Senetleri Yükümlülükleri - Borçlu Dağılımı | Outstanding Loans and Debt Securities Received from Abroad by Private Sector - By borrower",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-2002",
+      "bitis": "01-07-2026"
+    },
+    {
+      "kod": "bie_bispolfaiz",
+      "ad": "Merkez Bankaları Politika Faiz Oranı | Central Banks' Policy Interest Rate",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-1945",
+      "bitis": "01-09-2026"
+    },
+    {
+      "kod": "bie_gsyhgelrcar",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Gelir Yöntemiyle, Cari Fiyatlarla | Gross Domestic Product - Income Approach, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_gelirmea",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Gelir Yöntemiyle, Mevsim Etkisinden Arındırılmış, Cari Fiyatlarla | Gross Domestic Product - Income Approach, Seasonally Adjusted, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_gayrfsermol",
+      "ad": "Gayrisafi Sabit Sermaye Oluşumu, Cari Fiyatlarla | Gross Fixed Capital Formation, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_gsyhuretcar",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Üretim Yöntemiyle, İktisadi Faaliyet Kollarına (A10) Göre, Cari Fiyatlarla | Gross Domestic Product - Production Approach, By Economic Activity (A10), Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_gsyhhrccar",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Harcama Yöntemiyle, Cari Fiyatlarla | Gross Domestic Product - Expenditure Approach, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_gsyhcrarnd",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Harcama Yöntemiyle, Mevsim Etkisinden Arındırılmış, Cari Fiyatlarla | Gross Domestic Product - Expenditure Approach, Seasonally Adjusted, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_nihaitukh",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Harcama Yöntemine Göre, Hanehalkı Nihai Tüketim Harcamaları, Dayanıklılık Türüne Göre, Cari Fiyatlarla | Gross Domestic Product - Expenditure Approach, Household Final Consumption Expenditures, By Durability, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_uretmeacari",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Üretim Yöntemiyle, Mevsim Etkisinden Arındırılmış, Cari Fiyatlarla | Gross Domestic Product - Production Approach, Seasonally Adjusted, Current Prices",
+      "frekans": "ÜÇ AYLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-04-2026"
+    },
+    {
+      "kod": "bie_uretmkb",
+      "ad": "Kişi Başına Gayrisafi Yurt İçi Hasıla, Üretim Yöntemiyle , Cari Fiyatlarla | Gross Domestic Product per Capita, Production Method, Current Prices",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_gsyhnihayilcr",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Harcama Yöntemine Göre, Hanehalkı Nihai Tüketim Harcamaları, Cari Fiyatlarla | Gross Domestic Product - Household Final Consumption, by Expenditure Category, Current Prices",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2009",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_uretcryil",
+      "ad": "Gayrisafi Yurt İçi Hasıla - Üretim Yöntemiyle, İktisadi Faaliyet Kollarına Göre (A21) Düzeyinde, Cari Fiyatlarla | Gross Domestic Product - Production Approach, By Economic Activity (A21), Current Prices",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-1995",
+      "bitis": "01-01-2025"
+    },
+    {
+      "kod": "bie_gumusbistbul",
+      "ad": "Gümüş Piyasası (BİST) | Silver Market (BIST)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "02-07-2018",
+      "bitis": "23-11-2026"
+    },
+    {
+      "kod": "bie_platinbistbul",
+      "ad": "Platin Piyasası (BİST) | Platin Market (BIST)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "02-07-2018",
+      "bitis": "23-11-2026"
+    },
+    {
+      "kod": "bie_altinbistbul",
+      "ad": "Altın Piyasası (BİST) | Gold Market (BIST)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "02-07-2018",
+      "bitis": "23-11-2026"
+    },
+    {
+      "kod": "bie_paladiumbistbul",
+      "ad": "Paladyum Piyasası (BİST) | Palladium Market (BIST)",
+      "frekans": "İŞ GÜNÜ",
+      "baslangic": "02-07-2018",
+      "bitis": "23-11-2026"
+    },
+    {
+      "kod": "bie_tukfiyarnd",
+      "ad": "Tüketici Fiyat Endeksi - Mevsim Etkisinden Arındırılmış (2025=100) | Consumer Price Index - Seasonal Adjusted (2025=100)",
+      "frekans": "AYLIK",
+      "baslangic": "01-01-2005",
+      "bitis": "01-10-2026"
+    },
+    {
+      "kod": "bie_tukfiyagrlk",
+      "ad": "Tüketici Fiyat Endeksi - Ana Grup Ağırlıkları (2025=100) | Consumer Price Index - Weights by Main Expenditure Groups (2025=100)",
+      "frekans": "YILLIK",
+      "baslangic": "01-01-2016",
+      "bitis": "01-01-2026"
+    }
+  ],
+  "seri_listeleri": {
+    "bie_bisttlref": [
+      {
+        "kod": "TP.BISTTLREF.ORAN",
+        "ad": "BIST TLREF -Türk Lirası Gecelik Referans Faiz Oranı (ISIN:TRIXIST00015)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "28-12-2018",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.BISTTLREF.KAPANIS",
+        "ad": "BIST TLREF Endeksi - Kapanış Değeri (Endeks Kodu: BISTTLREF - TL)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "14-06-2019",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.BISTTLREF.DUSUK",
+        "ad": "BIST TLREF Endeksi - En Düşük Değer (Endeks Kodu: BISTTLREF - TL)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "14-06-2019",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.BISTTLREF.YUKSEK",
+        "ad": "BIST TLREF Endeksi - En Yüksek Değer (Endeks Kodu: BISTTLREF - TL)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "14-06-2019",
+        "bitis": "20-11-2026"
+      }
+    ],
+    "bie_imfcpind": [
+      {
+        "kod": "TP.IMFCPIND.DEU",
+        "ad": "Almanya (DEU) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.USA",
+        "ad": "Amerika Birleşik Devletleri (USA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ARG",
+        "ad": "Arjantin (ARG) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": null,
+        "bitis": null
+      },
+      {
+        "kod": "TP.IMFCPIND.ALB",
+        "ad": "Arnavutluk (ALB) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.AUT",
+        "ad": "Avusturya (AUT) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.AZE",
+        "ad": "Azerbaycan (AZE) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BHS",
+        "ad": "Bahamalar (BHS) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-07-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BLR",
+        "ad": "Belarus (BLR) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BEL",
+        "ad": "Belçika (BEL) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.GBR",
+        "ad": "Birleşik Krallık (GBR) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BOL",
+        "ad": "Bolivya (BOL) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-06-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BIH",
+        "ad": "Bosna-Hersek (BIH) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BWA",
+        "ad": "Botsvana (BWA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BRA",
+        "ad": "Brezilya (BRA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BRN",
+        "ad": "Brunei (BRN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.BGR",
+        "ad": "Bulgaristan (BGR) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.DZA",
+        "ad": "Cezayir (DZA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CZE",
+        "ad": "Çekya (CZE) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CHN",
+        "ad": "Çin Halk Cumhuriyeti (CHN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.DNK",
+        "ad": "Danimarka (DNK) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.DOM",
+        "ad": "Dominik Cumhuriyeti (DOM) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ECU",
+        "ad": "Ekvador (ECU) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-07-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.SLV",
+        "ad": "El Salvador (SLV) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.IDN",
+        "ad": "Endonezya (IDN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ARM",
+        "ad": "Ermenistan (ARM) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.EST",
+        "ad": "Estonya (EST) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.PHL",
+        "ad": "Filipinler (PHL) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.FIN",
+        "ad": "Finlandiya (FIN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.FRA",
+        "ad": "Fransa (FRA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.GMB",
+        "ad": "Gambiya (GMB) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2025"
+      },
+      {
+        "kod": "TP.IMFCPIND.GHA",
+        "ad": "Gana (GHA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.GTM",
+        "ad": "Guatemala (GTM) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ZAF",
+        "ad": "Güney Afrika (ZAF) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CYP",
+        "ad": "Güney Kıbrıs Rum Yönetimi (CYP) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.KOR",
+        "ad": "Güney Kore (KOR) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.GEO",
+        "ad": "Gürcistan(Geo) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.HRV",
+        "ad": "Hırvatistan (HRV) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.IND",
+        "ad": "Hindistan (IND) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-07-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.NLD",
+        "ad": "Hollanda (NLD) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.IRN",
+        "ad": "İran (IRN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.IRL",
+        "ad": "İrlanda (IRL) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ESP",
+        "ad": "İspanya (ESP) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ISR",
+        "ad": "İsrail (ISR) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.SWE",
+        "ad": "İsveç (SWE) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CHE",
+        "ad": "İsviçre (CHE) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ITA",
+        "ad": "İtalya (ITA) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.ISL",
+        "ad": "İzlanda (ISL) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.JAM",
+        "ad": "Jamaika (JAM) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.JPN",
+        "ad": "Japonya (JPN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CMR",
+        "ad": "Kamerun (CMR) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-02-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CAN",
+        "ad": "Kanada (CAN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.MNE",
+        "ad": "Karadağ (MNE) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.QAT",
+        "ad": "Katar (QAT) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2025"
+      },
+      {
+        "kod": "TP.IMFCPIND.KAZ",
+        "ad": "Kazakistan (KAZ) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.KEN",
+        "ad": "Kenya (KEN) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.KGZ",
+        "ad": "Kırgızistan (KGZ) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-06-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.COL",
+        "ad": "Kolombiya (COL) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.CRI",
+        "ad": "Kosta Rika (CRI) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-09-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.MKD",
+        "ad": "Kuzey Makedonya (MKD) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2026"
+      },
+      {
+        "kod": "TP.IMFCPIND.LSO",
+        "ad": "Lesoto (LSO) Tüketici Fiyat Endeksi (2010=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2010",
+        "bitis": "01-08-2026"
+      }
+    ],
+    "bie_tukfiy4": [
+      {
+        "kod": "TP.FG.J0",
+        "ad": "GENEL (Tüketici) (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-01-2026"
+      },
+      {
+        "kod": "TP.FG.J01",
+        "ad": "1.GIDA VE ALKOLSÜZ İÇECEKLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J011",
+        "ad": "1.1.GIDA (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J012",
+        "ad": "1.2.ALKOLSÜZ İÇECEKLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J02",
+        "ad": "2.ALKOLLÜ İÇECEKLER VE TÜTÜN (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J021",
+        "ad": "2.1.ALKOLLÜ İÇECEKLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J022",
+        "ad": "2.2.TÜTÜN (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J03",
+        "ad": "3.GİYİM VE AYAKKABI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J031",
+        "ad": "3.1.GİYİM (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J032",
+        "ad": "3.2.AYAKKABI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J04",
+        "ad": "4.KONUT, SU, ELEKTRİK, GAZ VE DİĞER YAKITLAR (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J041",
+        "ad": "4.1.GERÇEK KİRA (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J043",
+        "ad": "4.3.KONUTUN BAKIM VE ONARIMI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J044",
+        "ad": "4.4.SU (SEBEKE SUYU) VE KONUTLA İLGİLİ ÇESİTLİ HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J045",
+        "ad": "4.5.ELEKTRIK, GAZ VE DİĞER YAKITLAR (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J05",
+        "ad": "5.MOBİLYA, EV ALETLERİ VE EV BAKIM HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J051",
+        "ad": "5.1.MOBİLYA, MEFRUŞAT, HALI VE DİĞER YER DÖŞEMELERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J052",
+        "ad": "5.2.EV İÇİ TEKSTİL (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J053",
+        "ad": "5.3.EV ALETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J054",
+        "ad": "5.4.ZUCCACİYE, YEMEK TAKIMI VE HANEHALKI ALETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J055",
+        "ad": "5.5.EV VE BAHÇE ARAÇ GERECLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J056",
+        "ad": "5.6.EV BAKIM İÇİN MAL VE HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J06",
+        "ad": "6.SAĞLIK (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J061",
+        "ad": "6.1.TIBBİ ÜRÜNLER, ALETLER VE MALZEMELER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J062",
+        "ad": "6.2.AYAKTA TEDAVİ HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J063",
+        "ad": "6.3.YATAKLI TEDAVİ HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J07",
+        "ad": "7.ULAŞTIRMA (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J071",
+        "ad": "7.1.ARAÇ SATIN ALIMI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J072",
+        "ad": "7.2.KİŞİSEL ULAŞTIRMA ARAÇLARININ İŞLETİMİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J073",
+        "ad": "7.3.ULAŞTIRMA HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J08",
+        "ad": "8.HABERLEŞME (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J081",
+        "ad": "8.1.POSTA HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J082",
+        "ad": "8.2.TELEFON VE TELEFAKS EKİPMANI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J083",
+        "ad": "8.3.TELEFON VE TELEFAKS HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J09",
+        "ad": "9.EĞLENCE VE KÜLTÜR (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J091",
+        "ad": "9.1.GÖRSEL-İŞİTSEL SİSTEMLE (AUDIO-VISUAL), FOTOGRAFLA VE VERİ İŞLEMLE İLE İLGİLİ EKİPMAN (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J092",
+        "ad": "9.2.DİĞER TEMEL DAYANIKLI EĞLENCE VE KÜLTÜR ARACLARI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J093",
+        "ad": "9.3.DİĞER EĞLENCE ARAÇLARI VE MALZEMELERİ, BAHÇE VE EVCİL HAYVANLARA İLİŞKİN ÜRÜNLER, HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J094",
+        "ad": "9.4.EĞLENCE VE KÜLTÜR HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J095",
+        "ad": "9.5.GAZETE, KİTAP VE KIRTASİYE (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J096",
+        "ad": "9.6.PAKET TURLAR (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J10",
+        "ad": "10.EĞİTİM (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J101",
+        "ad": "10.1.OKUL ÖNCESİ EĞİTİM VE İLKÖĞRETİM (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J102",
+        "ad": "10.2.ORTA ÖĞRETİM (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J103",
+        "ad": "10.3.ORTA ÖĞRETİM SONRASI VE ÜNİVERSİTE ÖNCESİ EĞİTİM (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2015"
+      },
+      {
+        "kod": "TP.FG.J104",
+        "ad": "10.4.ÜNİVERSİTE EĞİTİMİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J105",
+        "ad": "10.5.DÜZEYİ BELİRLENEMEYEN EĞİTİM PROGRAMLARI (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J11",
+        "ad": "11.LOKANTA VE OTELLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J111",
+        "ad": "11.1.YEMEK HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J112",
+        "ad": "11.2.KONAKLAMA HİZMETLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J12",
+        "ad": "12.ÇEŞİTLİ MAL VE HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J121",
+        "ad": "12.1.KİŞİSEL BAKIM (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J123",
+        "ad": "12.3.BAŞKA YERDE SINIFLANDIRILAMAYAN KİŞİSEL BAKIM ÜRÜNLERİ (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J124",
+        "ad": "12.4.SOSYAL HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J125",
+        "ad": "12.5.SİGORTA (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J126",
+        "ad": "12.6.BAŞKA YERDE SINIFLANDIRILMAYAN MALİ HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      },
+      {
+        "kod": "TP.FG.J127",
+        "ad": "12.7.BAŞKA YERDE SINIFLANDIRILMAYAN DİĞER HİZMETLER (Arşiv) (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-12-2025"
+      }
+    ],
+    "bie_onrepofbap": [
+      {
+        "kod": "TP.AOFOBAP",
+        "ad": "Ağırlıklı Ortalama Faiz Oranı",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "27-12-2018",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.IHBAP",
+        "ad": "İşlem Hacmi",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "27-12-2018",
+        "bitis": "20-11-2026"
+      }
+    ],
+    "bie_uraltin": [
+      {
+        "kod": "TP.URALTIN.ALTINKG",
+        "ad": "Maden Firmalarının Altın Üretim Bildirimleri (BIST) (Kg)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2008",
+        "bitis": "01-09-2026"
+      }
+    ]
+  },
+  "aday_kapsam": {
+    "TP.DK.USD.A": {
+      "gozlem": 683,
+      "ilk": "29-02-2024",
+      "son": "24-11-2026",
+      "ornek_son_deger": "50.51160000"
+    },
+    "TP.DK.USD.S": {
+      "gozlem": 683,
+      "ilk": "29-02-2024",
+      "son": "24-11-2026",
+      "ornek_son_deger": "50.60260000"
+    },
+    "TP.MK.F.BILESIK": {
+      "gozlem": 956,
+      "ilk": "23-01-2023",
+      "son": "20-11-2026",
+      "ornek_son_deger": "11131.32000000"
+    },
+    "TP.FG.J0": {
+      "gozlem": 277,
+      "ilk": "2003-1",
+      "son": "2026-1",
+      "ornek_son_deger": "3683.83000000"
+    },
+    "TP.FE.OKTG01": {
+      "gozlem": 276,
+      "ilk": "2003-1",
+      "son": "2025-12",
+      "ornek_son_deger": "3513.87000000"
+    },
+    "TP.APIFON4": {
+      "gozlem": 961,
+      "ilk": "24-01-2023",
+      "son": "23-11-2026",
+      "ornek_son_deger": "36.00000000"
+    },
+    "TP.PY.P02.1H": {
+      "gozlem": 961,
+      "ilk": "24-01-2023",
+      "son": "23-11-2026",
+      "ornek_son_deger": "36.00000000"
+    },
+    "TP.AB.TOPLAM": {
+      "gozlem": 1000,
+      "ilk": "21-09-2007",
+      "son": "13-11-2026",
+      "ornek_son_deger": "158950.09940380"
+    }
+  }
+}
