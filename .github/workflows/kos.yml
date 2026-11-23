@@ -87,6 +87,15 @@ jobs:
           set -o pipefail
           python evds_kesif.py 2>&1 | tee sonuclar/log_evds_kesif.txt
 
+      - name: BIST dongu (adim 1-3)
+        if: always()
+        continue-on-error: true
+        env:
+          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+        run: |
+          set -o pipefail
+          python bist_dongu.py 2>&1 | tee sonuclar/log_bist.txt
+
       - name: Sonuclari yaz
         if: always()
         run: |
