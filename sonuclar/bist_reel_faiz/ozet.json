@@ -1,0 +1,542 @@
+{
+  "uretim_zamani_utc": "2026-11-23T16:42:05+00:00",
+  "demo": false,
+  "veri": {
+    "ilk_ay": "2002-02",
+    "son_ay": "2026-09",
+    "eem_ilk": "2003-04"
+  },
+  "notlar": [
+    "usdtry: 2005-01-31 kalici sicrama x9.9e-07: onceki gecmis olceklendi",
+    "TUFE: 1982-01..2003-01 eski seri x1.22096e-05 ile 2003-01'de 2003=100'e baglandi",
+    "efektif faiz: TP.APIFON4 2011-01->, oncesi politika faizi"
+  ],
+  "hatali": {},
+  "kurallar": {
+    "reel_faiz": "(1+i)/(1+yillik TUFE)-1",
+    "bilgi_gecikmesi_ay": 1,
+    "olay": ">= 6 ay r<=0 sonra ilk r>0, olaylar arasi >= 12 ay",
+    "yon": "politika faizi 6 aylik degisim < 0 = indirim",
+    "test": "dairesel kaydirma >= 24 ay, tum kaydirmalar; plasebo 2000 cekilis"
+  },
+  "simdi": {
+    "ay": "2026-09",
+    "reel_faiz": 0.05602605102613101,
+    "politika": 37.0,
+    "enflasyon": 0.2973164806576347,
+    "hucre": "pozitif · indirim değil",
+    "politika_6a_degisim": 0.0
+  },
+  "A_rejim": {
+    "politika": {
+      "pozitif": {
+        "usd": {
+          "ay": 160,
+          "yillik_ort": 0.05454521747192199,
+          "aylik_medyan": 0.020695955574762438,
+          "pozitif_ay_orani": 0.5625,
+          "ileri12_medyan": 0.11032942652235202
+        },
+        "fazla": {
+          "ay": 151,
+          "yillik_ort": -0.09165634845970035,
+          "aylik_medyan": 0.0006374575867638957,
+          "pozitif_ay_orani": 0.5099337748344371,
+          "ileri12_medyan": -0.011372837086439014
+        }
+      },
+      "negatif": {
+        "usd": {
+          "ay": 135,
+          "yillik_ort": 0.015974978341254498,
+          "aylik_medyan": 0.003386728491529521,
+          "pozitif_ay_orani": 0.5259259259259259,
+          "ileri12_medyan": -0.023741454621660267
+        },
+        "fazla": {
+          "ay": 131,
+          "yillik_ort": 0.017662551122540192,
+          "aylik_medyan": -0.00038395151845485554,
+          "pozitif_ay_orani": 0.48854961832061067,
+          "ileri12_medyan": -0.10231828944786565
+        }
+      },
+      "test_usd": {
+        "n": 295,
+        "fark": 0.0031050732722220633,
+        "p": 0.8024193548387096,
+        "yuzdelik": 63.70967741935484,
+        "kaydirma": 248
+      },
+      "test_fazla": {
+        "n": 282,
+        "fark": -0.009470073508464868,
+        "p": 0.28085106382978725,
+        "yuzdelik": 14.042553191489363,
+        "kaydirma": 235
+      },
+      "blok_sayisi": {
+        "pozitif": 12,
+        "negatif": 12
+      }
+    },
+    "efektif": {
+      "pozitif": {
+        "usd": {
+          "ay": 187,
+          "yillik_ort": 0.027573486788451392,
+          "aylik_medyan": 0.014093183486803353,
+          "pozitif_ay_orani": 0.5401069518716578,
+          "ileri12_medyan": 0.017041514956009002
+        },
+        "fazla": {
+          "ay": 178,
+          "yillik_ort": -0.08660876489146989,
+          "aylik_medyan": 0.0004416115739035114,
+          "pozitif_ay_orani": 0.5056179775280899,
+          "ileri12_medyan": -0.05852354366223576
+        }
+      },
+      "negatif": {
+        "usd": {
+          "ay": 108,
+          "yillik_ort": 0.05273882702468579,
+          "aylik_medyan": 0.007146192051468101,
+          "pozitif_ay_orani": 0.5555555555555556,
+          "ileri12_medyan": 0.06123959187674232
+        },
+        "fazla": {
+          "ay": 104,
+          "yillik_ort": 0.038239786009745286,
+          "aylik_medyan": -0.00028235686616467616,
+          "pozitif_ay_orani": 0.49038461538461536,
+          "ileri12_medyan": -0.07295332250900342
+        }
+      },
+      "test_usd": {
+        "n": 295,
+        "fark": -0.0020162491709523906,
+        "p": 0.8508064516129032,
+        "yuzdelik": 47.17741935483871,
+        "kaydirma": 248
+      },
+      "test_fazla": {
+        "n": 282,
+        "fark": -0.010676478329615777,
+        "p": 0.251063829787234,
+        "yuzdelik": 11.48936170212766,
+        "kaydirma": 235
+      },
+      "blok_sayisi": {
+        "pozitif": 14,
+        "negatif": 14
+      }
+    }
+  },
+  "B_hucre": {
+    "politika": {
+      "negatif · indirim değil": {
+        "usd": {
+          "ay": 72,
+          "yillik_ort": 0.15721399049390297,
+          "aylik_medyan": 0.016279162913395467,
+          "pozitif_ay_orani": 0.5694444444444444,
+          "ileri12_medyan": -0.06642932176985959
+        },
+        "fazla": {
+          "ay": 72,
+          "yillik_ort": 0.09741223427234728,
+          "aylik_medyan": 0.0029197208094636717,
+          "pozitif_ay_orani": 0.5277777777777778,
+          "ileri12_medyan": -0.17437738894453694
+        }
+      },
+      "negatif · indirim": {
+        "usd": {
+          "ay": 59,
+          "yillik_ort": -0.0642064229170596,
+          "aylik_medyan": -0.006626702954515476,
+          "pozitif_ay_orani": 0.4915254237288136,
+          "ileri12_medyan": 0.11424147118648678
+        },
+        "fazla": {
+          "ay": 59,
+          "yillik_ort": -0.07185001732623418,
+          "aylik_medyan": -0.005532726440157654,
+          "pozitif_ay_orani": 0.4406779661016949,
+          "ileri12_medyan": -0.00943839922843591
+        }
+      },
+      "pozitif · indirim değil": {
+        "usd": {
+          "ay": 56,
+          "yillik_ort": -0.14881261662117912,
+          "aylik_medyan": 0.006057131080809621,
+          "pozitif_ay_orani": 0.5357142857142857,
+          "ileri12_medyan": -0.0131666495526429
+        },
+        "fazla": {
+          "ay": 56,
+          "yillik_ort": -0.1556759527108159,
+          "aylik_medyan": 0.006731057412074645,
+          "pozitif_ay_orani": 0.5357142857142857,
+          "ileri12_medyan": -0.01332837910500335
+        }
+      },
+      "pozitif · indirim": {
+        "usd": {
+          "ay": 102,
+          "yillik_ort": 0.20671043510456188,
+          "aylik_medyan": 0.037852473444161316,
+          "pozitif_ay_orani": 0.5882352941176471,
+          "ileri12_medyan": 0.23255947917062048
+        },
+        "fazla": {
+          "ay": 95,
+          "yillik_ort": -0.05166738921676963,
+          "aylik_medyan": -0.00034654082690748145,
+          "pozitif_ay_orani": 0.49473684210526314,
+          "ileri12_medyan": -0.007456504785356964
+        }
+      }
+    },
+    "efektif": {
+      "negatif · indirim değil": {
+        "usd": {
+          "ay": 49,
+          "yillik_ort": 0.3000585911038526,
+          "aylik_medyan": 0.02194620839270725,
+          "pozitif_ay_orani": 0.6326530612244898,
+          "ileri12_medyan": -0.027442032158288776
+        },
+        "fazla": {
+          "ay": 49,
+          "yillik_ort": 0.17933139726014205,
+          "aylik_medyan": 0.0006427794254877308,
+          "pozitif_ay_orani": 0.5306122448979592,
+          "ileri12_medyan": -0.11763525447453536
+        }
+      },
+      "negatif · indirim": {
+        "usd": {
+          "ay": 55,
+          "yillik_ort": -0.05048314155479801,
+          "aylik_medyan": 0.0009917229039944297,
+          "pozitif_ay_orani": 0.509090909090909,
+          "ileri12_medyan": 0.12737850438172285
+        },
+        "fazla": {
+          "ay": 55,
+          "yillik_ort": -0.07317792858470769,
+          "aylik_medyan": -0.006166084723919146,
+          "pozitif_ay_orani": 0.45454545454545453,
+          "ileri12_medyan": -0.03114700956705917
+        }
+      },
+      "pozitif · indirim değil": {
+        "usd": {
+          "ay": 79,
+          "yillik_ort": -0.13402277288090392,
+          "aylik_medyan": 0.0020274044863182383,
+          "pozitif_ay_orani": 0.5063291139240507,
+          "ileri12_medyan": -0.06900343475270693
+        },
+        "fazla": {
+          "ay": 79,
+          "yillik_ort": -0.12850362734298842,
+          "aylik_medyan": 0.005955581633272104,
+          "pozitif_ay_orani": 0.5316455696202531,
+          "ileri12_medyan": -0.08928215426589368
+        }
+      },
+      "pozitif · indirim": {
+        "usd": {
+          "ay": 106,
+          "yillik_ort": 0.18619354863678697,
+          "aylik_medyan": 0.03503913739927876,
+          "pozitif_ay_orani": 0.5754716981132075,
+          "ileri12_medyan": 0.1884001221485109
+        },
+        "fazla": {
+          "ay": 99,
+          "yillik_ort": -0.05173733875720933,
+          "aylik_medyan": -0.0006947797361092618,
+          "pozitif_ay_orani": 0.48484848484848486,
+          "ileri12_medyan": 0.006485138779626576
+        }
+      }
+    }
+  },
+  "C_olaylar": {
+    "politika": [
+      {
+        "olay_ayi": "2010-12",
+        "bilgi_ayi": "2011-01",
+        "reel_faiz": 0.0009301622216111305,
+        "politika": 6.5,
+        "enflasyon": 0.06401029781756473,
+        "bist_usd_12a_icinde_dip": -0.308466158286023,
+        "bist_usd_6a": -0.05787454229331557,
+        "eem_fazla_6a": -0.09294340298487784,
+        "bist_usd_12a": -0.17222802467207257,
+        "eem_fazla_12a": -0.11687671893142491,
+        "bist_usd_24a": 0.13534636475265555,
+        "eem_fazla_24a": 0.13259256613912618,
+        "bist_usd_gunumuze": -0.4524863684375172,
+        "eem_fazla_gunumuze": -0.705131605070439
+      },
+      {
+        "olay_ayi": "2014-01",
+        "bilgi_ayi": "2014-02",
+        "reel_faiz": 0.02087008649481903,
+        "politika": 10.0,
+        "enflasyon": 0.07751222663098645,
+        "bist_usd_12a_icinde_dip": 0.0,
+        "bist_usd_6a": 0.34424820286055513,
+        "eem_fazla_6a": 0.16854052975374528,
+        "bist_usd_12a": 0.21143618600187328,
+        "eem_fazla_12a": 0.1482401079126608,
+        "bist_usd_24a": -0.0763540632828984,
+        "eem_fazla_24a": 0.14972512664731777,
+        "bist_usd_gunumuze": -0.22738931648938765,
+        "eem_fazla_gunumuze": -0.6192998660014555
+      },
+      {
+        "olay_ayi": "2016-03",
+        "bilgi_ayi": "2016-04",
+        "reel_faiz": 0.0003728078171145732,
+        "politika": 7.5,
+        "enflasyon": 0.07459938095051522,
+        "bist_usd_12a_icinde_dip": -0.2862012219300798,
+        "bist_usd_6a": -0.1641623364896657,
+        "eem_fazla_6a": -0.23208482158231686,
+        "bist_usd_12a": -0.12241774709077087,
+        "eem_fazla_12a": -0.26095200469228874,
+        "bist_usd_24a": -0.15126879133072715,
+        "eem_fazla_24a": -0.40163243461282777,
+        "bist_usd_gunumuze": -0.28578728542670984,
+        "eem_fazla_gunumuze": -0.6793254867612388
+      },
+      {
+        "olay_ayi": "2018-06",
+        "bilgi_ayi": "2018-07",
+        "reel_faiz": 0.02049560765443137,
+        "politika": 17.75,
+        "enflasyon": 0.15385112014978386,
+        "bist_usd_12a_icinde_dip": -0.27073058866468247,
+        "bist_usd_6a": -0.006489576216893249,
+        "eem_fazla_6a": 0.01877649524496006,
+        "bist_usd_12a": -0.07672387979838236,
+        "eem_fazla_12a": -0.03049056885569482,
+        "bist_usd_24a": -0.1815183275899416,
+        "eem_fazla_24a": -0.1927380303701659,
+        "bist_usd_gunumuze": 0.09080856681089311,
+        "eem_fazla_gunumuze": -0.33147644985098157
+      },
+      {
+        "olay_ayi": "2020-11",
+        "bilgi_ayi": "2020-12",
+        "reel_faiz": 0.00853925147418666,
+        "politika": 15.0,
+        "enflasyon": 0.1402630074328186,
+        "bist_usd_12a_icinde_dip": -0.2894322047830954,
+        "bist_usd_6a": -0.2255073464860263,
+        "eem_fazla_6a": -0.27754175153566935,
+        "bist_usd_12a": -0.2884583270338051,
+        "eem_fazla_12a": -0.26163796698300396,
+        "bist_usd_24a": 0.4647052393022538,
+        "eem_fazla_24a": 0.9133750913048628,
+        "bist_usd_gunumuze": 0.07613865279876597,
+        "eem_fazla_gunumuze": -0.19360361628692213
+      },
+      {
+        "olay_ayi": "2024-09",
+        "bilgi_ayi": "2024-10",
+        "reel_faiz": 0.004116920543433711,
+        "politika": 50.0,
+        "enflasyon": 0.49384993849938486,
+        "bist_usd_12a_icinde_dip": -0.10791123214229936,
+        "bist_usd_6a": -0.08678402082561737,
+        "eem_fazla_6a": -0.08778483285289303,
+        "bist_usd_12a": 0.010591485588617316,
+        "eem_fazla_12a": -0.20883943648175438,
+        "bist_usd_24a": -0.16446700791840846,
+        "eem_fazla_24a": -0.4187797747210238,
+        "bist_usd_gunumuze": -0.16446700791840807,
+        "eem_fazla_gunumuze": -0.41877977472102346
+      }
+    ],
+    "efektif": [
+      {
+        "olay_ayi": "2010-12",
+        "bilgi_ayi": "2011-01",
+        "reel_faiz": 0.0009301622216111305,
+        "politika": 6.5,
+        "enflasyon": 0.06401029781756473,
+        "bist_usd_12a_icinde_dip": -0.308466158286023,
+        "bist_usd_6a": -0.05787454229331557,
+        "eem_fazla_6a": -0.09294340298487784,
+        "bist_usd_12a": -0.17222802467207257,
+        "eem_fazla_12a": -0.11687671893142491,
+        "bist_usd_24a": 0.13534636475265555,
+        "eem_fazla_24a": 0.13259256613912618,
+        "bist_usd_gunumuze": -0.4524863684375172,
+        "eem_fazla_gunumuze": -0.705131605070439
+      },
+      {
+        "olay_ayi": "2012-05",
+        "bilgi_ayi": "2012-06",
+        "reel_faiz": 0.01352516577125984,
+        "politika": 5.75,
+        "enflasyon": 0.08280488444001888,
+        "bist_usd_12a_icinde_dip": 0.0,
+        "bist_usd_6a": 0.2989285892573084,
+        "eem_fazla_6a": 0.1387722305527169,
+        "bist_usd_12a": 0.1774933318422435,
+        "eem_fazla_12a": 0.17374704353061288,
+        "bist_usd_24a": 0.09827703815578408,
+        "eem_fazla_24a": -0.04131918969189352,
+        "bist_usd_gunumuze": -0.3612402683610001,
+        "eem_fazla_gunumuze": -0.6967842830208815
+      },
+      {
+        "olay_ayi": "2014-02",
+        "bilgi_ayi": "2014-03",
+        "reel_faiz": 0.02021940799010813,
+        "politika": 10.0,
+        "enflasyon": 0.07889047334284016,
+        "bist_usd_12a_icinde_dip": -0.01955927028505522,
+        "bist_usd_6a": 0.033020319976502364,
+        "eem_fazla_6a": 0.01134949157652596,
+        "bist_usd_12a": -0.019559270285055275,
+        "eem_fazla_12a": -0.020018264616984874,
+        "bist_usd_24a": -0.07401833243578193,
+        "eem_fazla_24a": 0.05991725579224832,
+        "bist_usd_gunumuze": -0.3178609858844683,
+        "eem_fazla_gunumuze": -0.6508534996505508
+      },
+      {
+        "olay_ayi": "2020-10",
+        "bilgi_ayi": "2020-11",
+        "reel_faiz": 0.002612251106085761,
+        "politika": 10.25,
+        "enflasyon": 0.11889620973851556,
+        "bist_usd_12a_icinde_dip": -0.13161867346309775,
+        "bist_usd_6a": 0.009310581119590653,
+        "eem_fazla_6a": -0.11280420304593955,
+        "bist_usd_12a": -0.13161867346309755,
+        "eem_fazla_12a": -0.14617879689163463,
+        "bist_usd_24a": 0.6244869094829262,
+        "eem_fazla_24a": 0.9286298845553063,
+        "bist_usd_gunumuze": 0.31514363181878613,
+        "eem_fazla_gunumuze": -0.08009149713246655
+      },
+      {
+        "olay_ayi": "2024-09",
+        "bilgi_ayi": "2024-10",
+        "reel_faiz": 0.008930306422890055,
+        "politika": 50.0,
+        "enflasyon": 0.49384993849938486,
+        "bist_usd_12a_icinde_dip": -0.10791123214229936,
+        "bist_usd_6a": -0.08678402082561737,
+        "eem_fazla_6a": -0.08778483285289303,
+        "bist_usd_12a": 0.010591485588617316,
+        "eem_fazla_12a": -0.20883943648175438,
+        "bist_usd_24a": -0.16446700791840846,
+        "eem_fazla_24a": -0.4187797747210238,
+        "bist_usd_gunumuze": -0.16446700791840807,
+        "eem_fazla_gunumuze": -0.41877977472102346
+      }
+    ]
+  },
+  "C_plasebo": {
+    "politika": {
+      "usd_6a": {
+        "n": 6,
+        "olay_ort": -0.04812724682331063,
+        "olay_medyan": -0.07244190350969215,
+        "tum_aylar_medyan": 0.03676222180588252,
+        "plasebo_yuzdelik": 22.0
+      },
+      "usd_12a": {
+        "n": 6,
+        "olay_ort": -0.08567391097269299,
+        "olay_medyan": -0.09986071209849537,
+        "tum_aylar_medyan": 0.042065861433604884,
+        "plasebo_yuzdelik": 14.000000000000002
+      },
+      "usd_24a": {
+        "n": 6,
+        "olay_ort": -0.0189575244060226,
+        "olay_medyan": -0.11460340397516304,
+        "tum_aylar_medyan": 0.023983510120641476,
+        "plasebo_yuzdelik": 23.200000000000003
+      },
+      "fazla_6a": {
+        "n": 6,
+        "olay_ort": -0.0958023036178729,
+        "olay_medyan": -0.09036777472539172,
+        "tum_aylar_medyan": -0.010607385284574692,
+        "plasebo_yuzdelik": 12.2
+      },
+      "fazla_12a": {
+        "n": 6,
+        "olay_ort": -0.13310043305083025,
+        "olay_medyan": -0.1641218314214111,
+        "tum_aylar_medyan": -0.06081738981198533,
+        "plasebo_yuzdelik": 14.799999999999999
+      },
+      "fazla_24a": {
+        "n": 6,
+        "olay_ort": -0.057824405717354886,
+        "olay_medyan": -0.04381021458625738,
+        "tum_aylar_medyan": -0.12658729623490084,
+        "plasebo_yuzdelik": 56.35
+      }
+    },
+    "efektif": {
+      "usd_6a": {
+        "n": 5,
+        "olay_ort": 0.031051222489407043,
+        "olay_medyan": 0.009310581119590653,
+        "tum_aylar_medyan": 0.03676222180588252,
+        "plasebo_yuzdelik": 48.75
+      },
+      "usd_12a": {
+        "n": 5,
+        "olay_ort": -0.03458214610065299,
+        "olay_medyan": -0.019559270285055275,
+        "tum_aylar_medyan": 0.042065861433604884,
+        "plasebo_yuzdelik": 25.05
+      },
+      "usd_24a": {
+        "n": 5,
+        "olay_ort": 0.09401807444702177,
+        "olay_medyan": 0.09827703815578408,
+        "tum_aylar_medyan": 0.023983510120641476,
+        "plasebo_yuzdelik": 47.05
+      },
+      "fazla_6a": {
+        "n": 5,
+        "olay_ort": -0.03301918906814792,
+        "olay_medyan": -0.08778483285289303,
+        "tum_aylar_medyan": -0.010607385284574692,
+        "plasebo_yuzdelik": 41.75
+      },
+      "fazla_12a": {
+        "n": 5,
+        "olay_ort": -0.07255304713475783,
+        "olay_medyan": -0.11687671893142491,
+        "tum_aylar_medyan": -0.06081738981198533,
+        "plasebo_yuzdelik": 36.25
+      },
+      "fazla_24a": {
+        "n": 5,
+        "olay_ort": 0.05225709525189448,
+        "olay_medyan": 0.05991725579224832,
+        "tum_aylar_medyan": -0.12658729623490084,
+        "plasebo_yuzdelik": 79.9
+      }
+    }
+  }
+}

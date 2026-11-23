@@ -2,3 +2,4 @@ tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/cot | hat
 tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/backtest  | hatali: yok
 tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/fazlar | hatali: yok
 tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/dongu_1980 | hatali: yok | uzatma: yok
+tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/bist_reel_faiz | hatali: yok | olaylar: {'politika': ['2019-10'], 'efektif': ['2016-11']}

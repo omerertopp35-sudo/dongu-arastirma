@@ -31,7 +31,7 @@
   bie_bkea | Banka Kredileri Eğilim Anketi | Bank Loans Tendency Survey | ÜÇ AYLIK | 01-10-2005..01-07-2026
   bie_hpbitablo6 | Bankacılık Sektörü Seçilmiş Kredi Büyüklükleri (Yurt İçi Şubeler) | Banking Sector Selected Loans (Domestic Branches) | HAFTALIK(CUMA) | 28-06-2024..13-11-2026
   bie_hpbitablo7 | Finansman Şirketleri Seçilmiş Kredi Büyüklükleri | Financing Companies' Selected Loans | HAFTALIK(CUMA) | 28-06-2024..13-11-2026
-  bie_onrepofbap | Borsa İstanbul Gecelik Repo Faiz Oranları | Borsa Istanbul Overnight Repo Rates | İŞ GÜNÜ | 27-12-2018..20-11-2026
+  bie_onrepofbap | Borsa İstanbul Gecelik Repo Faiz Oranları | Borsa Istanbul Overnight Repo Rates | İŞ GÜNÜ | 27-12-2018..23-11-2026
   bie_sekbiltga | Sektör Riski - Tasfiye Olunacak Kredi. | Credits To The Sector - Bad Debts. | YILLIK | 01-01-2009..01-01-2023
   bie_sekbilaa01a | Likidite Oranları - Cari Oran | Liquidity Ratios - Current Ratio | YILLIK | 01-01-2023..01-01-2025
   bie_krehacbs | Krediler - Bankacılık Sektörü | Loans - Banking Sector | AYLIK | 01-10-2007..01-09-2026

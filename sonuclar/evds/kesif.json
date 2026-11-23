@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-23T16:28:40+00:00",
+  "uretim_zamani_utc": "2026-11-23T16:41:06+00:00",
   "calisan_yontem": {
     "taban": "https://evds3.tcmb.gov.tr/igmevdsms-dis/",
     "anahtar_iletimi": "header"
@@ -220,7 +220,7 @@
       "ad": "Borsa İstanbul Gecelik Repo Faiz Oranları | Borsa Istanbul Overnight Repo Rates",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "27-12-2018",
-      "bitis": "20-11-2026"
+      "bitis": "23-11-2026"
     },
     {
       "kod": "bie_sekbiltga",
