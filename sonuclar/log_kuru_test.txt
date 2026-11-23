@@ -1,0 +1,2 @@
+tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/cot | hatali: yok
+tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar_demo/backtest  | hatali: yok

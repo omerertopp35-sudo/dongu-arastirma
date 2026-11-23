@@ -1,0 +1,82 @@
+{
+  "uretim_zamani_utc": "2026-11-23T10:49:29+00:00",
+  "demo": false,
+  "piyasalar": {
+    "altin": {
+      "ad": "Altın",
+      "grup": "Fonlar (Managed Money)",
+      "son_rapor": "2026-11-17",
+      "uzun": 123116.0,
+      "kisa": 18846.0,
+      "net": 104270.0,
+      "net_degisim": -10136.0,
+      "uzun_degisim": -6726.0,
+      "kisa_degisim": 3410.0,
+      "fiyat": 3864.199951171875,
+      "net_3y_yuzdelik": 18.471337579617835,
+      "ilk_rapor": "2006-06-13",
+      "hafta": 1067
+    },
+    "gumus": {
+      "ad": "Gümüş",
+      "grup": "Fonlar (Managed Money)",
+      "son_rapor": "2026-11-17",
+      "uzun": 14772.0,
+      "kisa": 14755.0,
+      "net": 17.0,
+      "net_degisim": -2212.0,
+      "uzun_degisim": -769.0,
+      "kisa_degisim": 1443.0,
+      "fiyat": 47.28799819946289,
+      "net_3y_yuzdelik": 3.1847133757961785,
+      "ilk_rapor": "2006-06-13",
+      "hafta": 1067
+    },
+    "nas100": {
+      "ad": "Nasdaq 100",
+      "grup": "Kaldıraçlı fonlar (Leveraged Funds)",
+      "son_rapor": "2026-11-17",
+      "uzun": 52540.0,
+      "kisa": 63520.0,
+      "net": -10980.0,
+      "net_degisim": -24841.0,
+      "uzun_degisim": -4804.0,
+      "kisa_degisim": 20037.0,
+      "fiyat": 27001.779296875,
+      "net_3y_yuzdelik": 82.16560509554141,
+      "ilk_rapor": "2006-06-13",
+      "hafta": 1067
+    },
+    "spx": {
+      "ad": "S&P 500",
+      "grup": "Kaldıraçlı fonlar (Leveraged Funds)",
+      "son_rapor": "2026-11-17",
+      "uzun": 209747.0,
+      "kisa": 429893.0,
+      "net": -220146.0,
+      "net_degisim": 64403.0,
+      "uzun_degisim": 53373.0,
+      "kisa_degisim": -11030.0,
+      "fiyat": 7340.52978515625,
+      "net_3y_yuzdelik": 94.90445859872611,
+      "ilk_rapor": "2006-06-13",
+      "hafta": 1067
+    },
+    "dow30": {
+      "ad": "Dow Jones",
+      "grup": "Kaldıraçlı fonlar (Leveraged Funds)",
+      "son_rapor": "2026-11-17",
+      "uzun": 12002.0,
+      "kisa": 8665.0,
+      "net": 3337.0,
+      "net_degisim": 2021.0,
+      "uzun_degisim": 1532.0,
+      "kisa_degisim": -489.0,
+      "fiyat": 50759.421875,
+      "net_3y_yuzdelik": 71.97452229299363,
+      "ilk_rapor": "2006-06-13",
+      "hafta": 1067
+    }
+  },
+  "hatali": {}
+}

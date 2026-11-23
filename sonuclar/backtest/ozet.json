@@ -1,0 +1,221 @@
+{
+  "uretim_zamani_utc": "2026-11-23T10:49:36+00:00",
+  "demo": false,
+  "veri_kapsami": {
+    "gumus": [
+      "2000-08-30",
+      "2026-11-23"
+    ],
+    "altin": [
+      "2000-08-30",
+      "2026-11-23"
+    ],
+    "bakir": [
+      "2000-08-30",
+      "2026-11-23"
+    ],
+    "platin": [
+      "1997-10-29",
+      "2026-11-23"
+    ],
+    "petrol": [
+      "2000-08-23",
+      "2026-11-23"
+    ],
+    "nasdaq": [
+      "1990-01-02",
+      "2026-11-20"
+    ],
+    "sp500": [
+      "1990-01-02",
+      "2026-11-20"
+    ],
+    "bist_tl": [
+      "1997-07-01",
+      "2026-11-23"
+    ],
+    "usdtry": [
+      "2005-01-03",
+      "2026-11-23"
+    ],
+    "tur": [
+      "2008-03-28",
+      "2026-11-20"
+    ],
+    "eem": [
+      "2003-04-14",
+      "2026-11-20"
+    ],
+    "tlt": [
+      "2002-07-30",
+      "2026-11-20"
+    ],
+    "dxy": [
+      "1990-01-01",
+      "2026-11-23"
+    ],
+    "btc": [
+      "2014-09-17",
+      "2026-11-23"
+    ],
+    "bist_usd": [
+      "2005-01-03",
+      "2026-11-23"
+    ]
+  },
+  "hatali": {},
+  "veri_duzeltmeleri": {
+    "petrol": [
+      "1 adet <=0 fiyat atildi"
+    ]
+  },
+  "kurallar": {
+    "parabolik": "12A getiri >= 80% ve MA200 sapma >= 40%; teyit = tepeden -25%; olaylar arasi >= 252 is gunu",
+    "ortak_dusus": "gumus+altin+nasdaq ayni takvim ceyreginde < 0 (genis) / <= -5% (sert)"
+  },
+  "A_analog": {
+    "zirve_2011": {
+      "tarih": "2011-04-29",
+      "fiyat": 48.58399963378906
+    },
+    "zirve_2026": {
+      "tarih": "2026-01-26",
+      "fiyat": 115.08000183105469
+    },
+    "son_tarih": "2026-11-23",
+    "son_fiyat": 42.404998779296875,
+    "zirveden_is_gunu": 215,
+    "dusus_2026_simdi": -0.631517221892729,
+    "dusus_2011_ayni_gun": -0.272764675639235,
+    "en_derin_2026": -0.6434219743265708,
+    "en_derin_2011_ayni_surede": -0.4403095743374452,
+    "korelasyon_zirve_oncesi": 0.9376635820999555,
+    "korelasyon_zirve_sonrasi": 0.5814681228847239,
+    "rmse_zirve_sonrasi_puan": 15.12417270270863,
+    "projeksiyon_2011_tekrarlarsa": {
+      "3A": {
+        "degisim": -0.22144235112834376,
+        "fiyat": 33.014736150014826
+      },
+      "6A": {
+        "degisim": -0.19093173752050296,
+        "fiyat": 34.30853868281091
+      },
+      "12A": {
+        "degisim": -0.12249521489360049,
+        "fiyat": 37.21058934126404
+      },
+      "24A": {
+        "degisim": -0.45910223975801523,
+        "fiyat": 22.93676886278578
+      },
+      "2011_kalan_dip": {
+        "ek_dusus": -0.6132118169670889,
+        "is_gunu_sonra": 991,
+        "fiyat": 16.401752429357053
+      }
+    }
+  },
+  "B_parabolik": {
+    "ozet": [
+      {
+        "ufuk": "1A",
+        "n": 21,
+        "ortalama": 0.08398875948546661,
+        "medyan": 0.05115752903647364,
+        "pozitif_oran": 0.6666666666666666,
+        "baz_ortalama": 0.01973398831546865,
+        "fark": 0.06425477116999796,
+        "rastgele_setlerin_yuzde_kaci_daha_dusuk": 0.9755
+      },
+      {
+        "ufuk": "3A",
+        "n": 21,
+        "ortalama": 0.28741681004465436,
+        "medyan": 0.09563344450297695,
+        "pozitif_oran": 0.6190476190476191,
+        "baz_ortalama": 0.06742707750308467,
+        "fark": 0.21998973254156967,
+        "rastgele_setlerin_yuzde_kaci_daha_dusuk": 0.9945
+      },
+      {
+        "ufuk": "6A",
+        "n": 21,
+        "ortalama": 0.19957604781736485,
+        "medyan": 0.08103327969249108,
+        "pozitif_oran": 0.5238095238095238,
+        "baz_ortalama": 0.15521488233478634,
+        "fark": 0.04436116548257851,
+        "rastgele_setlerin_yuzde_kaci_daha_dusuk": 0.672
+      },
+      {
+        "ufuk": "12A",
+        "n": 18,
+        "ortalama": 0.3764430830273354,
+        "medyan": 0.08535784788416811,
+        "pozitif_oran": 0.6111111111111112,
+        "baz_ortalama": 0.44520036577072664,
+        "fark": -0.06875728274339121,
+        "rastgele_setlerin_yuzde_kaci_daha_dusuk": 0.497
+      },
+      {
+        "ufuk": "24A",
+        "n": 18,
+        "ortalama": 0.939448476392916,
+        "medyan": 0.18141744351513645,
+        "pozitif_oran": 0.6666666666666666,
+        "baz_ortalama": 1.2170953840002718,
+        "fark": -0.2776469076073559,
+        "rastgele_setlerin_yuzde_kaci_daha_dusuk": 0.4585
+      }
+    ],
+    "olay_sayisi": 21
+  },
+  "C_ortak_dusus": {
+    "son_ceyrek": "2026-12-31",
+    "son_ceyrek_tamamlanmadi": true,
+    "kosullar": {
+      "genis": {
+        "ceyrek_sayisi": 10,
+        "ceyrekler": [
+          "2000-Ç4",
+          "2001-Ç1",
+          "2008-Ç3",
+          "2012-Ç2",
+          "2012-Ç4",
+          "2015-Ç3",
+          "2021-Ç3",
+          "2022-Ç2",
+          "2022-Ç3",
+          "2023-Ç3"
+        ],
+        "simdiki_ceyrek_su_ana_kadar_ortak_dusus": true
+      },
+      "sert": {
+        "ceyrek_sayisi": 3,
+        "ceyrekler": [
+          "2001-Ç1",
+          "2008-Ç3",
+          "2022-Ç2"
+        ],
+        "simdiki_ceyrek_su_ana_kadar_ortak_dusus": true
+      }
+    }
+  },
+  "D_gumus_ayi": {
+    "pencereler": {
+      "2011 zirvesi + aynı süre": [
+        "2011-04-29",
+        "2012-02-24"
+      ],
+      "2026 zirvesi → bugün": [
+        "2026-01-26",
+        "2026-11-23"
+      ],
+      "2011 zirvesi → 2015 dibi": [
+        "2011-04-29",
+        "2015-12-14"
+      ]
+    }
+  }
+}
