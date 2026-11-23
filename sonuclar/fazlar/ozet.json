@@ -1,0 +1,42 @@
+{
+  "uretim_zamani_utc": "2026-11-23T11:19:37+00:00",
+  "demo": false,
+  "hatali": {},
+  "veri_duzeltmeleri": {
+    "petrol": [
+      "1 adet <=0 fiyat atildi"
+    ]
+  },
+  "kural": "zigzag esigi %25, haftalik (Cuma) kapanis; son faz teyitsiz",
+  "dongu_2011": {
+    "zirve_tarih": "2011-04-29",
+    "zirve": 48.58399963378906,
+    "dip_tarih": "2015-12-14",
+    "dip": 13.666000366210938,
+    "dusus": -0.71871397025315,
+    "dibe_yil": 4.6,
+    "dipten_12a": 0.25508561156300424,
+    "zirveyi_geri_alma_tarih": "2025-10-08",
+    "zirveyi_geri_alma_yil": 14.4
+  },
+  "hizalama": {
+    "bugun_dusus": -0.631082715019578,
+    "zirveden_is_gunu": 215,
+    "zaman": {
+      "2011_tarih": "2012-02-24",
+      "2011_dusus": -0.272764675639235,
+      "zirveden_ay": 10.2,
+      "kalan_dip_ek_dusus": -0.6132118169670889,
+      "kalan_dibe_ay": 47.2,
+      "zirveye_donus_yil": 14.1
+    },
+    "derinlik": {
+      "2011_tarih": "2014-09-19",
+      "2011_dusus": -0.6340153080982073,
+      "zirveden_ay": 42.1,
+      "kalan_dip_ek_dusus": -0.23142678923213134,
+      "kalan_dibe_ay": 15.3,
+      "zirveye_donus_yil": 11.4
+    }
+  }
+}
