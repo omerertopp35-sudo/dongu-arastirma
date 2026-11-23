@@ -7,9 +7,10 @@ geçmişin kaydıdır, tahmin değildir. Yatırım tavsiyesi değildir.
 |---|---|---|
 | `dongu_backtest.py` | A) gümüş 2011↔2026 zirveye hizalı analog · B) parabolik tepe olay çalışması (çoklu varlık, rastgele gün kıyası) · C) gümüş+altın+Nasdaq aynı çeyrekte düşünce diğer varlıklar ve sonraki 4 çeyrekte toparlanma sırası · D) gümüş zirvesinden sonra varlık getirileri | `sonuclar/backtest/` |
 | `dongu_fazlari.py` | backtest #2: gümüşün tepe/dip faz haritası (zigzag ±%25), 2011 döngüsünün tamamı, bugünü 2011'e zaman ve derinlikle hizalama | `sonuclar/fazlar/` |
+| `dongu_1980.py` | backtest #3: 1980 · 2011 · 2026 gümüş tepeleri aynı ölçekte (Dünya Bankası aylık ortalama, 1960→), 1980 faz haritası, bugünü 1980 ve 2011'e hizalama | `sonuclar/dongu_1980/` |
 | `cot_grafik.py` | altın, gümüş, Nasdaq 100, S&P 500, Dow: fonların uzun / kısa / net pozisyonu (üst panel) + ürünün fiyatı (alt panel), belirgin artırma/azaltma haftaları işaretli | `sonuclar/cot/` |
 
-Veri: Yahoo (yfinance) ve CFTC Socrata. Gizli anahtar gerekmez.
+Veri: Yahoo (yfinance), CFTC Socrata ve Dünya Bankası Pink Sheet (aylık emtia fiyatları). Gizli anahtar gerekmez.
 
 **Çalıştırma:** GitHub Actions (`.github/workflows/kos.yml`) — `main`'e script push'u
 ya da Actions → kos → Run workflow. Sonuçlar `sonuclar/` altına commit edilir.

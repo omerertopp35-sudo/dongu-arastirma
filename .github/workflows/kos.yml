@@ -41,7 +41,7 @@ jobs:
         continue-on-error: true
         run: |
           set -o pipefail
-          { python cot_grafik.py --demo && python dongu_backtest.py --demo && python dongu_fazlari.py --demo; } 2>&1 | tee sonuclar/log_kuru_test.txt
+          { python cot_grafik.py --demo && python dongu_backtest.py --demo && python dongu_fazlari.py --demo && python dongu_1980.py --demo; } 2>&1 | tee sonuclar/log_kuru_test.txt
 
       - name: COT grafikleri
         if: always()
@@ -63,6 +63,13 @@ jobs:
         run: |
           set -o pipefail
           python dongu_fazlari.py 2>&1 | tee sonuclar/log_fazlar.txt
+
+      - name: 1980 dongusu (backtest 3)
+        if: always()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python dongu_1980.py 2>&1 | tee sonuclar/log_1980.txt
 
       - name: Sonuclari yaz
         if: always()
