@@ -1,0 +1,38 @@
+{
+  "bugun_ay": 10,
+  "bugun_dusus": -0.4725948628120658,
+  "donguler": {
+    "1980": {
+      "ayni_takvim_ayi_rmse_puan": 28.3,
+      "en_iyi_hiz_katsayisi": 0.26,
+      "esnetilmis_rmse_puan": 8.3,
+      "kararlilik": {
+        "k=4": 0.36,
+        "k=6": 0.34,
+        "k=8": 0.28
+      },
+      "esdeger_ay_bugun": 2.6,
+      "dip_ay": 29,
+      "dip_2026_eslemesi": "2035-05",
+      "zirveyi_geri_alma_ay": 375,
+      "zirveyi_geri_alma_2026_eslemesi": "2146-03"
+    },
+    "2011": {
+      "ayni_takvim_ayi_rmse_puan": 12.0,
+      "en_iyi_hiz_katsayisi": 2.57,
+      "esnetilmis_rmse_puan": 4.9,
+      "kararlilik": {
+        "k=4": 0.67,
+        "k=6": 2.5,
+        "k=8": 2.5
+      },
+      "esdeger_ay_bugun": 25.7,
+      "dip_ay": 56,
+      "dip_2026_eslemesi": "2027-11",
+      "zirveyi_geri_alma_ay": 173,
+      "zirveyi_geri_alma_2026_eslemesi": "2031-08"
+    }
+  },
+  "uretim_zamani_utc": "2026-11-23T15:26:34+00:00",
+  "uyari": "Hiz katsayisi tek donguden ve 10 aylik veriden uydurulmustur; esleme tarihleri senaryodur, tahmin degildir."
+}

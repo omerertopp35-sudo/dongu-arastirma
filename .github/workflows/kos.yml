@@ -71,6 +71,13 @@ jobs:
           set -o pipefail
           python dongu_1980.py 2>&1 | tee sonuclar/log_1980.txt
 
+      - name: Zamanlama (backtest 4, dongu_1980 ciktisini okur)
+        if: always()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python dongu_zamanlama.py 2>&1 | tee sonuclar/log_zamanlama.txt
+
       - name: Sonuclari yaz
         if: always()
         run: |
