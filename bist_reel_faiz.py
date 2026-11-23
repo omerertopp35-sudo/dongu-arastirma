@@ -246,7 +246,7 @@ def grafik_rejim(df: pd.DataFrame, olaylar: list, ozet: dict, yol) -> None:
     plt = _plt()
     from matplotlib.lines import Line2D
     from matplotlib.patches import Patch
-    from matplotlib.ticker import FuncFormatter, NullFormatter
+    from matplotlib.ticker import FuncFormatter, LogLocator, NullFormatter
     fig, ax = plt.subplots(3, 1, figsize=(11, 10), sharex=True, gridspec_kw={"height_ratios": [1.5, 2, 1.6], "hspace": 0.1})
     r = df["reel"] * 100
     ax[0].fill_between(r.index, 0, r, where=r > 0, color=RENK["poz"], alpha=0.35, lw=0, step="mid")
@@ -271,6 +271,7 @@ def grafik_rejim(df: pd.DataFrame, olaylar: list, ozet: dict, yol) -> None:
     ax[1].plot(df.index, df["usd"], color=RENK["murekkep"], lw=1.6)
     ax[1].set_yscale("log")
     ax[1].yaxis.set_major_formatter(FuncFormatter(lambda v, _p: f"{v:,.0f}".replace(",", ".") if v >= 1 else f"{v:.2g}"))
+    ax[1].yaxis.set_major_locator(LogLocator(base=10, subs=(1, 2, 5)))
     ax[1].yaxis.set_minor_formatter(NullFormatter())
     ax[1].set_ylabel("BIST100 ($, log)")
     if "eem" in df:
@@ -281,6 +282,7 @@ def grafik_rejim(df: pd.DataFrame, olaylar: list, ozet: dict, yol) -> None:
         ax[2].axhline(100, color=RENK["ikincil"], lw=0.8)
         ax[2].set_yscale("log")
         ax[2].yaxis.set_major_formatter(FuncFormatter(lambda v, _p: f"{v:,.0f}".replace(",", ".")))
+        ax[2].yaxis.set_major_locator(LogLocator(base=10, subs=(1, 2, 3, 5, 7)))
         ax[2].yaxis.set_minor_formatter(NullFormatter())
         ax[2].set_ylabel(f"BIST $ / EEM\n({rel.index[0]:%Y-%m} = 100, log)")
     a = ozet["A_rejim"]["politika"]
@@ -326,7 +328,7 @@ def grafik_karsilastirma(ozet: dict, simdi: str, yol) -> None:
     ax.legend(frameon=False, fontsize=9, loc="upper left")
     ax.set_title("Reel faiz rejimine göre BIST: solda işaret, sağda işaret × faizin son 6 aylık yönü",
                  loc="left", fontweight="bold", fontsize=11)
-    ax.text(1.0, -0.2, f"Kalın etiket: şu anki rejim ({simdi}). Sinyal ayından {BILGI_GECIKME_AY} ay sonra başlayan aylık getiriler. "
+    ax.text(1.0, -0.2, f"Kalın etiket: EVDS'teki son politika faizi ayına ({ozet['simdi']['ay']}) göre rejim. Sinyal ayından {BILGI_GECIKME_AY} ay sonra başlayan aylık getiriler. "
             f"Fark testi: dairesel kaydırma, p(BIST $)={A['test_usd']['p']:.2f}, p(EEM farkı)={A['test_fazla']['p']:.2f}.",
             transform=ax.transAxes, ha="right", fontsize=8, color="#777777")
     fig.savefig(yol, dpi=160, bbox_inches="tight")
@@ -366,7 +368,7 @@ def grafik_olaylar(df: pd.DataFrame, olaylar: list, yol) -> pd.DataFrame:
         if son:
             y = yollar[son].dropna()
             ax.plot(y.index, y * 100, color=RENK["simdi"], lw=2.2, label=f"şimdiki ({son})")
-            ax.annotate(f"{y.iloc[-1] * 100:+.0f}%", xy=(y.index[-1], y.iloc[-1] * 100), xytext=(4, 0),
+            ax.annotate(f"{y.iloc[-1] * 100:+.0f}%", xy=(y.index[-1], y.iloc[-1] * 100), xytext=(-4, -11), ha="right",
                         textcoords="offset points", fontsize=8.5, color=RENK["murekkep"], fontweight="bold", va="center")
         ax.axvline(0, color=RENK["ikincil"], lw=0.9)
         ax.axhline(0, color=RENK["ikincil"], lw=0.8)
