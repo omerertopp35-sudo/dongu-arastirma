@@ -1,4 +1,4 @@
-# Backtest #3 — 1980 · 2011 · 2026 (2026-11-23T16:18:36+00:00)
+# Backtest #3 — 1980 · 2011 · 2026 (2026-11-23T16:21:10+00:00)
 Kaynak: https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx · son ay 2026-11 · aylık ortalama
 
 | döngü | zirve | 5 yıl içindeki dip | düşüş | dibe (ay) | dipten 12 ay | tam döngü dibi | zirveyi geri alma |

@@ -1,4 +1,4 @@
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 114.7 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 50.2 MB/s  0:00:00
 Downloading platformdirs-4.14.8-py3-none-any.whl (94 kB)
 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
 Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)

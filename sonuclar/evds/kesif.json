@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-23T16:18:37+00:00",
+  "uretim_zamani_utc": "2026-11-23T16:21:11+00:00",
   "calisan_yontem": {
     "taban": "https://evds3.tcmb.gov.tr/igmevdsms-dis/",
     "anahtar_iletimi": "header"
@@ -832,883 +832,372 @@
       "bitis": "01-01-2026"
     }
   ],
-  "seri_listeleri": {
-    "bie_bisttlref": [
+  "seri_listeleri": {},
+  "ek_gruplar": {
+    "bie_tukfiy2003": [
       {
-        "kod": "TP.BISTTLREF.ORAN",
-        "ad": "BIST TLREF -Türk Lirası Gecelik Referans Faiz Oranı (ISIN:TRIXIST00015)",
+        "kod": "TP.GENENDEKS.T1",
+        "ad": "Genel Endeks (2003=100)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2003",
+        "bitis": "01-10-2026"
+      }
+    ],
+    "bie_tukfiy2025": [
+      {
+        "kod": "TP.TUKFIY2025.GENEL",
+        "ad": "Genel Endeks",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.01",
+        "ad": "01. Gıda Ve Alkolsüz İçecekler",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.011",
+        "ad": "011. Gıda",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.0111",
+        "ad": "0111. Tahıllar Ve Tahıl Ürünleri",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.01111",
+        "ad": "01111. Tahıllar",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.01112",
+        "ad": "01112. Tahıl Unları",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.01113",
+        "ad": "01113. Ekmek Ve Unlu Mamuller",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      },
+      {
+        "kod": "TP.TUKFIY2025.01114",
+        "ad": "01114. Kahvaltılık Tahıl Ürünleri",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-2005",
+        "bitis": "01-10-2026"
+      }
+    ],
+    "bie_tukfiy1": [
+      {
+        "kod": "TP.FG.F01",
+        "ad": "GENEL ENDEKS (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1982",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.F02",
+        "ad": "1- GIDALAR GENEL ENDEKSİ (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1982",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.F03",
+        "ad": "1.1- EKMEK VE TAHILLAR (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1985",
+        "bitis": "01-12-1990"
+      },
+      {
+        "kod": "TP.FG.F04",
+        "ad": "1.2- ET, BALIK VE KÜMES HAYVANLARI (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1985",
+        "bitis": "01-12-1990"
+      },
+      {
+        "kod": "TP.FG.F05",
+        "ad": "1.3- YAĞLAR, SÜT VE SÜT ÜRÜNLERİ, YUMURTA (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1985",
+        "bitis": "01-12-1990"
+      },
+      {
+        "kod": "TP.FG.F06",
+        "ad": "1.4- YAŞ VE KURU SEBZE VE MEYVELER (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1985",
+        "bitis": "01-12-1990"
+      },
+      {
+        "kod": "TP.FG.F07",
+        "ad": "1.5- ÇEŞİTLİ HAZIR YİYECEKLER (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1985",
+        "bitis": "01-12-1990"
+      },
+      {
+        "kod": "TP.FG.F08",
+        "ad": "1.6- TÜTÜN, ALKOLLÜ VE ALKOLSÜZ İÇKİLER (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1985",
+        "bitis": "01-12-1990"
+      }
+    ],
+    "bie_fgtukfiy2": [
+      {
+        "kod": "TP.FG.A01",
+        "ad": "Genel Endeks (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A02",
+        "ad": "Gıdalar Genel Endeksi (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A03",
+        "ad": "Giyim Eşyasi genel endeksi (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A04",
+        "ad": "Ev Eşyası (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A05",
+        "ad": "Sağlık ve Kişisel Bakım (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A06",
+        "ad": "Ulaşım ve Haberleşme (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A07",
+        "ad": "Kültür ve Eğlence (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.A08",
+        "ad": "Konut ile ilgili harcamalar (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1987",
+        "bitis": "01-12-2004"
+      }
+    ],
+    "bie_fgtukfiy3": [
+      {
+        "kod": "TP.FG.T01",
+        "ad": "1.GENEL (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T02",
+        "ad": "2.Gıda, İçki ve Tütün (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T03",
+        "ad": "2.1.Gıda (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T04",
+        "ad": "2.2.İçecekler (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T05",
+        "ad": "2.3. Sigara ve Tütün (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T06",
+        "ad": "3.GİYİM VE AYAKKABI (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T07",
+        "ad": "3.1.Giyim (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      },
+      {
+        "kod": "TP.FG.T08",
+        "ad": "3.2.Ayakkabı (Arşiv)",
+        "frekans": "AYLIK",
+        "baslangic": "01-01-1994",
+        "bitis": "01-12-2004"
+      }
+    ],
+    "bie_bispolfaiz": [
+      {
+        "kod": "TP.BISPOLFAIZ.TUR",
+        "ad": "Türkiye (TUR) Merkez Bankası Politika Faiz Oranı",
+        "frekans": "AYLIK",
+        "baslangic": "01-02-2002",
+        "bitis": "01-09-2026"
+      }
+    ],
+    "bie_mkbrgn": [
+      {
+        "kod": "TP.MK.F.BILESIK",
+        "ad": "(FİYAT) BİST 100 Endeks (XU100), Kapanış Fiyatlarına Göre (Ocak 1986=0,01)",
         "frekans": "İŞ GÜNÜ",
-        "baslangic": "28-12-2018",
+        "baslangic": "01-02-1986",
         "bitis": "20-11-2026"
       },
       {
-        "kod": "TP.BISTTLREF.KAPANIS",
-        "ad": "BIST TLREF Endeksi - Kapanış Değeri (Endeks Kodu: BISTTLREF - TL)",
+        "kod": "TP.MK.F.BILESIK.TUM",
+        "ad": "(FİYAT) BİST Tüm-100 Endeksi (XTUMY), Kapanış Fiyatlarına Göre",
         "frekans": "İŞ GÜNÜ",
-        "baslangic": "14-06-2019",
+        "baslangic": "02-01-2009",
         "bitis": "20-11-2026"
       },
       {
-        "kod": "TP.BISTTLREF.DUSUK",
-        "ad": "BIST TLREF Endeksi - En Düşük Değer (Endeks Kodu: BISTTLREF - TL)",
+        "kod": "TP.MK.F.HIZMET",
+        "ad": "(FİYAT) BİST Hizmet Endeksi (XUHIZ), Kapanış Fiyatlarına Göre (27-12-1996=10,46)",
         "frekans": "İŞ GÜNÜ",
-        "baslangic": "14-06-2019",
+        "baslangic": "02-01-1997",
         "bitis": "20-11-2026"
       },
       {
-        "kod": "TP.BISTTLREF.YUKSEK",
-        "ad": "BIST TLREF Endeksi - En Yüksek Değer (Endeks Kodu: BISTTLREF - TL)",
+        "kod": "TP.MK.F.MALI",
+        "ad": "(FİYAT) BİST Mali Endeks (XUMAL), Kapanış Fiyatlarına Göre (31-12-1990=0,33)",
         "frekans": "İŞ GÜNÜ",
-        "baslangic": "14-06-2019",
+        "baslangic": "02-01-1991",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.MK.F.SINAI",
+        "ad": "(FİYAT) BİST Sınai Endeks (XUSIN), Kapanış Fiyatlarına Göre (31-12-1990=0,33)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "02-01-1991",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.MK.F.TEKNOLOJI",
+        "ad": "(FİYAT) BİST Teknoloji Endeksi (XUTEK), Kapanış Fiyatlarına Göre (30-06-2000=144,6612)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "30-06-2000",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.MK.G.BILESIK",
+        "ad": "(GETİRİ) BİST 100 Endeks (XU100-CFNNTLTL), Kapanış Fiyatlarına Göre (27-12-1996=9,76)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "02-01-1997",
+        "bitis": "20-11-2026"
+      },
+      {
+        "kod": "TP.MK.G.BILESIK.TUM",
+        "ad": "(GETİRİ) BİST Tüm-100 Endeksi (XTUMY-CFNNTLTL), Kapanış Fiyatlarına Göre",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "02-01-2009",
         "bitis": "20-11-2026"
       }
     ],
-    "bie_imfcpind": [
+    "bie_apifon": [
       {
-        "kod": "TP.IMFCPIND.DEU",
-        "ad": "Almanya (DEU) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.USA",
-        "ad": "Amerika Birleşik Devletleri (USA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ARG",
-        "ad": "Arjantin (ARG) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": null,
-        "bitis": null
-      },
-      {
-        "kod": "TP.IMFCPIND.ALB",
-        "ad": "Arnavutluk (ALB) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.AUT",
-        "ad": "Avusturya (AUT) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.AZE",
-        "ad": "Azerbaycan (AZE) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BHS",
-        "ad": "Bahamalar (BHS) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-07-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BLR",
-        "ad": "Belarus (BLR) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BEL",
-        "ad": "Belçika (BEL) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.GBR",
-        "ad": "Birleşik Krallık (GBR) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BOL",
-        "ad": "Bolivya (BOL) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-06-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BIH",
-        "ad": "Bosna-Hersek (BIH) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BWA",
-        "ad": "Botsvana (BWA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BRA",
-        "ad": "Brezilya (BRA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BRN",
-        "ad": "Brunei (BRN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.BGR",
-        "ad": "Bulgaristan (BGR) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.DZA",
-        "ad": "Cezayir (DZA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CZE",
-        "ad": "Çekya (CZE) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CHN",
-        "ad": "Çin Halk Cumhuriyeti (CHN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.DNK",
-        "ad": "Danimarka (DNK) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.DOM",
-        "ad": "Dominik Cumhuriyeti (DOM) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ECU",
-        "ad": "Ekvador (ECU) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-07-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.SLV",
-        "ad": "El Salvador (SLV) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.IDN",
-        "ad": "Endonezya (IDN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ARM",
-        "ad": "Ermenistan (ARM) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.EST",
-        "ad": "Estonya (EST) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.PHL",
-        "ad": "Filipinler (PHL) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.FIN",
-        "ad": "Finlandiya (FIN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.FRA",
-        "ad": "Fransa (FRA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.GMB",
-        "ad": "Gambiya (GMB) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2025"
-      },
-      {
-        "kod": "TP.IMFCPIND.GHA",
-        "ad": "Gana (GHA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.GTM",
-        "ad": "Guatemala (GTM) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ZAF",
-        "ad": "Güney Afrika (ZAF) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CYP",
-        "ad": "Güney Kıbrıs Rum Yönetimi (CYP) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.KOR",
-        "ad": "Güney Kore (KOR) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.GEO",
-        "ad": "Gürcistan(Geo) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.HRV",
-        "ad": "Hırvatistan (HRV) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.IND",
-        "ad": "Hindistan (IND) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-07-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.NLD",
-        "ad": "Hollanda (NLD) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.IRN",
-        "ad": "İran (IRN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.IRL",
-        "ad": "İrlanda (IRL) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ESP",
-        "ad": "İspanya (ESP) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ISR",
-        "ad": "İsrail (ISR) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.SWE",
-        "ad": "İsveç (SWE) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CHE",
-        "ad": "İsviçre (CHE) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-10-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ITA",
-        "ad": "İtalya (ITA) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.ISL",
-        "ad": "İzlanda (ISL) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.JAM",
-        "ad": "Jamaika (JAM) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.JPN",
-        "ad": "Japonya (JPN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CMR",
-        "ad": "Kamerun (CMR) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-02-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CAN",
-        "ad": "Kanada (CAN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.MNE",
-        "ad": "Karadağ (MNE) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.QAT",
-        "ad": "Katar (QAT) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2025"
-      },
-      {
-        "kod": "TP.IMFCPIND.KAZ",
-        "ad": "Kazakistan (KAZ) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.KEN",
-        "ad": "Kenya (KEN) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.KGZ",
-        "ad": "Kırgızistan (KGZ) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-06-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.COL",
-        "ad": "Kolombiya (COL) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.CRI",
-        "ad": "Kosta Rika (CRI) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-09-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.MKD",
-        "ad": "Kuzey Makedonya (MKD) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2026"
-      },
-      {
-        "kod": "TP.IMFCPIND.LSO",
-        "ad": "Lesoto (LSO) Tüketici Fiyat Endeksi (2010=100)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2010",
-        "bitis": "01-08-2026"
-      }
-    ],
-    "bie_tukfiy4": [
-      {
-        "kod": "TP.FG.J0",
-        "ad": "GENEL (Tüketici) (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-01-2026"
-      },
-      {
-        "kod": "TP.FG.J01",
-        "ad": "1.GIDA VE ALKOLSÜZ İÇECEKLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J011",
-        "ad": "1.1.GIDA (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J012",
-        "ad": "1.2.ALKOLSÜZ İÇECEKLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J02",
-        "ad": "2.ALKOLLÜ İÇECEKLER VE TÜTÜN (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J021",
-        "ad": "2.1.ALKOLLÜ İÇECEKLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J022",
-        "ad": "2.2.TÜTÜN (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J03",
-        "ad": "3.GİYİM VE AYAKKABI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J031",
-        "ad": "3.1.GİYİM (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J032",
-        "ad": "3.2.AYAKKABI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J04",
-        "ad": "4.KONUT, SU, ELEKTRİK, GAZ VE DİĞER YAKITLAR (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J041",
-        "ad": "4.1.GERÇEK KİRA (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J043",
-        "ad": "4.3.KONUTUN BAKIM VE ONARIMI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J044",
-        "ad": "4.4.SU (SEBEKE SUYU) VE KONUTLA İLGİLİ ÇESİTLİ HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J045",
-        "ad": "4.5.ELEKTRIK, GAZ VE DİĞER YAKITLAR (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J05",
-        "ad": "5.MOBİLYA, EV ALETLERİ VE EV BAKIM HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J051",
-        "ad": "5.1.MOBİLYA, MEFRUŞAT, HALI VE DİĞER YER DÖŞEMELERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J052",
-        "ad": "5.2.EV İÇİ TEKSTİL (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J053",
-        "ad": "5.3.EV ALETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J054",
-        "ad": "5.4.ZUCCACİYE, YEMEK TAKIMI VE HANEHALKI ALETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J055",
-        "ad": "5.5.EV VE BAHÇE ARAÇ GERECLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J056",
-        "ad": "5.6.EV BAKIM İÇİN MAL VE HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J06",
-        "ad": "6.SAĞLIK (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J061",
-        "ad": "6.1.TIBBİ ÜRÜNLER, ALETLER VE MALZEMELER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J062",
-        "ad": "6.2.AYAKTA TEDAVİ HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J063",
-        "ad": "6.3.YATAKLI TEDAVİ HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J07",
-        "ad": "7.ULAŞTIRMA (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J071",
-        "ad": "7.1.ARAÇ SATIN ALIMI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J072",
-        "ad": "7.2.KİŞİSEL ULAŞTIRMA ARAÇLARININ İŞLETİMİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J073",
-        "ad": "7.3.ULAŞTIRMA HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J08",
-        "ad": "8.HABERLEŞME (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J081",
-        "ad": "8.1.POSTA HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J082",
-        "ad": "8.2.TELEFON VE TELEFAKS EKİPMANI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J083",
-        "ad": "8.3.TELEFON VE TELEFAKS HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J09",
-        "ad": "9.EĞLENCE VE KÜLTÜR (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J091",
-        "ad": "9.1.GÖRSEL-İŞİTSEL SİSTEMLE (AUDIO-VISUAL), FOTOGRAFLA VE VERİ İŞLEMLE İLE İLGİLİ EKİPMAN (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J092",
-        "ad": "9.2.DİĞER TEMEL DAYANIKLI EĞLENCE VE KÜLTÜR ARACLARI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J093",
-        "ad": "9.3.DİĞER EĞLENCE ARAÇLARI VE MALZEMELERİ, BAHÇE VE EVCİL HAYVANLARA İLİŞKİN ÜRÜNLER, HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J094",
-        "ad": "9.4.EĞLENCE VE KÜLTÜR HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J095",
-        "ad": "9.5.GAZETE, KİTAP VE KIRTASİYE (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J096",
-        "ad": "9.6.PAKET TURLAR (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J10",
-        "ad": "10.EĞİTİM (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J101",
-        "ad": "10.1.OKUL ÖNCESİ EĞİTİM VE İLKÖĞRETİM (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J102",
-        "ad": "10.2.ORTA ÖĞRETİM (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J103",
-        "ad": "10.3.ORTA ÖĞRETİM SONRASI VE ÜNİVERSİTE ÖNCESİ EĞİTİM (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2015"
-      },
-      {
-        "kod": "TP.FG.J104",
-        "ad": "10.4.ÜNİVERSİTE EĞİTİMİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J105",
-        "ad": "10.5.DÜZEYİ BELİRLENEMEYEN EĞİTİM PROGRAMLARI (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J11",
-        "ad": "11.LOKANTA VE OTELLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J111",
-        "ad": "11.1.YEMEK HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J112",
-        "ad": "11.2.KONAKLAMA HİZMETLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J12",
-        "ad": "12.ÇEŞİTLİ MAL VE HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J121",
-        "ad": "12.1.KİŞİSEL BAKIM (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J123",
-        "ad": "12.3.BAŞKA YERDE SINIFLANDIRILAMAYAN KİŞİSEL BAKIM ÜRÜNLERİ (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J124",
-        "ad": "12.4.SOSYAL HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J125",
-        "ad": "12.5.SİGORTA (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J126",
-        "ad": "12.6.BAŞKA YERDE SINIFLANDIRILMAYAN MALİ HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      },
-      {
-        "kod": "TP.FG.J127",
-        "ad": "12.7.BAŞKA YERDE SINIFLANDIRILMAYAN DİĞER HİZMETLER (Arşiv) (Arşiv)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2003",
-        "bitis": "01-12-2025"
-      }
-    ],
-    "bie_onrepofbap": [
-      {
-        "kod": "TP.AOFOBAP",
-        "ad": "Ağırlıklı Ortalama Faiz Oranı",
+        "kod": "TP.APIFON1.TOP",
+        "ad": "A.Toplam Fonlama (A1+A2)",
         "frekans": "İŞ GÜNÜ",
-        "baslangic": "27-12-2018",
-        "bitis": "20-11-2026"
+        "baslangic": "03-01-2011",
+        "bitis": "23-11-2026"
       },
       {
-        "kod": "TP.IHBAP",
-        "ad": "İşlem Hacmi",
+        "kod": "TP.APIFON1.IHA",
+        "ad": "A1.İhale Yoluyla Fonlama",
         "frekans": "İŞ GÜNÜ",
-        "baslangic": "27-12-2018",
-        "bitis": "20-11-2026"
-      }
-    ],
-    "bie_uraltin": [
+        "baslangic": "03-01-2011",
+        "bitis": "23-11-2026"
+      },
       {
-        "kod": "TP.URALTIN.ALTINKG",
-        "ad": "Maden Firmalarının Altın Üretim Bildirimleri (BIST) (Kg)",
-        "frekans": "AYLIK",
-        "baslangic": "01-01-2008",
-        "bitis": "01-09-2026"
+        "kod": "TP.APIFON1.KOT.T",
+        "ad": "A2.Toplam Kotasyon Yoluyla Fonlama",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "08-04-2011",
+        "bitis": "23-11-2026"
+      },
+      {
+        "kod": "TP.APIFON1.KOT.A",
+        "ad": "A2a.BİST O/N Repo, Kotasyon Repo, Piyasa Yapıcı Repo",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "08-04-2011",
+        "bitis": "23-11-2026"
+      },
+      {
+        "kod": "TP.APIFON1.KOT.B",
+        "ad": "A2b.TL Depo",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "26-10-2011",
+        "bitis": "23-11-2026"
+      },
+      {
+        "kod": "TP.APIFON1.KOT.C",
+        "ad": "A2c.GLP Depo, GLP Repo",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "31-03-2015",
+        "bitis": "23-11-2026"
+      },
+      {
+        "kod": "TP.APIFON2.TOP",
+        "ad": "B.Toplam Sterilizasyon (B1+B2+B3)",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "03-01-2011",
+        "bitis": "23-11-2026"
+      },
+      {
+        "kod": "TP.APIFON2.IHA",
+        "ad": "B1.İhale Yoluyla Sterilizasyon",
+        "frekans": "İŞ GÜNÜ",
+        "baslangic": "08-01-2018",
+        "bitis": "23-11-2026"
       }
     ]
   },
