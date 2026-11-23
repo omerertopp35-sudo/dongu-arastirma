@@ -1,4 +1,4 @@
-# BIST döngü çalışması — adım 1-3 (2026-11-23T16:44:57+00:00)
+# BIST döngü çalışması — adım 1-3 (2026-11-23T16:47:47+00:00)
 
 Veri: BIST100 1986-02→2026-10 (TCMB EVDS), aylık. Ham veri yayımlanmaz.
 

@@ -1,4 +1,4 @@
-# BIST adım 4 — reel faiz rejimi (2026-11-23T16:45:04+00:00)
+# BIST adım 4 — reel faiz rejimi (2026-11-23T16:47:55+00:00)
 
 Veri 2002-02→2026-09 aylık (TCMB EVDS; EEM Yahoo). Ham veri yayımlanmaz.
 Kurallar: {"reel_faiz": "(1+i)/(1+yillik TUFE)-1", "bilgi_gecikmesi_ay": 1, "olay": ">= 6 ay r<=0 sonra ilk r>0, olaylar arasi >= 12 ay", "yon": "politika faizi 6 aylik degisim < 0 = indirim", "test": "dairesel kaydirma >= 24 ay, tum kaydirmalar; plasebo 2000 cekilis"}

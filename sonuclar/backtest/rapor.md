@@ -1,8 +1,8 @@
-# Döngü backtest #1 — 2026-11-23T16:44:13+00:00
+# Döngü backtest #1 — 2026-11-23T16:47:02+00:00
 
 ## A) Gümüş 2011 ↔ 2026
 - Zirve 2011: 2011-04-29 $48.58 · Zirve 2026: 2026-01-26 $115.08
-- Bugün (2026-11-23, zirveden 215 iş günü): -62.1% · 2011 aynı gün: -27.3%
+- Bugün (2026-11-23, zirveden 215 iş günü): -62.2% · 2011 aynı gün: -27.3%
 - Korelasyon (log): zirve öncesi 0.94, zirve sonrası 0.58
 
 ## B) Parabolik tepe olayları
@@ -63,8 +63,8 @@
 ## D) Gümüş zirvesinden sonra varlıklar
 | varlık | 2011 zirvesi + aynı süre | 2026 zirvesi → bugün | 2011 zirvesi → 2015 dibi |
 |---|---|---|---|
-| Gümüş | -27.3% | -62.1% | -71.9% |
-| Altın | +14.1% | -27.7% | -31.6% |
+| Gümüş | -27.3% | -62.2% | -71.9% |
+| Altın | +14.1% | -27.8% | -31.6% |
 | Bakır | -7.3% | -5.4% | -49.5% |
 | Platin | -8.5% | -53.4% | -54.6% |
 | Petrol (WTI) | -3.7% | +32.4% | -68.1% |
@@ -75,7 +75,7 @@
 | Gelişen Piy. (EEM) | -9.9% | -1.7% | -29.9% |
 | ABD 20Y Tahvil (TLT) | +29.1% | -4.2% | +49.0% |
 | Dolar Endeksi | +7.4% | +7.6% | +33.8% |
-| Bitcoin | — | -29.7% | — |
+| Bitcoin | — | -29.8% | — |
 | BIST100 ($) | -25.4% | -27.7% | -48.6% |
 
 Geçmişin kaydıdır, tahmin değildir. Yatırım tavsiyesi değildir.
