@@ -404,8 +404,12 @@ def hucre_analizi(df: pd.DataFrame, kolon: str, ileri: pd.DataFrame) -> dict:
     for k in HUCRELER:
         m = h == k
         out[k] = {"usd": rejim_ozeti(m, ileri["usd_1a"], ileri["usd_12a"])}
+        # SONRADAN EKLENDI (sonuclar goruldukten sonra, yalniz temkin icin): hucre vs geri kalan, dairesel kaydirma
+        mx = m.where(h.notna())
+        out[k]["test_usd"] = dairesel_test(mx, ileri["usd_1a"])
         if "fazla_1a" in ileri:
             out[k]["fazla"] = rejim_ozeti(m, ileri["fazla_1a"], ileri["fazla_12a"])
+            out[k]["test_fazla"] = dairesel_test(mx, ileri["fazla_1a"])
     return out
 
 
@@ -442,7 +446,10 @@ def kos(demo: bool = False) -> int:
                          "test": f"dairesel kaydirma >= {KAYDIRMA_ASGARI} ay, tum kaydirmalar; plasebo {PLASEBO_CEKILIS} cekilis"},
             "simdi": {"ay": f"{son:%Y-%m}", "reel_faiz": float(df.at[son, "reel"]), "politika": float(df.at[son, "politika"]),
                       "enflasyon": float(df.at[son, "enf"]), "hucre": simdi,
-                      "politika_6a_degisim": float(df["politika"].diff(YON_PENCERE_AY).at[son])},
+                      "politika_6a_degisim": float(df["politika"].diff(YON_PENCERE_AY).at[son]),
+                      "efektif_son": ({"ay": f"{df['efektif_faiz'].last_valid_index():%Y-%m}",
+                                       "faiz": float(df["efektif_faiz"].dropna().iloc[-1]),
+                                       "reel": float(df["reel_efektif"].dropna().iloc[-1])} if "reel_efektif" in df else None)},
             "A_rejim": A, "B_hucre": B,
             "C_olaylar": {k: v.to_dict(orient="records") for k, v in olay_tab.items()}, "C_plasebo": plas}
     (cikti / "ozet.json").write_text(json.dumps(_json_guvenli(ozet), ensure_ascii=False, indent=2), encoding="utf-8")
@@ -470,10 +477,15 @@ def kos(demo: bool = False) -> int:
                        f"{_yuzde(u['ileri12_medyan'])} | {_yuzde(f.get('yillik_ort'))} | {_yuzde(f.get('ileri12_medyan'))} |")
         sat += ["", f"Fark testi (dairesel kaydırma, {a['test_usd'].get('kaydirma')} kaydırma): BIST $ p={a['test_usd']['p']:.2f}; "
                 f"EEM farkı p={a['test_fazla'].get('p', float('nan')):.2f}. Bağımsız blok: {a['blok_sayisi']}.", "",
-                f"## B) İşaret × faiz yönü — {k}", "", "| hücre | ay | BIST $ yıllık ort. | EEM farkı yıllık ort. | BIST $ ileri 12a medyan |", "|---|---|---|---|---|"]
+                f"## B) İşaret × faiz yönü — {k}", "",
+                "| hücre | ay | BIST $ yıllık ort. | EEM farkı yıllık ort. | BIST $ ileri 12a medyan | p (BIST $, hücre vs geri kalan)* | p (EEM farkı)* |",
+                "|---|---|---|---|---|---|---|"]
         for h in HUCRELER:
             u, f = B[k][h]["usd"], B[k][h].get("fazla", {})
-            sat.append(f"| {h} | {u['ay']} | {_yuzde(u['yillik_ort'])} | {_yuzde(f.get('yillik_ort'))} | {_yuzde(u['ileri12_medyan'])} |")
+            tu, tf = B[k][h].get("test_usd", {}), B[k][h].get("test_fazla", {})
+            sat.append(f"| {h} | {u['ay']} | {_yuzde(u['yillik_ort'])} | {_yuzde(f.get('yillik_ort'))} | {_yuzde(u['ileri12_medyan'])} | "
+                       f"{tu.get('p', float('nan')):.2f} | {tf.get('p', float('nan')):.2f} |")
+        sat += ["", "*Hücre testleri sonuçlar görüldükten sonra eklendi (ön-kayıtta yoktu); yalnız temkin için, kanıt sayılmaz."]
         sat += ["", f"## C) Pozitife dönüş olayları — {k}", "",
                 "| olay | bilindi | reel | politika | TÜFE | 12a içi dip | BIST $ +6 | +12 | +24 | EEM farkı +6 | +12 | +24 | BIST $ bugüne |",
                 "|---|---|---|---|---|---|---|---|---|---|---|---|---|"]
