@@ -78,6 +78,15 @@ jobs:
           set -o pipefail
           python dongu_zamanlama.py 2>&1 | tee sonuclar/log_zamanlama.txt
 
+      - name: EVDS kesfi
+        if: always()
+        continue-on-error: true
+        env:
+          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+        run: |
+          set -o pipefail
+          python evds_kesif.py 2>&1 | tee sonuclar/log_evds_kesif.txt
+
       - name: Sonuclari yaz
         if: always()
         run: |
