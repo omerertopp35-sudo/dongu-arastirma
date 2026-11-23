@@ -37,10 +37,10 @@ WB_URLLER = (
     "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
     "https://thedocs.worldbank.org/en/doc/18675f1d1639c7a34d463f59263ba0a2-0050012025/related/CMO-Historical-Data-Monthly.xlsx",
 )
-WB_KOLON = {"gumus": "Silver", "altin": "Gold", "platin": "Platinum", "bakir": "Copper", "petrol": "Crude oil, WTI"}
+WB_KOLON = {"gumus": "Silver", "altin": "Gold", "platin": "Platinum", "bakir": "Copper", "petrol": "Crude oil, average"}
 YAHOO_UZATMA = {"gumus": "SI=F", "altin": "GC=F", "platin": "PL=F", "bakir": "HG=F", "petrol": "CL=F"}
 YAHOO_EK = {"sp500": "^GSPC", "nasdaq": "^IXIC", "dxy": "DX-Y.NYB"}
-AD = {"gumus": "Gümüş", "altin": "Altın", "platin": "Platin", "bakir": "Bakır", "petrol": "Petrol (WTI)",
+AD = {"gumus": "Gümüş", "altin": "Altın", "platin": "Platin", "bakir": "Bakır", "petrol": "Petrol (ham, ort.)",
       "sp500": "S&P 500", "nasdaq": "Nasdaq", "dxy": "Dolar Endeksi"}
 FAZ_VARLIKLARI = ("altin", "bakir", "petrol", "sp500", "nasdaq", "dxy")
 
