@@ -1,0 +1,118 @@
+{
+  "uretim_zamani_utc": "2026-11-23T13:30:20+00:00",
+  "demo": false,
+  "kaynak": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
+  "veri_son_ay": "2026-11",
+  "uzatma_notlari": [
+    "gumus: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 0.999, 2026-10 hizasi; son ay kismi olabilir)",
+    "altin: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 0.996, 2026-10 hizasi; son ay kismi olabilir)",
+    "platin: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 1.005, 2026-10 hizasi; son ay kismi olabilir)",
+    "bakir: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 2212.820, 2026-10 hizasi; son ay kismi olabilir)",
+    "petrol: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 1.008, 2026-10 hizasi; son ay kismi olabilir)"
+  ],
+  "hatali": {},
+  "kurallar": {
+    "olcek": "aylik ortalama",
+    "dip": "zirveden sonraki 5 yildaki en dusuk",
+    "zigzag": "%25"
+  },
+  "donguler": {
+    "1980": {
+      "dongu": "1980",
+      "zirve_ay": "1980-01",
+      "zirve": 38.9,
+      "dip_ay": "1982-06",
+      "dip": 5.6,
+      "dusus": -0.8560411311053985,
+      "dibe_ay": 29,
+      "dipten_12a": 1.0892857142857144,
+      "tam_dongu_dibi_ay": "1993-03",
+      "tam_dongu_dusus": -0.9074550128534704,
+      "zirveyi_geri_alma_ay": "2011-04",
+      "zirveyi_geri_alma_yil": 31.2,
+      "dip_teyitsiz": false
+    },
+    "2011": {
+      "dongu": "2011",
+      "zirve_ay": "2011-04",
+      "zirve": 42.7,
+      "dip_ay": "2015-12",
+      "dip": 14.1,
+      "dusus": -0.6697892271662764,
+      "dibe_ay": 56,
+      "dipten_12a": 0.16312056737588643,
+      "tam_dongu_dibi_ay": "2015-12",
+      "tam_dongu_dusus": -0.6697892271662764,
+      "zirveyi_geri_alma_ay": "2025-09",
+      "zirveyi_geri_alma_yil": 14.4,
+      "dip_teyitsiz": false
+    },
+    "2026": {
+      "dongu": "2026",
+      "zirve_ay": "2026-01",
+      "zirve": 92.1,
+      "dip_ay": "2026-11",
+      "dip": 48.57588689471924,
+      "dusus": -0.4725745179726467,
+      "dibe_ay": 10,
+      "dipten_12a": null,
+      "tam_dongu_dibi_ay": "2026-11",
+      "tam_dongu_dusus": -0.4725745179726467,
+      "zirveyi_geri_alma_ay": null,
+      "zirveyi_geri_alma_yil": null,
+      "dip_teyitsiz": true
+    }
+  },
+  "hizalama": {
+    "bugun_ay_sonra": 10,
+    "bugun_dusus_aylik_ort": -0.4725745179726467,
+    "1980_zaman": {
+      "esdeger_ay": "1980-11",
+      "zirveden_ay": 10,
+      "o_noktadaki_dusus": -0.5218508997429305,
+      "dibe_kalan": -0.6989247311827957,
+      "dibe_kalan_ay": 19,
+      "zirveye_donus_yil": null,
+      "+3ay": -0.29569892473118287,
+      "+6ay": -0.413978494623656,
+      "+12ay": -0.543010752688172,
+      "+24ay": -0.4731182795698925
+    },
+    "1980_derinlik": {
+      "esdeger_ay": "1980-04",
+      "zirveden_ay": 3,
+      "o_noktadaki_dusus": -0.6169665809768637,
+      "dibe_kalan": -0.6241610738255035,
+      "dibe_kalan_ay": 26,
+      "zirveye_donus_yil": null,
+      "+3ay": 0.09395973154362425,
+      "+6ay": 0.3557046979865772,
+      "+12ay": -0.22818791946308714,
+      "+24ay": -0.5100671140939599
+    },
+    "2011_zaman": {
+      "esdeger_ay": "2012-02",
+      "zirveden_ay": 10,
+      "o_noktadaki_dusus": -0.20140515222482436,
+      "dibe_kalan": -0.5865102639296189,
+      "dibe_kalan_ay": 46,
+      "zirveye_donus_yil": 13.6,
+      "+3ay": -0.15835777126099715,
+      "+6ay": -0.15542521994134906,
+      "+12ay": -0.11143695014662758,
+      "+24ay": -0.39002932551319647
+    },
+    "2011_derinlik": {
+      "esdeger_ay": "2013-06",
+      "zirveden_ay": 26,
+      "o_noktadaki_dusus": -0.5058548009367682,
+      "dibe_kalan": -0.33175355450236976,
+      "dibe_kalan_ay": 30,
+      "zirveye_donus_yil": 12.2,
+      "+3ay": 0.07109004739336511,
+      "+6ay": -0.06635071090047406,
+      "+12ay": -0.056872037914691975,
+      "+24ay": -0.23696682464454977
+    }
+  }
+}

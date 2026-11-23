@@ -1,8 +1,8 @@
-# Döngü backtest #1 — 2026-11-23T11:19:33+00:00
+# Döngü backtest #1 — 2026-11-23T13:30:12+00:00
 
 ## A) Gümüş 2011 ↔ 2026
 - Zirve 2011: 2011-04-29 $48.58 · Zirve 2026: 2026-01-26 $115.08
-- Bugün (2026-11-23, zirveden 215 iş günü): -63.1% · 2011 aynı gün: -27.3%
+- Bugün (2026-11-23, zirveden 215 iş günü): -63.3% · 2011 aynı gün: -27.3%
 - Korelasyon (log): zirve öncesi 0.94, zirve sonrası 0.58
 
 ## B) Parabolik tepe olayları
@@ -63,19 +63,19 @@
 ## D) Gümüş zirvesinden sonra varlıklar
 | varlık | 2011 zirvesi + aynı süre | 2026 zirvesi → bugün | 2011 zirvesi → 2015 dibi |
 |---|---|---|---|
-| Gümüş | -27.3% | -63.1% | -71.9% |
+| Gümüş | -27.3% | -63.3% | -71.9% |
 | Altın | +14.1% | -28.7% | -31.6% |
-| Bakır | -7.3% | -7.7% | -49.5% |
-| Platin | -8.5% | -54.1% | -54.6% |
-| Petrol (WTI) | -3.7% | +35.8% | -68.1% |
+| Bakır | -7.3% | -8.1% | -49.5% |
+| Platin | -8.5% | -54.0% | -54.6% |
+| Petrol (WTI) | -3.7% | +35.1% | -68.1% |
 | Nasdaq | +3.1% | -4.2% | +72.3% |
 | S&P 500 | +0.2% | -0.6% | +48.3% |
-| BIST100 (TL) | -13.7% | -16.4% | +0.1% |
+| BIST100 (TL) | -13.7% | -17.0% | +0.1% |
 | Türkiye ETF (TUR, $) | -26.1% | -24.9% | -45.4% |
 | Gelişen Piy. (EEM) | -9.9% | -8.5% | -29.9% |
 | ABD 20Y Tahvil (TLT) | +29.1% | -4.2% | +49.0% |
-| Dolar Endeksi | +7.4% | +7.1% | +33.8% |
+| Dolar Endeksi | +7.4% | +7.2% | +33.8% |
 | Bitcoin | — | -30.6% | — |
-| BIST100 ($) | -25.4% | -28.3% | -48.6% |
+| BIST100 ($) | -25.4% | -28.8% | -48.6% |
 
 Geçmişin kaydıdır, tahmin değildir. Yatırım tavsiyesi değildir.
