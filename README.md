@@ -6,6 +6,7 @@ geçmişin kaydıdır, tahmin değildir. Yatırım tavsiyesi değildir.
 | script | ne yapar | çıktı |
 |---|---|---|
 | `dongu_backtest.py` | A) gümüş 2011↔2026 zirveye hizalı analog · B) parabolik tepe olay çalışması (çoklu varlık, rastgele gün kıyası) · C) gümüş+altın+Nasdaq aynı çeyrekte düşünce diğer varlıklar ve sonraki 4 çeyrekte toparlanma sırası · D) gümüş zirvesinden sonra varlık getirileri | `sonuclar/backtest/` |
+| `dongu_fazlari.py` | backtest #2: gümüşün tepe/dip faz haritası (zigzag ±%25), 2011 döngüsünün tamamı, bugünü 2011'e zaman ve derinlikle hizalama | `sonuclar/fazlar/` |
 | `cot_grafik.py` | altın, gümüş, Nasdaq 100, S&P 500, Dow: fonların uzun / kısa / net pozisyonu (üst panel) + ürünün fiyatı (alt panel), belirgin artırma/azaltma haftaları işaretli | `sonuclar/cot/` |
 
 Veri: Yahoo (yfinance) ve CFTC Socrata. Gizli anahtar gerekmez.
