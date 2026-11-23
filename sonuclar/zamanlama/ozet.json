@@ -1,6 +1,6 @@
 {
   "bugun_ay": 10,
-  "bugun_dusus": -0.4716284441333706,
+  "bugun_dusus": -0.47165218064172154,
   "donguler": {
     "1980": {
       "ayni_takvim_ayi_rmse_puan": 28.3,
@@ -33,6 +33,6 @@
       "zirveyi_geri_alma_2026_eslemesi": "2031-08"
     }
   },
-  "uretim_zamani_utc": "2026-11-23T16:41:05+00:00",
+  "uretim_zamani_utc": "2026-11-23T16:44:24+00:00",
   "uyari": "Hiz katsayisi tek donguden ve 10 aylik veriden uydurulmustur; esleme tarihleri senaryodur, tahmin degildir."
 }

@@ -1,4 +1,4 @@
-# BIST adım 4 — reel faiz rejimi (2026-11-23T16:42:05+00:00)
+# BIST adım 4 — reel faiz rejimi (2026-11-23T16:45:04+00:00)
 
 Veri 2002-02→2026-09 aylık (TCMB EVDS; EEM Yahoo). Ham veri yayımlanmaz.
 Kurallar: {"reel_faiz": "(1+i)/(1+yillik TUFE)-1", "bilgi_gecikmesi_ay": 1, "olay": ">= 6 ay r<=0 sonra ilk r>0, olaylar arasi >= 12 ay", "yon": "politika faizi 6 aylik degisim < 0 = indirim", "test": "dairesel kaydirma >= 24 ay, tum kaydirmalar; plasebo 2000 cekilis"}
@@ -16,12 +16,14 @@ Fark testi (dairesel kaydırma, 248 kaydırma): BIST $ p=0.80; EEM farkı p=0.28
 
 ## B) İşaret × faiz yönü — politika
 
-| hücre | ay | BIST $ yıllık ort. | EEM farkı yıllık ort. | BIST $ ileri 12a medyan |
-|---|---|---|---|---|
-| negatif · indirim değil | 72 | +16% | +10% | -7% |
-| negatif · indirim | 59 | -6% | -7% | +11% |
-| pozitif · indirim değil | 56 | -15% | -16% | -1% |
-| pozitif · indirim | 102 | +21% | -5% | +23% |
+| hücre | ay | BIST $ yıllık ort. | EEM farkı yıllık ort. | BIST $ ileri 12a medyan | p (BIST $, hücre vs geri kalan)* | p (EEM farkı)* |
+|---|---|---|---|---|---|---|
+| negatif · indirim değil | 72 | +16% | +10% | -7% | 0.55 | 0.17 |
+| negatif · indirim | 59 | -6% | -7% | +11% | 0.44 | 0.80 |
+| pozitif · indirim değil | 56 | -15% | -16% | -1% | 0.17 | 0.26 |
+| pozitif · indirim | 102 | +21% | -5% | +23% | 0.24 | 0.90 |
+
+*Hücre testleri sonuçlar görüldükten sonra eklendi (ön-kayıtta yoktu); yalnız temkin için, kanıt sayılmaz.
 
 ## C) Pozitife dönüş olayları — politika
 
@@ -52,12 +54,14 @@ Fark testi (dairesel kaydırma, 248 kaydırma): BIST $ p=0.85; EEM farkı p=0.25
 
 ## B) İşaret × faiz yönü — efektif
 
-| hücre | ay | BIST $ yıllık ort. | EEM farkı yıllık ort. | BIST $ ileri 12a medyan |
-|---|---|---|---|---|
-| negatif · indirim değil | 49 | +30% | +18% | -3% |
-| negatif · indirim | 55 | -5% | -7% | +13% |
-| pozitif · indirim değil | 79 | -13% | -13% | -7% |
-| pozitif · indirim | 106 | +19% | -5% | +19% |
+| hücre | ay | BIST $ yıllık ort. | EEM farkı yıllık ort. | BIST $ ileri 12a medyan | p (BIST $, hücre vs geri kalan)* | p (EEM farkı)* |
+|---|---|---|---|---|---|---|
+| negatif · indirim değil | 49 | +30% | +18% | -3% | 0.27 | 0.11 |
+| negatif · indirim | 55 | -5% | -7% | +13% | 0.48 | 0.80 |
+| pozitif · indirim değil | 79 | -13% | -13% | -7% | 0.09 | 0.24 |
+| pozitif · indirim | 106 | +19% | -5% | +19% | 0.28 | 0.92 |
+
+*Hücre testleri sonuçlar görüldükten sonra eklendi (ön-kayıtta yoktu); yalnız temkin için, kanıt sayılmaz.
 
 ## C) Pozitife dönüş olayları — efektif
 
