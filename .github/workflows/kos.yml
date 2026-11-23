@@ -1,0 +1,72 @@
+# Zamanlama yok: main'e script push'u ya da elle (Actions -> kos -> Run workflow).
+# Her adimin ciktisi sonuclar/log_*.txt'ye yazilir; adim patlasa da commit calisir.
+name: kos
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*.py"
+      - "requirements.txt"
+      - ".github/workflows/kos.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kos
+  cancel-in-progress: false
+
+jobs:
+  kos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Kurulum
+        run: |
+          mkdir -p sonuclar
+          date -u +%FT%TZ > sonuclar/kosu_basladi.txt
+          set -o pipefail
+          pip install -r requirements.txt 2>&1 | tail -15 | tee sonuclar/log_kurulum.txt
+
+      - name: Kuru test (sentetik)
+        if: always()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          { python cot_grafik.py --demo && python dongu_backtest.py --demo; } 2>&1 | tee sonuclar/log_kuru_test.txt
+
+      - name: COT grafikleri
+        if: always()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python cot_grafik.py 2>&1 | tee sonuclar/log_cot.txt
+
+      - name: Backtest
+        if: always()
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python dongu_backtest.py 2>&1 | tee sonuclar/log_backtest.txt
+
+      - name: Sonuclari yaz
+        if: always()
+        run: |
+          git config user.name "dongu-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sonuclar
+          if git diff --cached --quiet; then echo "degisiklik yok"; exit 0; fi
+          git commit -q -m "sonuclar $(date -u +%FT%TZ) (actions)"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
