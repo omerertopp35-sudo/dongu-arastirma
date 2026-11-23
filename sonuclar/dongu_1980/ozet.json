@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-23T13:30:20+00:00",
+  "uretim_zamani_utc": "2026-11-23T13:32:10+00:00",
   "demo": false,
   "kaynak": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
   "veri_son_ay": "2026-11",
@@ -8,7 +8,7 @@
     "altin: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 0.996, 2026-10 hizasi; son ay kismi olabilir)",
     "platin: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 1.005, 2026-10 hizasi; son ay kismi olabilir)",
     "bakir: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 2212.820, 2026-10 hizasi; son ay kismi olabilir)",
-    "petrol: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 1.008, 2026-10 hizasi; son ay kismi olabilir)"
+    "petrol: 2026-11..2026-11 Yahoo aylik ortalamasiyla uzatildi (olcek 1.119, 2026-10 hizasi; son ay kismi olabilir)"
   ],
   "hatali": {},
   "kurallar": {
@@ -52,12 +52,12 @@
       "zirve_ay": "2026-01",
       "zirve": 92.1,
       "dip_ay": "2026-11",
-      "dip": 48.57588689471924,
-      "dusus": -0.4725745179726467,
+      "dip": 48.57401313500873,
+      "dusus": -0.47259486281206586,
       "dibe_ay": 10,
       "dipten_12a": null,
       "tam_dongu_dibi_ay": "2026-11",
-      "tam_dongu_dusus": -0.4725745179726467,
+      "tam_dongu_dusus": -0.47259486281206586,
       "zirveyi_geri_alma_ay": null,
       "zirveyi_geri_alma_yil": null,
       "dip_teyitsiz": true
@@ -65,7 +65,7 @@
   },
   "hizalama": {
     "bugun_ay_sonra": 10,
-    "bugun_dusus_aylik_ort": -0.4725745179726467,
+    "bugun_dusus_aylik_ort": -0.47259486281206586,
     "1980_zaman": {
       "esdeger_ay": "1980-11",
       "zirveden_ay": 10,
