@@ -29,6 +29,12 @@ ANAHTAR_KELIMELER = ("BIST", "Borsa", "Hisse", "Tüketici Fiyat", "TÜFE", "Cons
 ADAY_SERILER = ("TP.DK.USD.A", "TP.DK.USD.S", "TP.MK.F.BILESIK", "TP.FG.J0", "TP.FE.OKTG01",
                 "TP.APIFON4", "TP.PY.P02.1H", "TP.AB.TOPLAM")
 ZAMAN_ASIMI = 60
+EK_GRUPLAR = ("bie_tukfiy2003", "bie_tukfiy2025", "bie_tukfiy1", "bie_fgtukfiy2", "bie_fgtukfiy3",
+              "bie_bispolfaiz", "bie_mkbrgn", "bie_apifon")
+AYLIK_TESTLER = (
+    "series=TP.MK.F.BILESIK&startDate=01-01-1986&endDate=31-12-2026&type=json&frequency=5&aggregationTypes=last",
+    "series=TP.DK.USD.A&startDate=01-01-1986&endDate=31-12-2026&type=json&frequency=5&aggregationTypes=avg",
+)
 
 
 def _maskele(metin: str, anahtar: str) -> str:
@@ -95,7 +101,7 @@ def kos() -> int:
             log.append(f"[gruplar] HATA {type(e).__name__}: {_maskele(str(e), anahtar)[:200]}")
         # BIST / TUFE gruplarinin serileri
         sonuc["seri_listeleri"] = {}
-        for e in sonuc.get("eslesen_gruplar", [])[:40]:
+        for e in []:
             ad = e["ad"].lower()
             if not any(k in ad for k in ("bist", "hisse", "borsa", "tüketici fiyat", "consumer price", "politika", "fonlama")):
                 continue
@@ -110,6 +116,34 @@ def kos() -> int:
                     log.append(f"    {s['kod']} | {s['ad']} | {s['frekans']} | {s['baslangic']}..{s['bitis']}")
             except Exception as ex:
                 log.append(f"[seriler] {e['kod']} HATA {type(ex).__name__}")
+        # ek gruplarin serileri (ilk 8)
+        sonuc["ek_gruplar"] = {}
+        for kod in EK_GRUPLAR:
+            try:
+                r = istek(taban, f"serieList/type=json&code={kod}", anahtar, bicim)
+                seriler = r.json() if r.status_code == 200 else []
+                kisa = [{"kod": x.get("SERIE_CODE"), "ad": x.get("SERIE_NAME"), "frekans": x.get("FREQUENCY_STR"),
+                         "baslangic": x.get("START_DATE"), "bitis": x.get("END_DATE")} for x in seriler]
+                if kod == "bie_bispolfaiz":
+                    kisa = [x for x in kisa if "Türkiye" in (x["ad"] or "") or "TUR" in (x["kod"] or "") or "ABD" in (x["ad"] or "")] or kisa[:8]
+                sonuc["ek_gruplar"][kod] = kisa[:8]
+                log.append(f"[ek] {kod}: {len(seriler)} seri")
+                for x in kisa[:8]:
+                    log.append(f"    {x['kod']} | {x['ad']} | {x['frekans']} | {x['baslangic']}..{x['bitis']}")
+            except Exception as ex:
+                log.append(f"[ek] {kod} HATA {type(ex).__name__}")
+        # aylik toplama parametresi calisiyor mu
+        for yol in AYLIK_TESTLER:
+            try:
+                r = istek(taban, yol, anahtar, bicim)
+                items = r.json().get("items", []) if r.status_code == 200 else []
+                kod = yol.split("series=")[1].split("&")[0].replace(".", "_")
+                dolu = [i for i in items if i.get(kod) not in (None, "", "null")]
+                ilk5 = [(i.get("Tarih"), i.get(kod)) for i in dolu[:3]]
+                son3 = [(i.get("Tarih"), i.get(kod)) for i in dolu[-3:]]
+                log.append(f"[aylik] {yol.split('&type')[0]} ... -> HTTP {r.status_code}, {len(dolu)} gozlem, ilk {ilk5}, son {son3}")
+            except Exception as ex:
+                log.append(f"[aylik] HATA {type(ex).__name__}")
         # aday seri kapsamlari
         sonuc["aday_kapsam"] = {}
         for kod in ADAY_SERILER:
