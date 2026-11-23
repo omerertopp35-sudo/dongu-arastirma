@@ -88,6 +88,8 @@ CEKIRDEK = ("gumus", "altin", "nasdaq")       # bunlar yoksa kosu anlamsiz -> ci
 OLAY_EVRENI = ("gumus", "altin", "bakir", "platin", "petrol", "nasdaq", "sp500",
                "bist_usd", "tur", "eem", "btc")
 SIRALAMA_DISI = ("usdtry",)                   # kur, "varlik" gibi siralanmaz
+KRIPTO = ("btc",)                             # olay ozeti ayrica kripto HARIC verilir (BTC ortalamayi ezer)
+PENCERE_TOLERANS_GUN = 7                      # D) seri son gunu pencere sonundan en fazla bu kadar eski olabilir
 
 RENK = {"olay": "#C0392B", "baz": "#95A5A6", "y2011": "#7F8C8D", "y2026": "#2C3E50",
         "pozitif": "#27AE60", "negatif": "#C0392B", "vurgu": "#2980B9"}
@@ -342,6 +344,14 @@ def olay_calismasi(panel: dict[str, pd.Series]) -> dict:
             baz[k][et] = float(np.mean(v[h:] / v[:-h] - 1)) if len(v) > h else np.nan
 
     rng = np.random.default_rng(TOHUM)
+    tumu = _olay_ozeti(olaylar, panel, baz, rng)
+    kripto_disi = olaylar[~olaylar["varlik"].isin(KRIPTO)] if len(olaylar) else olaylar
+    haric = _olay_ozeti(kripto_disi, panel, baz, rng)
+    return {"olaylar": olaylar, "ozet": tumu, "ozet_kripto_haric": haric, "baz": baz}
+
+
+def _olay_ozeti(olaylar: pd.DataFrame, panel: dict[str, pd.Series], baz: dict,
+                rng: np.random.Generator) -> pd.DataFrame:
     ozet = []
     teyitli = olaylar[olaylar["teyit_tarih"].notna()] if len(olaylar) else olaylar
     for et, ay in UFUKLAR_AY.items():
@@ -370,7 +380,7 @@ def olay_calismasi(panel: dict[str, pd.Series]) -> dict:
             "baz_ortalama": baz_ort, "fark": ort - baz_ort,
             "rastgele_setlerin_yuzde_kaci_daha_dusuk": float((rastgele < ort).mean()),
         })
-    return {"olaylar": olaylar, "ozet": pd.DataFrame(ozet), "baz": baz}
+    return pd.DataFrame(ozet)
 
 
 # ---------------------------------------------------------------------------
@@ -479,7 +489,7 @@ def gumus_ayi(panel: dict[str, pd.Series], a: dict) -> dict:
             continue
         satir = {"varlik": k, "ad": AD.get(k, k)}
         for et, (b, e) in pencereler.items():
-            if s.index[0] > b or s.index[-1] < e:
+            if s.index[0] > b or s.index[-1] < e - pd.Timedelta(days=PENCERE_TOLERANS_GUN):
                 satir[et] = np.nan
                 continue
             satir[et] = float(s.asof(e) / s.asof(b) - 1)
@@ -546,7 +556,7 @@ def grafik_olay(ozet: pd.DataFrame, yol: Path) -> None:
     ax.axhline(0, color="#888888", lw=0.8)
     ax.set_xticks(x, d["ufuk"])
     ax.set_ylabel("Ortalama getiri %")
-    ax.set_title("Parabolik tepeler: teyit gününden sonra ortalama getiri", loc="left", fontweight="bold")
+    ax.set_title("Parabolik tepeler (kripto hariç): teyit gününden sonra ortalama getiri", loc="left", fontweight="bold")
     ax.legend(frameon=False)
     fig.tight_layout()
     fig.savefig(yol, dpi=160)
@@ -635,7 +645,9 @@ def kos(demo: bool = False) -> int:
     b = olay_calismasi(panel)
     b["olaylar"].to_csv(cikti / "b_parabolik_olaylar.csv", index=False, encoding="utf-8-sig")
     b["ozet"].to_csv(cikti / "b_parabolik_ozet.csv", index=False, encoding="utf-8-sig")
-    grafik_olay(b["ozet"], cikti / "b_parabolik_ozet.png")
+    b["ozet_kripto_haric"].to_csv(cikti / "b_parabolik_ozet_kripto_haric.csv", index=False,
+                                  encoding="utf-8-sig")
+    grafik_olay(b["ozet_kripto_haric"], cikti / "b_parabolik_ozet.png")
 
     c = ortak_dusus(panel)
     for ad, t in c["tablolar"].items():
@@ -662,6 +674,7 @@ def kos(demo: bool = False) -> int:
         },
         "A_analog": a,
         "B_parabolik": {"ozet": b["ozet"].to_dict(orient="records"),
+                        "ozet_kripto_haric": b["ozet_kripto_haric"].to_dict(orient="records"),
                         "olay_sayisi": int(len(b["olaylar"]))},
         "C_ortak_dusus": c["ozet"],
         "D_gumus_ayi": {"pencereler": d["pencereler"]},
@@ -683,15 +696,17 @@ def rapor_metni(oz: dict, b: dict, c: dict, d: dict) -> str:
               f"{_yuzde(a['dusus_2026_simdi'])} · 2011 aynı gün: {_yuzde(a['dusus_2011_ayni_gun'])}",
               f"- Korelasyon (log): zirve öncesi {a['korelasyon_zirve_oncesi']:.2f}, "
               f"zirve sonrası {a['korelasyon_zirve_sonrasi']:.2f}", ""]
-    satir += ["## B) Parabolik tepe olayları", f"- Olay sayısı: {len(b['olaylar'])}", "",
-              "| ufuk | n | ort. | medyan | pozitif | baz | fark | rastgele < ort. |",
-              "|---|---|---|---|---|---|---|---|"]
-    for _, r in b["ozet"].iterrows():
-        if r.get("n", 0):
-            satir.append(f"| {r['ufuk']} | {int(r['n'])} | {_yuzde(r['ortalama'])} | {_yuzde(r['medyan'])} | "
-                         f"{r['pozitif_oran'] * 100:.0f}% | {_yuzde(r['baz_ortalama'])} | {_yuzde(r['fark'])} | "
-                         f"{r['rastgele_setlerin_yuzde_kaci_daha_dusuk'] * 100:.0f}% |")
-    satir.append("")
+    satir += ["## B) Parabolik tepe olayları", f"- Olay sayısı: {len(b['olaylar'])}", ""]
+    for baslik, tablo in (("Tüm olaylar", b["ozet"]), ("Kripto hariç", b["ozet_kripto_haric"])):
+        satir += [f"**{baslik}**", "",
+                  "| ufuk | n | ort. | medyan | pozitif | baz | fark | rastgele < ort. |",
+                  "|---|---|---|---|---|---|---|---|"]
+        for _, r in tablo.iterrows():
+            if r.get("n", 0):
+                satir.append(f"| {r['ufuk']} | {int(r['n'])} | {_yuzde(r['ortalama'])} | {_yuzde(r['medyan'])} | "
+                             f"{r['pozitif_oran'] * 100:.0f}% | {_yuzde(r['baz_ortalama'])} | {_yuzde(r['fark'])} | "
+                             f"{r['rastgele_setlerin_yuzde_kaci_daha_dusuk'] * 100:.0f}% |")
+        satir.append("")
     for ad, t in c["tablolar"].items():
         k = oz["C_ortak_dusus"]["kosullar"][ad]
         satir += [f"## C) Ortak düşüş çeyrekleri ({ad}, n={k['ceyrek_sayisi']})",
