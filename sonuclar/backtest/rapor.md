@@ -1,12 +1,14 @@
-# Döngü backtest #1 — 2026-11-23T10:49:36+00:00
+# Döngü backtest #1 — 2026-11-23T10:52:24+00:00
 
 ## A) Gümüş 2011 ↔ 2026
 - Zirve 2011: 2011-04-29 $48.58 · Zirve 2026: 2026-01-26 $115.08
-- Bugün (2026-11-23, zirveden 215 iş günü): -63.2% · 2011 aynı gün: -27.3%
+- Bugün (2026-11-23, zirveden 215 iş günü): -63.1% · 2011 aynı gün: -27.3%
 - Korelasyon (log): zirve öncesi 0.94, zirve sonrası 0.58
 
 ## B) Parabolik tepe olayları
 - Olay sayısı: 21
+
+**Tüm olaylar**
 
 | ufuk | n | ort. | medyan | pozitif | baz | fark | rastgele < ort. |
 |---|---|---|---|---|---|---|---|
@@ -15,6 +17,16 @@
 | 6A | 21 | +20.0% | +8.1% | 52% | +15.5% | +4.4% | 67% |
 | 12A | 18 | +37.6% | +8.5% | 61% | +44.5% | -6.9% | 50% |
 | 24A | 18 | +93.9% | +18.1% | 67% | +121.7% | -27.8% | 46% |
+
+**Kripto hariç**
+
+| ufuk | n | ort. | medyan | pozitif | baz | fark | rastgele < ort. |
+|---|---|---|---|---|---|---|---|
+| 1A | 16 | +5.8% | +3.8% | 62% | +0.8% | +5.0% | 98% |
+| 3A | 16 | +6.7% | +8.0% | 62% | +2.6% | +4.1% | 85% |
+| 6A | 16 | +2.0% | -2.8% | 44% | +5.3% | -3.2% | 30% |
+| 12A | 13 | +2.7% | +8.5% | 62% | +10.6% | -7.9% | 21% |
+| 24A | 13 | +9.6% | +18.0% | 62% | +19.1% | -9.5% | 26% |
 
 ## C) Ortak düşüş çeyrekleri (genis, n=10)
 | varlık | o çeyrek ort. | pozitif | sonraki 4Ç ort. | 4Ç pozitif | normal 4Ç |
@@ -51,19 +63,19 @@
 ## D) Gümüş zirvesinden sonra varlıklar
 | varlık | 2011 zirvesi + aynı süre | 2026 zirvesi → bugün | 2011 zirvesi → 2015 dibi |
 |---|---|---|---|
-| Gümüş | -27.3% | -63.2% | -71.9% |
+| Gümüş | -27.3% | -63.1% | -71.9% |
 | Altın | +14.1% | -28.8% | -31.6% |
 | Bakır | -7.3% | -7.7% | -49.5% |
-| Platin | -8.5% | -54.4% | -54.6% |
+| Platin | -8.5% | -54.3% | -54.6% |
 | Petrol (WTI) | -3.7% | +36.7% | -68.1% |
-| Nasdaq | +3.1% | — | +72.3% |
-| S&P 500 | +0.2% | — | +48.3% |
-| BIST100 (TL) | -13.7% | -16.2% | +0.1% |
-| Türkiye ETF (TUR, $) | -26.1% | — | -45.4% |
-| Gelişen Piy. (EEM) | -9.9% | — | -29.9% |
-| ABD 20Y Tahvil (TLT) | +29.1% | — | +49.0% |
+| Nasdaq | +3.1% | -4.2% | +72.3% |
+| S&P 500 | +0.2% | -0.6% | +48.3% |
+| BIST100 (TL) | -13.7% | -16.3% | +0.1% |
+| Türkiye ETF (TUR, $) | -26.1% | -24.9% | -45.4% |
+| Gelişen Piy. (EEM) | -9.9% | -8.5% | -29.9% |
+| ABD 20Y Tahvil (TLT) | +29.1% | -4.2% | +49.0% |
 | Dolar Endeksi | +7.4% | +7.0% | +33.8% |
 | Bitcoin | — | -30.5% | — |
-| BIST100 ($) | -25.4% | -28.0% | -48.6% |
+| BIST100 ($) | -25.4% | -28.2% | -48.6% |
 
 Geçmişin kaydıdır, tahmin değildir. Yatırım tavsiyesi değildir.
