@@ -1,0 +1,40 @@
+{
+  "uretim_zamani_utc": "2026-11-23T16:26:32+00:00",
+  "demo": false,
+  "veri": {
+    "bist_ilk": "1986-02",
+    "son_ay": "2026-10",
+    "tufe_ilk": "1986-02"
+  },
+  "notlar": [
+    "usdtry: 2005-01-31 kalici sicrama x9.9e-07: onceki gecmis olceklendi",
+    "TUFE: 1982-01..2003-01 eski seri x1.22096e-05 ile 2003-01'de 2003=100'e baglandi"
+  ],
+  "hatali": {},
+  "kurallar": {
+    "kur_soku": "3 ayda reel kur (USDTRY/TUFE) >= +%15, 12 ay bekleme",
+    "faz": "BIST $ zigzag ±%30",
+    "ayristirma": "2003-05->, OLS: BIST$ ~ EEM + DXY"
+  },
+  "katlar_bastan_beri": {
+    "tl": 896629.9999999999,
+    "usd": 10.555748590823011,
+    "reel": 3.503361213036241
+  },
+  "kur_soku_sayisi": 10,
+  "kur_soku_medyan": {
+    "dip": -0.32133635022130064,
+    "12a": -0.25726876613903965,
+    "24a": -0.12034622570197706,
+    "36a": -0.19342225926894185
+  },
+  "ayristirma": {
+    "donem": "2003-05..2026-10",
+    "beta_eem": 1.069004542558486,
+    "beta_dxy": 0.33131390505377717,
+    "r2": 0.34350117272509995,
+    "ay": 282
+  },
+  "son_reel_politika_faizi": 0.05602605102613101,
+  "son_yillik_enflasyon": 0.2976898951373985
+}

@@ -1,0 +1,1 @@
+tamam: /home/runner/work/dongu-arastirma/dongu-arastirma/sonuclar/bist | hatali: yok | notlar: ['usdtry: 2005-01-31 kalici sicrama x9.9e-07: onceki gecmis olceklendi', "TUFE: 1982-01..2003-01 eski seri x1.22096e-05 ile 2003-01'de 2003=100'e baglandi"]
