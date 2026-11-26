@@ -1,0 +1,258 @@
+[gruplar] haftalik aday: 8
+  bie_mknethar | Yurt Dışı Yerleşikler Menkul Kıymet Portföyü | HAFTALIK(CUMA) | 11-09-2020..20-11-2026
+  bie_kmmenk | Mevduat Bankaları ve Kalkınma ve Yatırım Bankalarının Vadeye Kadar Elde Tutulacak Menkul Değerleri-Menkul Kıymet Türlerine Göre (Arşiv) | HAFTALIK(CUMA) | 28-01-2000..18-01-2013
+  bie_mbbmdc | Mevduat Bankalarının Vadeye Kadar Elde Tutulacak Menkul Değerleri-Banka Grupları ve Menkul Kıymet Türlerine Göre (Arşiv) | HAFTALIK(CUMA) | 28-01-2000..18-01-2013
+  bie_yymkeyuk | Yurt Dışında Yerleşik Kişilerin Mülkiyetindeki Yurt Dışında İhraç Edilen Borçlanma Senetleri (ABD doları) (Arşiv) | HAFTALIK(CUMA) | 07-01-2005..21-12-2012
+  bie_yymkpyuk | Yurt Dışı Yerleşiklerin Menkul Kıymet Portföyü (ABD doları, Piyasa Değeri, Stok, Akım) (Arşiv) | HAFTALIK(CUMA) | 07-01-2005..06-08-2021
+  bie_kmbmcz | Mevduat Bankaları ve Kalkınma ve Yatırım Bankalarının Gerçeğe Uygun Değ.Farkı Kar/Zarara Yan.ve Sat.Hazır Menkul Değerler (Menkul Kıymet Türlerine Göre) (Arşiv) | HAFTALIK(CUMA) | 05-07-1996..18-01-2013
+  bie_mvbdp | Mevduat Bankalar ve Katılım Bankaları Nezdindeki Yurt İçi Yerleşiklere Ait Döviz Mevduat Hesaplarının Döviz Kompozisyonu  (Arşiv) | HAFTALIK(CUMA) | 12-09-2003..18-01-2013
+  bie_dibsh | Banka Dışı Yurt İçi ve Yurt Dışı Yerleşik Kesimlerle Tüm Yurt Dışı Yerleşik Kesimlerin Mülkiyetindeki Devlet İç Borçlanma Senetleri (Arşiv)  | HAFTALIK(CUMA) | 05-12-2003..25-01-2013
+[seriler] bie_mknethar: 32
+    TP.MKNETHAR.M13 | 1. Stok Genel Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M14 | 1.1. Yurt İçi Piyasa Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M1 | 1.1.1. Hisse Senedi | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M2 | 1.1.2. DİBS (Kesin Alım) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M80 | 1.1.2.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M6 | 1.1.3. Genel Yönetim Dışındaki Sektörlerce İhraç Edilen Borçlanma Senetleri | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M15 | 1.2. Yurt Dışı Piyasa Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M16 | 1.2.1. Genel Yönetim İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M81 | 1.2.1.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M17 | 1.2.2. Finansal Olmayan Kuruluş İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M18 | 1.2.3. Banka İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M19 | 1.2.4. Diğer Finansal Kuruluş İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M20 | 2. Net Değişim Genel Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M21 | 2.1. Yurt İçi Piyasa Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M7 | 2.1.1. Hisse Senedi | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M8 | 2.1.2. DİBS (Kesin Alım) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M82 | 2.1.2.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M12 | 2.1.3. Genel Yönetim Dışındaki Sektörlerce İhraç Edilen Borçlanma Senetleri | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M22 | 2.2. Yurt Dışı Piyasa Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M23 | 2.2.1. Genel Yönetim İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M83 | 2.2.1.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M24 | 2.2.2. Finansal Olmayan Kuruluş İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M25 | 2.2.3. Banka İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M26 | 2.2.4. Diğer Finansal Kuruluş İhraçları | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M84 | 3. Geçici İşlemler Stok Genel Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M3 | 3.1. DİBS (Ters Repo) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M4 | 3.2. DİBS (Teminat Alım) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M5 | 3.3. DİBS (Ödünç Alım) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M85 | 4. Geçici İşlemler Net Değişim Genel Toplam | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M9 | 4.1. DİBS (Ters Repo) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M10 | 4.2. DİBS (Teminat Alım) | 11-09-2020..20-11-2026
+    TP.MKNETHAR.M11 | 4.3. DİBS (Ödünç Alım) | 11-09-2020..20-11-2026
+[seriler] bie_kmmenk: 37
+    TP.KM.N01 | I-VADEYE KADAR ELDE TUT.MENKUL DEG. (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N02 | I1-MEVDUAT BANKALARI (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N03 | I1A-YURT İÇİ (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N04 | I1Aa-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N05 | I1Aaa-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N06 | I1Aab-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N061 | I1Aab1-Devlet tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.N062 | I1Aab2-Hazine Bonosu (Arşiv) | 04-10-2002..12-08-2011
+    TP.KM.N07 | I1Aac-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N08 | I1Ab-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N09 | I1Aba-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N10 | I1Abb-Tahvil ve Benzeri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N101 | I1Abb1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.N102 | I1Abb2-Hazine Bonosu (Arşiv) | 04-10-2002..07-11-2008
+    TP.KM.N11 | I1Abc-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N12 | I1B-YURT DIŞI (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N13 | I1Ba-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N14 | I1Bb-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N15 | I2-KALKINMA YATIRIM BANKALARI (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N16 | I2A-YURT İÇİ (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N17 | I2Aa-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N18 | I2Aaa-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N19 | I2Aab-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N191 | I2Aab1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.N192 | I2Aab2-Hazine Bonosu (Arşiv) | 04-10-2002..12-08-2011
+    TP.KM.N20 | I2Aac-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N21 | I2Ab-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N22 | I2Aba-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N23 | I2Abb-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N231 | I2Abb1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.N232 | I2Abb2-Hazine Bonosu (Arşiv) | None..None
+    TP.KM.N24 | I2Abc-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N25 | I2B-YURT DIŞI (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N26 | I2Ba-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N27 | I2Bb-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N28 | II-VADEYE KADAR ELDE TUT.MENKUL DEG.DEGER DUSUS KARSILIGI (-) (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.N29 | III-VADEYE KADAR ELDE TUTULACAK MENKUL Değerler (NET) (I-II) (Arşiv) | 28-01-2000..18-01-2013
+[seriler] bie_mbbmdc: 52
+    TP.KM.O01 | I-MEVDUAT BANKALARI (1+2+3) (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O02 | I1-KAMU MEVDUAT BANKALARI (A+B) (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O03 | I1A-Yurtiçi (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O04 | I1Aa-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O05 | I1Aaa-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O06 | I1Aab-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O061 | I1Aab1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.O062 | I1Aab2-Hazine Bonosu (Arşiv) | 31-10-2003..13-02-2009
+    TP.KM.O07 | I1Aab-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O08 | I1Ab-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O09 | I1Aba-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O10 | I1Abb-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O101 | I1Abb1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.O102 | I1Abb2-Hazine Bonosu (Arşiv) | 22-08-2003..22-08-2003
+    TP.KM.O11 | I1Abc-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O12 | I1B-Yurtdışı (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O13 | I1Ba-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O14 | I1Bb-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O15 | I2-ÖZEL MEVDUAT BANKALARI (A+B) (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O16 | I2A-Yurtiçi (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O17 | I2Aa-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O18 | I2Aaa-Hazine Bonosu (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O19 | I2Aab-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O191 | I2Aab1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.O192 | I2Aab2-Hazine Bonosu (Arşiv) | 04-10-2002..13-08-2010
+    TP.KM.O20 | I2Aac-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O21 | I2Ab-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O22 | I2Aba-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O23 | I2Abb-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O231 | I2Abb1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.O232 | I2Abb2-Hazine Bonosu (Arşiv) | 04-10-2002..07-11-2008
+    TP.KM.O24 | I2Abc-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O25 | I2B-Yurtdışı (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O26 | I2Ba-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O27 | I2Bb-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O28 | I3-YABANCI MEVDUAT BANKALARI (A+B) (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O29 | I3A-Yurtiçi (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O30 | I3Aa-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O31 | I3Aaa-Hazine Bonosu (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O32 | I3Aab-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O321 | I3Aab1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.O322 | I3Aab2-Hazine Bonosu (Arşiv) | 04-10-2002..29-07-2011
+    TP.KM.O33 | I3Aac-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O34 | I3Ab-YP (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O35 | I3Aba-Hisse Senetleri (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O36 | I3Abb-Tahvil ve Benzeri Menkul Değerler (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O361 | I3Abb1-Devlet Tahvili (Arşiv) | 04-10-2002..18-01-2013
+    TP.KM.O362 | I3Abb2-Hazine Bonosu (Arşiv) | None..None
+    TP.KM.O37 | I3Abc-Diğer (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O38 | I3B-Yurtdışı (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O39 | I3Ba-TL (Arşiv) | 28-01-2000..18-01-2013
+    TP.KM.O40 | I3Bb-YP (Arşiv) | 28-01-2000..18-01-2013
+[seriler] bie_yymkeyuk: 4
+    TP.EYUK1 | 1. Yurt İçi Bankaların Yurtdışı Şubeleri (Nominal Değer) (Arşiv) | 07-01-2005..21-12-2012
+    TP.EYUK2 | 2. Yurt Dışı Yerleşik Diğer Kişiler (Nominal Değer) (Arşiv) | 07-01-2005..21-12-2012
+    TP.EYUK3 | 3. Yurt İçi Bankaların Yurtdışı Şubeleri (Piyasa Değeri) (Arşiv) | 07-01-2005..21-12-2012
+    TP.EYUK4 | 4. Yurt Dışı Yerleşik Diğer Kişiler (Piyasa Değeri) (Arşiv) | 07-01-2005..21-12-2012
+[seriler] bie_yymkpyuk: 8
+    TP.PYUK1 | 1. Hisse Senedi Stoku (milyon ABD doları) (Arşiv) | 07-01-2005..06-08-2021
+    TP.PYUK2 | 2. DİBS Stoku (Repo İşlemleri Dahil) (milyon ABD doları) (Arşiv) | 07-01-2005..06-08-2021
+    TP.PYUK21 | 3. REPO Stoku (Bilgi İçin) (milyon ABD doları) (Arşiv) | 04-11-2011..06-08-2021
+    TP.PYUK22 | 4. Özel Sektör Tahvil ve Bonoları Stoku (milyon ABD doları) (Arşiv) | 02-01-2015..06-08-2021
+    TP.PYUK3 | 5. Hisse Senedi Net Hareketler (milyon ABD doları) (Arşiv) | 07-01-2005..06-08-2021
+    TP.PYUK4 | 6. DİBS Net Hareketler (Repo İşlemleri Dahil) (milyon ABD doları) (Arşiv) | 07-01-2005..06-08-2021
+    TP.PYUK5 | 7. REPO Net Hareketler (Bilgi İçin) (milyon ABD doları) (Arşiv) | 04-11-2011..06-08-2021
+    TP.PYUK6 | 8. Özel Sektör Tahvil ve Bonoları Net Değişimi (milyon ABD doları) (Arşiv) | 09-01-2015..06-08-2021
+[seriler] bie_kmbmcz: 37
+    TP.KM.M01 | I-GERÇEĞE UYGUN DEĞ.FARKI KAR/ZARARA YAN.VE SAT.HAZIR MEN.DEĞ. (1+2) (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M02 | I1-MEVDUAT BANKALARI (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M03 | I1A-Yurtiçi (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M04 | I1Aa-TL (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M05 | I1Aaa-Hazine Bonosu (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M06 | I1Aab-Devlet Tahvili (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M07 | I1Aac-Yerel Yonetim Tahvilleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M08 | I1Aad-Hisse Senetleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M09 | I1Aae-Diğer (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M10 | I1Ab-YP (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M11 | I1Aba-Hazine Bonosu (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M12 | I1Abb-Devlet Tahvili (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M13 | I1Abc-Yerel Yönetim Tahvilleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M14 | I1ABD-Hisse Senetleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M15 | I1Abe-Diğer (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M16 | I1B-Yurtdışı (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M17 | I1Ba-TL (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M18 | I1Bb-YP (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M19 | I2-KALKINMA YATIRIM BANKALARI (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M20 | I2A-Yurtiçi (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M21 | I2Aa-TL (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M22 | I2Aaa-Hazine Bonosu (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M23 | I2Aab-Devlet Tahvili (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M24 | I2Aac-Yerel Yonetim Tahvilleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M25 | I2Aad-Hisse Senetleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M26 | I2Aae-Diğer (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M27 | I2Ab-YP (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M28 | I2Aba-Hazine Bonosu (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M29 | I2Abb-Devlet Tahvili (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M30 | I2Abc-Yerel Yönetim Tahvilleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M31 | I2ABD-Hisse Senetleri (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M32 | I2Abe-Diğer (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M33 | I2B-Yurtdışı (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M34 | I2Ba-TL (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M35 | I2Bb-YP (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M36 | II-GERÇEĞE UYGUN DEĞ.FARKI KAR/ZARARA YAN.VE SAT.HAZIR MEN.DEĞ.DÜŞÜŞ KARŞILIĞI (-) (Arşiv) | 05-07-1996..18-01-2013
+    TP.KM.M37 | III-GERÇEĞE UYGUN DEĞ.FARKI KAR/ZARARA YAN.VE SAT.HAZIR MEN.DEĞ. (Net) (I-II) (Arşiv) | 05-07-1996..18-01-2013
+[seriler] bie_mvbdp: 15
+    TP.YYI01 | I.TOPLAM ABD$ (A+B) (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI02 | Ia.ABD $ (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI03 | Ib.EURO (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI04 | Ic.EURO-ABD $ KARŞILIĞI (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI05 | Id.DİĞER-ABD $ KARŞILIĞI (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI06 | A.GERÇEK KİŞİLER TOPLAM ABD $ (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI07 | A1.ABD $ (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI08 | A2.EURO (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI09 | A3.EURO-ABD $ Karşılığı (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI10 | A4.DİĞER-ABD $ KARŞILIĞI (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI11 | B.TÜZEL KİŞİLER TOPLAM ABD $ (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI12 | B1.ABD $ (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI13 | B2.EURO (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI14 | B3.EURO-ABD $ Karşılığı (Arşiv) | 12-09-2003..18-01-2013
+    TP.YYI15 | B4.DİĞER-ABD $ Karşılığı (Arşiv) | 12-09-2003..18-01-2013
+[seriler] bie_dibsh: 15
+    TP.D01 | 1-BANKADIŞI KESİM (Arşiv) | 05-12-2003..25-01-2013
+    TP.D02 | 1a-TL ve YP'ye Endeksli (Arşiv) | 05-12-2003..25-01-2013
+    TP.D03 | 1b-YP (Arşiv) | 05-12-2003..25-01-2013
+    TP.D04 | 1A-Gerçek Kişi (Arşiv) | 05-12-2003..25-01-2013
+    TP.D05 | 1Aa-TL ve YP'ye Endeksli (Arşiv) | 05-12-2003..25-01-2013
+    TP.D06 | 1Ab-YP (Arşiv) | 05-12-2003..25-01-2013
+    TP.D07 | 1B-Tüzel Kişi (Arşiv) | 05-12-2003..25-01-2013
+    TP.D08 | 1Ba-TL ve YP'ye Endeksli (Arşiv) | 05-12-2003..25-01-2013
+    TP.D09 | 1Bb-YP (Arşiv) | 05-12-2003..25-01-2013
+    TP.D10 | 2-MENKUL KIYMET YATIRIM FONLARI (Arşiv) | 05-12-2003..25-01-2013
+    TP.D11 | TOPLAM (1+2) (Arşiv) | 05-12-2003..25-01-2013
+    TP.D12 | 3-YURT DIŞI YERLESIKLER (Arşiv) | 05-12-2003..25-01-2013
+    TP.D13 | 3a-TL ve YPye Endeksli (Arşiv) | 05-12-2003..25-01-2013
+    TP.D14 | 3b-YP (Arşiv) | 05-12-2003..25-01-2013
+    TP.D15 | TOPLAM (1+2+3) (Arşiv) | 05-12-2003..25-01-2013
+[grafik secim] hisse=TP.MKNETHAR.M1 (1.1.1. Hisse Senedi); dibs=TP.MKNETHAR.M2 (1.1.2. DİBS (Kesin Alım))
+# Haftalık akımlar (EVDS) — 2026-11-26T12:11:57+00:00
+
+## bie_mknethar — Yurt Dışı Yerleşikler Menkul Kıymet Portföyü
+
+| seri | 18.09 | 25.09 | 02.10 | 09.10 | 16.10 | 23.10 | 30.10 | 06.11 | 13.11 | 20.11 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1. Stok Genel Toplam (TP.MKNETHAR.M13) | 148,898 | 147,149 | 144,406 | 143,333 | 140,973 | 137,429 | 136,409 | 137,314 | 138,373 | 134,571 |
+| 1.1. Yurt İçi Piyasa Toplam (TP.MKNETHAR.M14) | 60,878 | 59,631 | 57,016 | 56,037 | 53,815 | 50,866 | 49,824 | 50,578 | 51,959 | 49,059 |
+| 1.1.1. Hisse Senedi (TP.MKNETHAR.M1) | 39,355 | 38,871 | 36,792 | 35,921 | 33,981 | 31,569 | 31,323 | 32,266 | 33,899 | 31,735 |
+| 1.1.2. DİBS (Kesin Alım) (TP.MKNETHAR.M2) | 17,436 | 17,121 | 16,659 | 17,042 | 16,795 | 16,555 | 15,830 | 15,797 | 15,877 | 15,279 |
+| 1.1.2.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri (TP.MKNETHAR.M80) | 513 | 510 | 521 | 529 | 546 | 525 | 525 | 584 | 538 | 540 |
+| 1.1.3. Genel Yönetim Dışındaki Sektörlerce İhraç Edilen Borçlanma Senetleri (TP.MKNETHAR.M6) | 4,087 | 3,638 | 3,565 | 3,073 | 3,039 | 2,742 | 2,671 | 2,514 | 2,184 | 2,045 |
+| 1.2. Yurt Dışı Piyasa Toplam (TP.MKNETHAR.M15) | 88,020 | 87,518 | 87,390 | 87,296 | 87,157 | 86,563 | 86,585 | 86,737 | 86,413 | 85,511 |
+| 1.2.1. Genel Yönetim İhraçları (TP.MKNETHAR.M16) | 47,011 | 46,482 | 46,956 | 46,581 | 46,422 | 46,031 | 46,056 | 46,138 | 45,827 | 45,060 |
+| 1.2.1.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri (TP.MKNETHAR.M81) | 9,661 | 9,589 | 9,621 | 9,505 | 9,530 | 9,347 | 9,366 | 9,361 | 9,324 | 9,242 |
+| 1.2.2. Finansal Olmayan Kuruluş İhraçları (TP.MKNETHAR.M17) | 15,832 | 15,778 | 15,560 | 15,659 | 15,712 | 15,540 | 15,571 | 15,597 | 15,641 | 15,530 |
+| 1.2.3. Banka İhraçları (TP.MKNETHAR.M18) | 22,766 | 22,838 | 22,483 | 22,645 | 22,574 | 22,543 | 22,541 | 22,577 | 22,711 | 22,688 |
+| 1.2.4. Diğer Finansal Kuruluş İhraçları (TP.MKNETHAR.M19) | 2,411 | 2,420 | 2,391 | 2,410 | 2,450 | 2,449 | 2,417 | 2,424 | 2,235 | 2,232 |
+| 2. Net Değişim Genel Toplam (TP.MKNETHAR.M20) | -313 | -512 | 92 | -865 | -582 | -909 | -1,005 | 270 | 5 | -917 |
+| 2.1. Yurt İçi Piyasa Toplam (TP.MKNETHAR.M21) | -555 | -486 | -735 | -277 | -151 | -569 | -879 | 261 | 23 | -641 |
+| 2.1.1. Hisse Senedi (TP.MKNETHAR.M7) | -110 | 359 | -190 | -248 | -89 | -100 | -66 | 367 | 247 | -48 |
+| 2.1.2. DİBS (Kesin Alım) (TP.MKNETHAR.M8) | -114 | -410 | -485 | 451 | -41 | -184 | -750 | 37 | 98 | -463 |
+| 2.1.2.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri (TP.MKNETHAR.M82) | -0 | -6 | 11 | 5 | 16 | -21 | -1 | 57 | -48 | 1 |
+| 2.1.3. Genel Yönetim Dışındaki Sektörlerce İhraç Edilen Borçlanma Senetleri (TP.MKNETHAR.M12) | -332 | -434 | -60 | -480 | -21 | -285 | -62 | -143 | -321 | -130 |
+| 2.2. Yurt Dışı Piyasa Toplam (TP.MKNETHAR.M22) | 242 | -27 | 826 | -588 | -431 | -340 | -127 | 9 | -19 | -275 |
+| 2.2.1. Genel Yönetim İhraçları (TP.MKNETHAR.M23) | -169 | -197 | 929 | -741 | -285 | -343 | -92 | -1 | -7 | -259 |
+| 2.2.1.i. Bilgi İçin: Türkiye'deki Bankaların Yurt Dışı Şubeleri (TP.MKNETHAR.M83) | 24 | -5 | 109 | -187 | 2 | -175 | 1 | -22 | 28 | 21 |
+| 2.2.2. Finansal Olmayan Kuruluş İhraçları (TP.MKNETHAR.M24) | -1 | 25 | 47 | 47 | -6 | 6 | 15 | -2 | 5 | -39 |
+| 2.2.3. Banka İhraçları (TP.MKNETHAR.M25) | 403 | 138 | -143 | 93 | -170 | -7 | -14 | 6 | 177 | 22 |
+| 2.2.4. Diğer Finansal Kuruluş İhraçları (TP.MKNETHAR.M26) | 8 | 7 | -7 | 13 | 29 | 4 | -35 | 5 | -193 | 0 |
+| 3. Geçici İşlemler Stok Genel Toplam (TP.MKNETHAR.M84) | 7,822 | 8,112 | 8,113 | 8,146 | 8,130 | 7,982 | 8,055 | 8,955 | 9,194 | 9,108 |
+| 3.1. DİBS (Ters Repo) (TP.MKNETHAR.M3) | 1,800 | 1,803 | 1,799 | 1,790 | 1,776 | 1,788 | 1,791 | 1,792 | 2,001 | 2,018 |
+| 3.2. DİBS (Teminat Alım) (TP.MKNETHAR.M4) | 6,021 | 6,310 | 6,314 | 6,356 | 6,354 | 6,194 | 6,264 | 7,163 | 7,193 | 7,090 |
+| 3.3. DİBS (Ödünç Alım) (TP.MKNETHAR.M5) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 4. Geçici İşlemler Net Değişim Genel Toplam (TP.MKNETHAR.M85) | -272 | 267 | -15 | 59 | 36 | -140 | 63 | 869 | 287 | -36 |
+| 4.1. DİBS (Ters Repo) (TP.MKNETHAR.M9) | 1 | -1 | -6 | -3 | 0 | 9 | 0 | -0 | 204 | 17 |
+| 4.2. DİBS (Teminat Alım) (TP.MKNETHAR.M10) | -273 | 269 | -9 | 62 | 35 | -149 | 63 | 869 | 83 | -53 |
+| 4.3. DİBS (Ödünç Alım) (TP.MKNETHAR.M11) | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+

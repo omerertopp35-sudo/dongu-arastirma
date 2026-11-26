@@ -2,7 +2,7 @@
 [seriler] bie_abres2: 3
     TP.AB.C1 | Altın (Milyon ABD Doları) | HAFTALIK(CUMA) | 25-12-1987..20-11-2026
 {
- "uretim_zamani_utc": "2026-11-26T12:05:08+00:00",
+ "uretim_zamani_utc": "2026-11-26T12:11:41+00:00",
  "net": {
   "kalemler": {
    "dis_varlik": [
