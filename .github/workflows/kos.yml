@@ -9,6 +9,7 @@ on:
     paths:
       - "*.py"
       - "!evds_rezerv.py"
+      - "!evds_akim.py"
       - "requirements.txt"
       - ".github/workflows/kos.yml"
 

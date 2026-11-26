@@ -1,4 +1,4 @@
-# TCMB rezervleri (EVDS): evds_rezerv.py push'unda ya da elle. Yalniz bu betik calisir.
+# TCMB rezervleri + haftalik akimlar (EVDS): evds_rezerv.py / evds_akim.py push'unda ya da elle.
 name: rezerv
 
 on:
@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - "evds_rezerv.py"
+      - "evds_akim.py"
       - ".github/workflows/rezerv.yml"
 
 permissions:
@@ -35,6 +36,14 @@ jobs:
           mkdir -p sonuclar/rezerv
           set -o pipefail
           python evds_rezerv.py 2>&1 | tee sonuclar/log_rezerv.txt
+      - name: Haftalik akimlar
+        continue-on-error: true
+        env:
+          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+        run: |
+          mkdir -p sonuclar/akim
+          set -o pipefail
+          python evds_akim.py 2>&1 | tee sonuclar/log_akim.txt
       - name: Sonuclari yaz
         if: always()
         run: |
