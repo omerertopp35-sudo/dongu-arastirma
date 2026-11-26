@@ -97,10 +97,13 @@ def kos() -> int:
             n = _norm(a)
             if k not in df:
                 continue
+            # yalniz "2. Net Degisim" bolumu (fiyat/kur etkisinden arindirilmis akim), stok degil
+            if not n.startswith("2.1."):
+                continue
             if "hisse" in n and "hisse" not in secim:
-                secim["hisse"] = (k, a, df[k])
-            if ("devlet ic borclanma" in n or "dibs" in n) and "dibs" not in secim:
-                secim["dibs"] = (k, a, df[k])
+                secim["hisse"] = (k, "Yurt dışı yerleşik net hisse alımı (mn $)", df[k])
+            if ("devlet ic borclanma" in n or "dibs" in n) and "bilgi" not in n and "dibs" not in secim:
+                secim["dibs"] = (k, "Yurt dışı yerleşik net DİBS alımı (mn $)", df[k])
     log.append("[grafik secim] " + "; ".join(f"{t}={v[0]} ({v[1]})" for t, v in secim.items()) if secim else "[grafik secim] YOK")
     if secim:
         plt = _plt()
