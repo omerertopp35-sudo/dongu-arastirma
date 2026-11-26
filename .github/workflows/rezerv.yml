@@ -1,0 +1,50 @@
+# TCMB rezervleri (EVDS): evds_rezerv.py push'unda ya da elle. Yalniz bu betik calisir.
+name: rezerv
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "evds_rezerv.py"
+      - ".github/workflows/rezerv.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kos
+  cancel-in-progress: false
+
+jobs:
+  rezerv:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Kurulum
+        run: pip install -q pandas numpy requests matplotlib
+      - name: Rezerv
+        continue-on-error: true
+        env:
+          EVDS_API_KEY: ${{ secrets.EVDS_API_KEY }}
+        run: |
+          mkdir -p sonuclar/rezerv
+          set -o pipefail
+          python evds_rezerv.py 2>&1 | tee sonuclar/log_rezerv.txt
+      - name: Sonuclari yaz
+        if: always()
+        run: |
+          git config user.name "dongu-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sonuclar
+          if git diff --cached --quiet; then echo "degisiklik yok"; exit 0; fi
+          git commit -q -m "rezerv $(date -u +%FT%TZ) (actions)"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
