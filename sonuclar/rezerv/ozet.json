@@ -1,0 +1,104 @@
+{
+  "uretim_zamani_utc": "2026-11-26T12:05:08+00:00",
+  "brut": {
+    "secim": {
+      "altin": [
+        "TP.AB.C1",
+        "Altın (Milyon ABD Doları)"
+      ],
+      "doviz": [
+        "TP.AB.C2",
+        "Döviz (Milyon ABD Doları)"
+      ],
+      "toplam": [
+        "TP.AB.TOPLAM",
+        "Toplam (Milyon ABD Doları)"
+      ]
+    },
+    "seriler": {
+      "TP.AB.C1": {
+        "ad": "Altın (Milyon ABD Doları)",
+        "tarih": "2026-11-20",
+        "deger": 91596.0273807,
+        "1_hafta": -8103.933910199994,
+        "4_hafta": -11550.030404199992,
+        "52_hafta": -12795.723036700001,
+        "yilbasindan": -25297.80415089999
+      },
+      "TP.AB.C2": {
+        "ad": "Döviz (Milyon ABD Doları)",
+        "tarih": "2026-11-20",
+        "deger": 50376.1296066,
+        "1_hafta": -8874.0085063,
+        "4_hafta": -8668.727324,
+        "52_hafta": -25863.246413199995,
+        "yilbasindan": -26601.908631100006
+      },
+      "TP.AB.TOPLAM": {
+        "ad": "Toplam (Milyon ABD Doları)",
+        "tarih": "2026-11-20",
+        "deger": 141972.1569873,
+        "1_hafta": -16977.94241650001,
+        "4_hafta": -20218.7577282,
+        "52_hafta": -38658.9694499,
+        "yilbasindan": -51899.71278200002
+      }
+    }
+  },
+  "net": {
+    "kalemler": {
+      "dis_varlik": [
+        "TP.AB.A02",
+        "A.1 DIŞ VARLIKLAR"
+      ],
+      "yukumluluk": [
+        "TP.AB.A10",
+        "P.1 TOPLAM DÖVİZ YÜKÜMLÜLÜKLERİ"
+      ]
+    },
+    "dis_varlik_usd_son": 139124.53472266195,
+    "tarih": "2026-11-25",
+    "deger": 16811.301150034826,
+    "1_hafta": -15874.777845856228,
+    "4_hafta": -18929.781995336274,
+    "52_hafta": -43945.79712030894,
+    "yilbasindan": -49266.81997272342
+  },
+  "likidite_swap_kalemleri": {
+    "TP.REZVARPD.K10": {
+      "ad": "1.1.4.Altın (Altın Mevduatlarını ve Eğer Uygunsa Altın Swaplarını İçeren)",
+      "tarih": "2026-10",
+      "deger": 102017.0
+    },
+    "TP.DOVVARNC.K14": {
+      "ad": "2.2.Yurt İçi Para Karşılığında Döviz Forward ve Future'ların Toplam Kısa ve Fazla Pozisyon Büyüklükleri (Para Swaplarının Gelecekteki Bacağını da Kapsar)",
+      "tarih": "2026-10",
+      "deger": -16554.0
+    },
+    "TP.EKKALEM.K2": {
+      "ad": "4.1.1.Dövize Endeksli Kısa Vadeli İç Borçlanmalar",
+      "tarih": "2026-10",
+      "deger": 0.0
+    },
+    "TP.EKKALEM.K4": {
+      "ad": "4.1.2.1.Türevler (Forwardlar, Futurelar ve Opsiyon Sözleşmeleri) / Açık Pozisyonlar",
+      "tarih": "2026-10",
+      "deger": -2.0
+    },
+    "TP.EKKALEM.K5": {
+      "ad": "4.1.2.2.Türevler (Forwardlar, Futurelar ve Opsiyon Sözleşmeleri) / Fazla Pozisyonlar",
+      "tarih": "2026-10",
+      "deger": 0.0
+    },
+    "TP.EKKALEM.K10": {
+      "ad": "4.1.6.Vadeye Kalan Süresi 1 Yıldan Uzun Türevler (Forward, Future ve Opsiyon Kontratları)",
+      "tarih": "2026-10",
+      "deger": 0.0
+    }
+  },
+  "usdtry_son": {
+    "tarih": "2026-11-26",
+    "deger": 50.5531
+  },
+  "hatali": {}
+}

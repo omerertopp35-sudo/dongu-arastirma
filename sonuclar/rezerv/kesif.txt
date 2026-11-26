@@ -1,0 +1,121 @@
+[gruplar] analitik bilanco adayları: bie_abanlbil | Merkez Bankası Analitik Bilanço | İŞ GÜNÜ | ..25-11-2026
+[seriler] bie_abres2: 3
+    TP.AB.C1 | Altın (Milyon ABD Doları) | HAFTALIK(CUMA) | 25-12-1987..20-11-2026
+    TP.AB.C2 | Döviz (Milyon ABD Doları) | HAFTALIK(CUMA) | 25-12-1987..20-11-2026
+    TP.AB.TOPLAM | Toplam (Milyon ABD Doları) | HAFTALIK(CUMA) | 25-12-1987..20-11-2026
+[seriler] bie_ulusdovlkd: 113
+    TP.REZVARPD.K1 | 1.1.Resmi Rezerv Varlıkları | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K2 | 1.1.1.Döviz Varlıkları (Merkez Bankasınca Alım Satım Konusu Yapılan Dövizler) | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K3 | 1.1.1.1.Menkul Kıymetler | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K4 | 1.1.1.2.Toplam Nakit ve Mevduatlar: | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K5 | 1.1.1.2.1.Diğer Merkez Bankaları, BIS ve IMF | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K6 | 1.1.1.2.2.Merkezi Türkiye'de Olan Bankalar | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K7 | 1.1.1.2.3.Merkezi Türkiye'nin Dışında Olan Bankalar | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K8 | 1.1.2.IMF Rezerv Pozisyonu | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K9 | 1.1.3.SDR'lar | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K10 | 1.1.4.Altın (Altın Mevduatlarını ve Eğer Uygunsa Altın Swaplarını İçeren) | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K11 | 1.1.4.1.(Saf) Milyon Troy Ons | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K12 | 1.1.5.Diğer Rezerv Varlıkları | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K13 | 1.1.5.1.Mali Türevler | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K14 | 1.1.5.2.Banka Dışı Yerleşik Olmayanlara Açılan Krediler | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K15 | 1.1.5.3.Diğer | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K16 | 1.2.Diğer Döviz Varlıkları | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K17 | 1.2.1.Resmi Rezerv Varlıklarına Dahil Edilmeyen Menkul Kıymetler | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K18 | 1.2.2.Resmi Rezerv Varlıklarına Dahil Edilmeyen Mevduatlar | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K19 | 1.2.3.Resmi Rezerv Varlıklarına Dahil Edilmeyen Krediler | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K20 | 1.2.4.Resmi Rezerv Varlıklarına Dahil Edilmeyen Mali Türevler | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K21 | 1.2.5.Resmi Rezerv Varlıklarına Dahil Edilmeyen Altın | AYLIK | 01-08-2000..01-10-2026
+    TP.REZVARPD.K22 | 1.2.6.Diğer | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K1 | 2.1.Döviz Kredileri, Menkul Kıymetler ve Mevduatlar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K2 | 2.1.1.Çıkışlar (-) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K3 | 2.1.1.A.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K4 | 2.1.1.B.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K5 | 2.1.1.C.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K6 | 2.1.1.1.Anapara | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K7 | 2.1.1.1.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K8 | 2.1.1.1.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K9 | 2.1.1.1.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K10 | 2.1.1.2.Faiz | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K11 | 2.1.1.2.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K12 | 2.1.1.2.2.İkiÜç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K13 | 2.1.1.2.3.Dört AyBir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K14 | 2.2.Yurt İçi Para Karşılığında Döviz Forward ve Future'ların Toplam Kısa ve Fazla Pozisyon Büyüklükleri (Para Swaplarının Gelecekteki Bacağını da Kapsar) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K15 | 2.2.1.Açık Pozisyonlar (-) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K16 | 2.2.1.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K17 | 2.2.1.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K18 | 2.2.1.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K19 | 2.2.2.Fazla Pozisyonlar (+) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K20 | 2.2.2.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K21 | 2.2.2.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K22 | 2.2.2.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K23 | 2.3.Diğer | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K24 | 2.3.1.Repo Bağlantılı Çıkışlar (-) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K25 | 2.3.1.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K26 | 2.3.1.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K27 | 2.3.1.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K28 | 2.3.2.Ters Repo Bağlantılı Girişler (+) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K29 | 2.3.2.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K30 | 2.3.2.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K31 | 2.3.2.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K32 | 2.3.3.Ticari Krediler (-) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K33 | 2.3.3.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K34 | 2.3.3.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K35 | 2.3.3.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K36 | 2.3.4.Ticari Krediler (+) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K37 | 2.3.4.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K38 | 2.3.4.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K39 | 2.3.4.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K40 | 2.3.5.Diğer Borç Hesapları (-) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K41 | 2.3.5.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K42 | 2.3.5.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K43 | 2.3.5.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K44 | 2.3.6.Diğer Alacak Hesapları (+) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K45 | 2.3.6.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K46 | 2.3.6.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARNC.K47 | 2.3.6.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K1 | 3.1 Şarta Bağlı Döviz Yükümlülükleri | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K2 | 3.1.1.Bir Yıl İçinde Ödenecek Borçlar Üzerindeki Garantiler | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K3 | 3.1.1.1.Bir Aya Kadar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K4 | 3.1.1.2.İki Üç Ay Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K5 | 3.1.1.3.Dört Ay Bir Yıl Arası | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K6 | 3.1.2.Diğer Şarta Bağlı Yükümlülükler | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K7 | 3.2.İçinde Opsiyon Hakkı İle İhraç Edilen Döviz Menkul Kıymetleri | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K8 | 3.3.Şartsız Olarak Sağlanan Kullanılmamış Kredi İmkanları: | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K9 | 3.3.1.Diğer Ulusal Para Otoriteleri, BIS, IMF ve Diğer Uluslararası Kuruluşlar | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K10 | 3.3.1.1.Diğer Ulusal Para Otoriteleri (+) | AYLIK | 01-08-2000..01-10-2026
+    TP.DOVVARSB.K11 | 3.3.1.2.BIS (+) | AYLIK | 01-08-2000..01-10-2026
+[seriler] bie_abanlbil: 31
+    TP.AB.A01 | A.AKTİF | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A02 | A.1 DIŞ VARLIKLAR | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A03 | A.2 İÇ VARLIKLAR | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A04 | A.2A Nakit İşlemler | İŞ GÜNÜ | 26-12-1980..31-12-2012
+    TP.AB.A05 | A.2Aa Hazine Borçları | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A051 | A.2Aa1 Menkul Kıymetler | İŞ GÜNÜ | 24-11-2000..25-11-2026
+    TP.AB.A052 | A.2Aa1a 5 Kasım 2001 Öncesi DİBS | İŞ GÜNÜ | 24-11-2000..31-12-2012
+    TP.AB.A053 | A.2Aa1b İkincil Piyasadan Alınan DİBS | İŞ GÜNÜ | 24-11-2000..31-12-2012
+    TP.AB.A054 | A.2Aa2 Diğer | İŞ GÜNÜ | 24-11-2000..25-11-2026
+    TP.AB.A06 | A.2Ab Bankacılık Sektörüne Açılan Nakit Krediler | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A061 | A.2Ac TMSF'ye Kullandırılan Krediler | İŞ GÜNÜ | 24-11-2000..25-11-2026
+    TP.AB.A07 | A.2Ad Diğer Kalemler | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A08 | A.3 DEĞERLEME HESABI | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A081 | A.2B IMF Acil Yardım Takip Hesabı (Hazine) | İŞ GÜNÜ | 26-12-1980..31-12-2012
+    TP.AB.A09 | P.PASİF | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A10 | P.1 TOPLAM DÖVİZ YÜKÜMLÜLÜKLERİ | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A11 | P.1a Dış Yükümlülükler | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A12 | P.1b İç Yükümlülükler | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A13 | P.1ba Kamu ve Diğer Döviz Mevduatı | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A14 | P.1bb Bankalar Döviz Mevduatı | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A15 | P.2 MERKEZ BANKASI PARASI | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A16 | P.2A Rezerv Para | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A17 | P.2Aa Emisyon | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A18 | P.2Ab Bankalar Mevduatı | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A19 | P.2Aba Zorunlu Karşılıklar Bloke Hesabı | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A20 | P.2Abb Serbest Mevduat | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A21 | P.2Ac Fon hesapları | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A22 | P.2Ad Banka Dışı Kesim Mevduatı | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A23 | P.2B Diğer Merkez Bankası Parası | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A24 | P.2Ba Açık Piyasa İşlemleri | İŞ GÜNÜ | 26-12-1980..25-11-2026
+    TP.AB.A25 | P.2Bb Kamu Mevduatı | İŞ GÜNÜ | 26-12-1980..25-11-2026
+[brut secim] altin=TP.AB.C1 (Altın (Milyon ABD Doları)); doviz=TP.AB.C2 (Döviz (Milyon ABD Doları)); toplam=TP.AB.TOPLAM (Toplam (Milyon ABD Doları))
+[net secim] dis_varlik=TP.AB.A02 (A.1 DIŞ VARLIKLAR); toplam_doviz_yuk=TP.AB.A10 (P.1 TOPLAM DÖVİZ YÜKÜMLÜLÜKLERİ); yurtdisi_yuk=TP.AB.A11 (P.1a Dış Yükümlülükler); yurtici_doviz_yuk=YOK
+[net] dis varlik / brut toplam ham oran 979.9 -> olcek 1000 (birim uyumu)
