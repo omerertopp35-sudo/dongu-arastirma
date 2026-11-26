@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-26T12:03:39+00:00",
+  "uretim_zamani_utc": "2026-11-26T12:13:41+00:00",
   "demo": false,
   "hatali": {},
   "veri_duzeltmeleri": {
@@ -20,7 +20,7 @@
     "zirveyi_geri_alma_yil": 14.4
   },
   "hizalama": {
-    "bugun_dusus": -0.6371220224445274,
+    "bugun_dusus": -0.6366440914026378,
     "zirveden_is_gunu": 218,
     "zaman": {
       "2011_tarih": "2012-02-29",
@@ -31,10 +31,10 @@
       "zirveye_donus_yil": 14.1
     },
     "derinlik": {
-      "2011_tarih": "2014-09-25",
-      "2011_dusus": -0.6422896459517444,
+      "2011_tarih": "2014-09-24",
+      "2011_dusus": -0.6368557594674122,
       "zirveden_ay": 42.3,
-      "kalan_dip_ek_dusus": -0.21364862223444558,
+      "kalan_dip_ek_dusus": -0.22541514265979934,
       "kalan_dibe_ay": 15.1,
       "zirveye_donus_yil": 11.4
     }

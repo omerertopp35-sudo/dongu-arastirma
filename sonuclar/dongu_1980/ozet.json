@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-26T12:03:43+00:00",
+  "uretim_zamani_utc": "2026-11-26T12:13:46+00:00",
   "demo": false,
   "kaynak": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Historical-Data-Monthly.xlsx",
   "veri_son_ay": "2026-11",
@@ -52,12 +52,12 @@
       "zirve_ay": "2026-01",
       "zirve": 92.1,
       "dip_ay": "2026-11",
-      "dip": 47.39981789288654,
-      "dusus": -0.48534399681990725,
+      "dip": 47.402710848661684,
+      "dusus": -0.4853125857908611,
       "dibe_ay": 10,
       "dipten_12a": null,
       "tam_dongu_dibi_ay": "2026-11",
-      "tam_dongu_dusus": -0.48534399681990725,
+      "tam_dongu_dusus": -0.4853125857908611,
       "zirveyi_geri_alma_ay": null,
       "zirveyi_geri_alma_yil": null,
       "dip_teyitsiz": true
@@ -65,7 +65,7 @@
   },
   "hizalama": {
     "bugun_ay_sonra": 10,
-    "bugun_dusus_aylik_ort": -0.48534399681990725,
+    "bugun_dusus_aylik_ort": -0.4853125857908611,
     "1980_zaman": {
       "esdeger_ay": "1980-11",
       "zirveden_ay": 10,

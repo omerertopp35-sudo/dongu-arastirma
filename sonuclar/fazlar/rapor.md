@@ -1,4 +1,4 @@
-# Backtest #2 — zirveden sonraki döngü (2026-11-26T12:03:39+00:00)
+# Backtest #2 — zirveden sonraki döngü (2026-11-26T12:13:41+00:00)
 
 ## Gümüş fazları (zigzag ±%25, haftalık)
 
@@ -36,6 +36,6 @@
 
 ## Bugünü 2011'e hizalama
 - **zaman**: 2011'de 2012-02-29 (zirveden 10.4 ay, -29%); 2011 döngü dibine kalan -60% (47.0 ay sonra), o noktadan 2011 zirvesine dönüş 14.1 yıl
-- **derinlik**: 2011'de 2014-09-25 (zirveden 42.3 ay, -64%); 2011 döngü dibine kalan -21% (15.1 ay sonra), o noktadan 2011 zirvesine dönüş 11.4 yıl
+- **derinlik**: 2011'de 2014-09-24 (zirveden 42.3 ay, -64%); 2011 döngü dibine kalan -23% (15.1 ay sonra), o noktadan 2011 zirvesine dönüş 11.4 yıl
 
 Geçmişin kaydıdır, tahmin değildir. Yatırım tavsiyesi değildir.
