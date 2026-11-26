@@ -215,4 +215,4 @@
     TP.D13 | 3a-TL ve YPye Endeksli (Arşiv) | 05-12-2003..25-01-2013
     TP.D14 | 3b-YP (Arşiv) | 05-12-2003..25-01-2013
     TP.D15 | TOPLAM (1+2+3) (Arşiv) | 05-12-2003..25-01-2013
-[grafik secim] hisse=TP.MKNETHAR.M1 (1.1.1. Hisse Senedi); dibs=TP.MKNETHAR.M2 (1.1.2. DİBS (Kesin Alım))
+[grafik secim] hisse=TP.MKNETHAR.M7 (Yurt dışı yerleşik net hisse alımı (mn $)); dibs=TP.MKNETHAR.M8 (Yurt dışı yerleşik net DİBS alımı (mn $))

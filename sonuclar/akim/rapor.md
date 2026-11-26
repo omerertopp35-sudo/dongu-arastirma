@@ -1,4 +1,4 @@
-# Haftalık akımlar (EVDS) — 2026-11-26T12:11:57+00:00
+# Haftalık akımlar (EVDS) — 2026-11-26T12:15:20+00:00
 
 ## bie_mknethar — Yurt Dışı Yerleşikler Menkul Kıymet Portföyü
 
