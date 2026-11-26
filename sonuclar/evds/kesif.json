@@ -1,5 +1,5 @@
 {
-  "uretim_zamani_utc": "2026-11-23T16:47:15+00:00",
+  "uretim_zamani_utc": "2026-11-26T12:03:45+00:00",
   "calisan_yontem": {
     "taban": "https://evds3.tcmb.gov.tr/igmevdsms-dis/",
     "anahtar_iletimi": "header"
@@ -17,7 +17,7 @@
       "ad": "Türk Lirası Gecelik Referans Faiz Oranı (BIST-TLREF) | Turkish Lira Overnight Reference Rate (BIST-TLREF)",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "28-12-2018",
-      "bitis": "20-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_tevdsuv",
@@ -38,7 +38,7 @@
       "ad": "Tahsile Alınan Ticari Senetler | Commercial Bills Received For Collection",
       "frekans": "AYLIK",
       "baslangic": "01-06-2007",
-      "bitis": "01-09-2026"
+      "bitis": "01-10-2026"
     },
     {
       "kod": "bie_kmmbkre",
@@ -108,7 +108,7 @@
       "ad": "Konvertibl Olmayan Döviz Kurları | Non-Convertible Exchange Rates",
       "frekans": "GÜNLÜK",
       "baslangic": "02-04-2009",
-      "bitis": "24-11-2026"
+      "bitis": "26-11-2026"
     },
     {
       "kod": "bie_kbkmkre",
@@ -122,7 +122,7 @@
       "ad": "Merkez Bankası Bilançosu - Stand By (Cari) | Central Bank Balance Sheet- Stand By (At Current Cross Rates)",
       "frekans": "HAFTALIK(CUMA)",
       "baslangic": "04-01-2002",
-      "bitis": "13-11-2026"
+      "bitis": "20-11-2026"
     },
     {
       "kod": "bie_kt200h",
@@ -143,7 +143,7 @@
       "ad": "Banka Kartı ve Kredi Kartı Harcama Tutarı (Akım) | Debit Card and Credit Card Total Expenditure Amount (Flow)",
       "frekans": "HAFTALIK(CUMA)",
       "baslangic": "07-03-2014",
-      "bitis": "13-11-2026"
+      "bitis": "20-11-2026"
     },
     {
       "kod": "bie_kmkykre",
@@ -164,7 +164,7 @@
       "ad": "Merkez Bankası Rezervleri | Central Bank Reserves",
       "frekans": "HAFTALIK(CUMA)",
       "baslangic": "25-12-1987",
-      "bitis": "13-11-2026"
+      "bitis": "20-11-2026"
     },
     {
       "kod": "bie_rkufey",
@@ -206,21 +206,21 @@
       "ad": "Bankacılık Sektörü Seçilmiş Kredi Büyüklükleri (Yurt İçi Şubeler) | Banking Sector Selected Loans (Domestic Branches)",
       "frekans": "HAFTALIK(CUMA)",
       "baslangic": "28-06-2024",
-      "bitis": "13-11-2026"
+      "bitis": "20-11-2026"
     },
     {
       "kod": "bie_hpbitablo7",
       "ad": "Finansman Şirketleri Seçilmiş Kredi Büyüklükleri | Financing Companies' Selected Loans",
       "frekans": "HAFTALIK(CUMA)",
       "baslangic": "28-06-2024",
-      "bitis": "13-11-2026"
+      "bitis": "20-11-2026"
     },
     {
       "kod": "bie_onrepofbap",
       "ad": "Borsa İstanbul Gecelik Repo Faiz Oranları | Borsa Istanbul Overnight Repo Rates",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "27-12-2018",
-      "bitis": "23-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_sekbiltga",
@@ -269,7 +269,7 @@
       "ad": "Banka Kartı ve Kredi Kartı İşlem Adedi (Akım) | Weekly, Debit Card and Credit Card Number of Transactions (Flow)",
       "frekans": "HAFTALIK(CUMA)",
       "baslangic": "07-03-2014",
-      "bitis": "13-11-2026"
+      "bitis": "20-11-2026"
     },
     {
       "kod": "bie_kt100h",
@@ -290,7 +290,7 @@
       "ad": "Efektif Kurlar | Effective Exchange Rates",
       "frekans": "GÜNLÜK",
       "baslangic": "02-01-1990",
-      "bitis": "24-11-2026"
+      "bitis": "26-11-2026"
     },
     {
       "kod": "bie_redkurigm",
@@ -332,7 +332,7 @@
       "ad": "TCMB Net Fonlaması ve TCMB Ağırlıklı Ortalama Fonlama Maliyeti | CBRT Net Funding and Weighted Average Funding Cost",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "03-01-2011",
-      "bitis": "23-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_tldthvade",
@@ -360,14 +360,14 @@
       "ad": "Borsa İstanbul Endeksi ve Günlük İşlem Hacmi | Borsa Istanbul Index and Daily Trading Volume",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "01-02-1986",
-      "bitis": "20-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_dkdovytl",
       "ad": "Döviz Kurları | Exchange Rates",
       "frekans": "GÜNLÜK",
       "baslangic": "02-01-1950",
-      "bitis": "24-11-2026"
+      "bitis": "26-11-2026"
     },
     {
       "kod": "bie_goldimprt",
@@ -486,7 +486,7 @@
       "ad": "Kurlar-Efektif Kurlar (Arşiv) | Exchange Rates_Banknotes (Archive)",
       "frekans": "GÜNLÜK",
       "baslangic": "02-01-1990",
-      "bitis": "24-11-2026"
+      "bitis": "26-11-2026"
     },
     {
       "kod": "bie_gsyihhy",
@@ -514,7 +514,7 @@
       "ad": "Kurlar-Döviz Kurları (Arşiv) | Exchange Rates (Archive)",
       "frekans": "GÜNLÜK",
       "baslangic": "02-01-1950",
-      "bitis": "24-11-2026"
+      "bitis": "26-11-2026"
     },
     {
       "kod": "bie_fgtukfiy3",
@@ -710,7 +710,7 @@
       "ad": "Merkez Bankaları Politika Faiz Oranı | Central Banks' Policy Interest Rate",
       "frekans": "AYLIK",
       "baslangic": "01-01-1945",
-      "bitis": "01-09-2026"
+      "bitis": "01-10-2026"
     },
     {
       "kod": "bie_gsyhgelrcar",
@@ -794,28 +794,28 @@
       "ad": "Gümüş Piyasası (BİST) | Silver Market (BIST)",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "02-07-2018",
-      "bitis": "23-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_platinbistbul",
       "ad": "Platin Piyasası (BİST) | Platin Market (BIST)",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "02-07-2018",
-      "bitis": "23-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_altinbistbul",
       "ad": "Altın Piyasası (BİST) | Gold Market (BIST)",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "02-07-2018",
-      "bitis": "23-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_paladiumbistbul",
       "ad": "Paladyum Piyasası (BİST) | Palladium Market (BIST)",
       "frekans": "İŞ GÜNÜ",
       "baslangic": "02-07-2018",
-      "bitis": "23-11-2026"
+      "bitis": "25-11-2026"
     },
     {
       "kod": "bie_tukfiyarnd",
@@ -1081,7 +1081,7 @@
         "ad": "Türkiye (TUR) Merkez Bankası Politika Faiz Oranı",
         "frekans": "AYLIK",
         "baslangic": "01-02-2002",
-        "bitis": "01-09-2026"
+        "bitis": "01-10-2026"
       }
     ],
     "bie_mkbrgn": [
@@ -1090,56 +1090,56 @@
         "ad": "(FİYAT) BİST 100 Endeks (XU100), Kapanış Fiyatlarına Göre (Ocak 1986=0,01)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "01-02-1986",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.F.BILESIK.TUM",
         "ad": "(FİYAT) BİST Tüm-100 Endeksi (XTUMY), Kapanış Fiyatlarına Göre",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "02-01-2009",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.F.HIZMET",
         "ad": "(FİYAT) BİST Hizmet Endeksi (XUHIZ), Kapanış Fiyatlarına Göre (27-12-1996=10,46)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "02-01-1997",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.F.MALI",
         "ad": "(FİYAT) BİST Mali Endeks (XUMAL), Kapanış Fiyatlarına Göre (31-12-1990=0,33)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "02-01-1991",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.F.SINAI",
         "ad": "(FİYAT) BİST Sınai Endeks (XUSIN), Kapanış Fiyatlarına Göre (31-12-1990=0,33)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "02-01-1991",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.F.TEKNOLOJI",
         "ad": "(FİYAT) BİST Teknoloji Endeksi (XUTEK), Kapanış Fiyatlarına Göre (30-06-2000=144,6612)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "30-06-2000",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.G.BILESIK",
         "ad": "(GETİRİ) BİST 100 Endeks (XU100-CFNNTLTL), Kapanış Fiyatlarına Göre (27-12-1996=9,76)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "02-01-1997",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.MK.G.BILESIK.TUM",
         "ad": "(GETİRİ) BİST Tüm-100 Endeksi (XTUMY-CFNNTLTL), Kapanış Fiyatlarına Göre",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "02-01-2009",
-        "bitis": "20-11-2026"
+        "bitis": "25-11-2026"
       }
     ],
     "bie_apifon": [
@@ -1148,77 +1148,77 @@
         "ad": "A.Toplam Fonlama (A1+A2)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "03-01-2011",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON1.IHA",
         "ad": "A1.İhale Yoluyla Fonlama",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "03-01-2011",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON1.KOT.T",
         "ad": "A2.Toplam Kotasyon Yoluyla Fonlama",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "08-04-2011",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON1.KOT.A",
         "ad": "A2a.BİST O/N Repo, Kotasyon Repo, Piyasa Yapıcı Repo",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "08-04-2011",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON1.KOT.B",
         "ad": "A2b.TL Depo",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "26-10-2011",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON1.KOT.C",
         "ad": "A2c.GLP Depo, GLP Repo",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "31-03-2015",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON2.TOP",
         "ad": "B.Toplam Sterilizasyon (B1+B2+B3)",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "03-01-2011",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       },
       {
         "kod": "TP.APIFON2.IHA",
         "ad": "B1.İhale Yoluyla Sterilizasyon",
         "frekans": "İŞ GÜNÜ",
         "baslangic": "08-01-2018",
-        "bitis": "23-11-2026"
+        "bitis": "25-11-2026"
       }
     ]
   },
   "aday_kapsam": {
     "TP.DK.USD.A": {
       "gozlem": 683,
-      "ilk": "29-02-2024",
-      "son": "24-11-2026",
-      "ornek_son_deger": "50.51160000"
+      "ilk": "04-03-2024",
+      "son": "26-11-2026",
+      "ornek_son_deger": "50.55310000"
     },
     "TP.DK.USD.S": {
       "gozlem": 683,
-      "ilk": "29-02-2024",
-      "son": "24-11-2026",
-      "ornek_son_deger": "50.60260000"
+      "ilk": "04-03-2024",
+      "son": "26-11-2026",
+      "ornek_son_deger": "50.64410000"
     },
     "TP.MK.F.BILESIK": {
       "gozlem": 956,
-      "ilk": "23-01-2023",
-      "son": "20-11-2026",
-      "ornek_son_deger": "11131.32000000"
+      "ilk": "26-01-2023",
+      "son": "25-11-2026",
+      "ornek_son_deger": "10655.74000000"
     },
     "TP.FG.J0": {
       "gozlem": 277,
@@ -1234,21 +1234,21 @@
     },
     "TP.APIFON4": {
       "gozlem": 961,
-      "ilk": "24-01-2023",
-      "son": "23-11-2026",
+      "ilk": "26-01-2023",
+      "son": "25-11-2026",
       "ornek_son_deger": "36.00000000"
     },
     "TP.PY.P02.1H": {
       "gozlem": 961,
-      "ilk": "24-01-2023",
-      "son": "23-11-2026",
+      "ilk": "26-01-2023",
+      "son": "25-11-2026",
       "ornek_son_deger": "36.00000000"
     },
     "TP.AB.TOPLAM": {
       "gozlem": 1000,
-      "ilk": "21-09-2007",
-      "son": "13-11-2026",
-      "ornek_son_deger": "158950.09940380"
+      "ilk": "28-09-2007",
+      "son": "20-11-2026",
+      "ornek_son_deger": "141972.15698730"
     }
   }
 }
